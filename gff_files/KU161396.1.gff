@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KU161396.1 1 7441
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+KU161396.1	Genbank	region	1	7441	.	+	.	ID=KU161396.1:1..7441;Dbxref=taxon:12080;collected-by=Sohail Z. Zaidi;collection-date=09-Jun-2013;country=Pakistan: Islamabad;gbkey=Src;genome=genomic;isolate=Pak-2-1;isolation-source=sewage;mol_type=genomic RNA;old-name=human poliovirus type 1
+KU161396.1	Genbank	CDS	744	7373	.	+	0	ID=cds-ANA67901.1;Dbxref=NCBI_GP:ANA67901.1;Name=ANA67901.1;gbkey=CDS;product=polyprotein;protein_id=ANA67901.1
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF462419.1 1 7441
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+AF462419.1	Genbank	region	1	7441	.	+	.	ID=AF462419.1:1..7441;Dbxref=taxon:12080;gbkey=Src;isolate=RUS-1161-96-001;mol_type=genomic RNA;note=vaccine-derived%3B isolated from the feces of a VAPP patient;old-name=Poliovirus type 1
+AF462419.1	Genbank	CDS	743	7372	.	+	0	ID=cds-AAL75970.1;Dbxref=NCBI_GP:AAL75970.1;Name=AAL75970.1;gbkey=CDS;product=polyprotein;protein_id=AAL75970.1
+

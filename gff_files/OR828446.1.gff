@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR828446.1 1 7433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42769
+OR828446.1	Genbank	region	1	7433	.	+	.	ID=OR828446.1:1..7433;Dbxref=taxon:42769;collection-date=16-Apr-2019;country=China: Changsha;gb-acronym=CV-A10;gbkey=Src;genome=genomic;isolation-source=throat swab;mol_type=genomic RNA;nat-host=Homo sapiens;strain=CA10/S145/2019/China
+

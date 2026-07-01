@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP756353.1 1 7405
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42783
+PP756353.1	Genbank	region	1	7405	.	+	.	ID=PP756353.1:1..7405;Dbxref=taxon:42783;collected-by=Centre National de Reference Enterovirus et Parechovirus;collection-date=14-Apr-2015;country=France: ARA%2C Clermont-Ferrand;gbkey=Src;genome=genomic;isolation-source=raw wastewater;mol_type=genomic RNA;nat-host=Homo sapiens;strain=CVA22_Wastewater_14/04/15_CFD_FRA_2015
+PP756353.1	Genbank	five_prime_UTR	1	713	.	+	.	ID=id-PP756353.1:1..713;gbkey=5'UTR
+PP756353.1	Genbank	CDS	714	7334	.	+	0	ID=cds-XAM24004.1;Dbxref=NCBI_GP:XAM24004.1;Name=XAM24004.1;gbkey=CDS;product=polyprotein;protein_id=XAM24004.1
+PP756353.1	Genbank	three_prime_UTR	7335	7405	.	+	.	ID=id-PP756353.1:7335..7405;gbkey=3'UTR
+

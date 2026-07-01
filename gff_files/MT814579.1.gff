@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT814579.1 1 7433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=86107
+MT814579.1	Genbank	region	1	7433	.	+	.	ID=MT814579.1:1..7433;Dbxref=taxon:86107;collected-by=Cecile Henquell;collection-date=12-Apr-2010;country=France: Clermont-Ferrand;gb-acronym=CV-A6;gbkey=Src;genome=genomic;isolation-source=throat swab;lat-lon=45.777455 N 3.081943 E;mol_type=genomic RNA;nat-host=Homo sapiens%3B F%3B 1 year%2C 0 month et 17 days%3B atypical hand foot and mouth disease with herpangina;strain=CVA6 -310103027-FRA-2010
+MT814579.1	Genbank	five_prime_UTR	1	746	.	+	.	ID=id-MT814579.1:1..746;gbkey=5'UTR
+MT814579.1	Genbank	CDS	747	7352	.	+	0	ID=cds-QOD39926.1;Dbxref=NCBI_GP:QOD39926.1;Name=QOD39926.1;gbkey=CDS;product=polyprotein;protein_id=QOD39926.1
+MT814579.1	Genbank	mature_protein_region_of_CDS	747	956	.	+	.	ID=id-QOD39926.1:1..70;Parent=cds-QOD39926.1;gbkey=Prot;product=capsid protein VP4
+MT814579.1	Genbank	mature_protein_region_of_CDS	954	1724	.	+	.	ID=id-QOD39926.1:70..326;Parent=cds-QOD39926.1;gbkey=Prot;product=capsid protein VP2
+MT814579.1	Genbank	mature_protein_region_of_CDS	1722	2444	.	+	.	ID=id-QOD39926.1:326..566;Parent=cds-QOD39926.1;gbkey=Prot;product=capsid protein VP3
+MT814579.1	Genbank	mature_protein_region_of_CDS	2442	3359	.	+	.	ID=id-QOD39926.1:566..871;Parent=cds-QOD39926.1;gbkey=Prot;product=capsid protein VP1
+MT814579.1	Genbank	mature_protein_region_of_CDS	3357	3809	.	+	.	ID=id-QOD39926.1:871..1021;Parent=cds-QOD39926.1;gbkey=Prot;product=2A protease
+MT814579.1	Genbank	mature_protein_region_of_CDS	3807	4106	.	+	.	ID=id-QOD39926.1:1021..1120;Parent=cds-QOD39926.1;gbkey=Prot;product=2B porin
+MT814579.1	Genbank	mature_protein_region_of_CDS	4104	5093	.	+	.	ID=id-QOD39926.1:1120..1449;Parent=cds-QOD39926.1;gbkey=Prot;product=2C ATPase
+MT814579.1	Genbank	mature_protein_region_of_CDS	5091	5351	.	+	.	ID=id-QOD39926.1:1449..1535;Parent=cds-QOD39926.1;gbkey=Prot;product=3A protein
+MT814579.1	Genbank	mature_protein_region_of_CDS	5349	5417	.	+	.	ID=id-QOD39926.1:1535..1557;Parent=cds-QOD39926.1;gbkey=Prot;product=VPg (viral protein genome-linked)
+MT814579.1	Genbank	mature_protein_region_of_CDS	5415	5966	.	+	.	ID=id-QOD39926.1:1557..1740;Parent=cds-QOD39926.1;gbkey=Prot;product=3C protease
+MT814579.1	Genbank	mature_protein_region_of_CDS	5964	7349	.	+	.	ID=id-QOD39926.1:1740..2201;Parent=cds-QOD39926.1;gbkey=Prot;product=3D polymerase
+MT814579.1	Genbank	three_prime_UTR	7353	7433	.	+	.	ID=id-MT814579.1:7353..7433;gbkey=3'UTR
+

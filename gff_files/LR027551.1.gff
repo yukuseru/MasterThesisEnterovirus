@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region LR027551.1 1 7393
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33757
+LR027551.1	EMBL	region	1	7393	.	+	.	ID=LR027551.1:1..7393;Dbxref=taxon:33757;gb-acronym=CV-A2;gbkey=Src;isolate=CV-A2|42115|RUS|2011;mol_type=viral cRNA;note=monopartite
+

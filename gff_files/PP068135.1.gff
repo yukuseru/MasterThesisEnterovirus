@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP068135.1 1 7434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+PP068135.1	Genbank	region	1	7434	.	+	.	ID=PP068135.1:1..7434;Dbxref=taxon:12083;gbkey=Src;genome=genomic;isolate=USA/23-S19-MEF1_PV2;mol_type=genomic RNA
+PP068135.1	Genbank	CDS	743	7366	.	+	0	ID=cds-WVH45918.1;Dbxref=NCBI_GP:WVH45918.1;Name=WVH45918.1;gbkey=CDS;product=polyprotein;protein_id=WVH45918.1
+PP068135.1	Genbank	mature_protein_region_of_CDS	743	949	.	+	.	ID=id-WVH45918.1:1..69;Parent=cds-WVH45918.1;gbkey=Prot;product=VP4
+PP068135.1	Genbank	mature_protein_region_of_CDS	950	1762	.	+	.	ID=id-WVH45918.1:70..340;Parent=cds-WVH45918.1;gbkey=Prot;product=VP2
+PP068135.1	Genbank	mature_protein_region_of_CDS	1763	2476	.	+	.	ID=id-WVH45918.1:341..578;Parent=cds-WVH45918.1;gbkey=Prot;product=VP3
+PP068135.1	Genbank	mature_protein_region_of_CDS	2477	3379	.	+	.	ID=id-WVH45918.1:579..879;Parent=cds-WVH45918.1;gbkey=Prot;product=VP1
+PP068135.1	Genbank	mature_protein_region_of_CDS	3380	3826	.	+	.	ID=id-WVH45918.1:880..1028;Parent=cds-WVH45918.1;gbkey=Prot;product=2A
+PP068135.1	Genbank	mature_protein_region_of_CDS	3827	4117	.	+	.	ID=id-WVH45918.1:1029..1125;Parent=cds-WVH45918.1;gbkey=Prot;product=2B
+PP068135.1	Genbank	mature_protein_region_of_CDS	4118	5104	.	+	.	ID=id-WVH45918.1:1126..1454;Parent=cds-WVH45918.1;gbkey=Prot;product=2C
+PP068135.1	Genbank	mature_protein_region_of_CDS	5105	5365	.	+	.	ID=id-WVH45918.1:1455..1541;Parent=cds-WVH45918.1;gbkey=Prot;product=3A
+PP068135.1	Genbank	mature_protein_region_of_CDS	5366	5431	.	+	.	ID=id-WVH45918.1:1542..1563;Parent=cds-WVH45918.1;gbkey=Prot;product=3B
+PP068135.1	Genbank	mature_protein_region_of_CDS	5432	5980	.	+	.	ID=id-WVH45918.1:1564..1746;Parent=cds-WVH45918.1;gbkey=Prot;product=3C
+PP068135.1	Genbank	mature_protein_region_of_CDS	5981	7363	.	+	.	ID=id-WVH45918.1:1747..2207;Parent=cds-WVH45918.1;gbkey=Prot;product=3D
+PP068135.1	Genbank	biological_region	743	3379	.	+	.	ID=id-PP068135.1:743..3379;Name=P1%3B capsid protein precursor;gbkey=Region
+PP068135.1	Genbank	biological_region	3380	5104	.	+	.	ID=id-PP068135.1:3380..5104;Name=P2;gbkey=Region
+PP068135.1	Genbank	biological_region	5105	7363	.	+	.	ID=id-PP068135.1:5105..7363;Name=P3;gbkey=Region
+

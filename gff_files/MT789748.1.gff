@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT789748.1 1 7333
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+MT789748.1	Genbank	region	1	7333	.	+	.	ID=MT789748.1:1..7333;Dbxref=taxon:42789;collected-by=Cecile Henquell;collection-date=14-Sep-2018;country=France: Clermont-Ferrand;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=CF434664-FRA-2018;isolation-source=nasopharyngeal-swab;lat-lon=45.777455 N 3.081943 E;mol_type=genomic RNA;nat-host=Homo sapiens%3B M%3B 0%2C92 years%3B URTI%3B bronchitis/bronchiolitis%3B respiratory distress%3B fever;subtype=B3
+MT789748.1	Genbank	five_prime_UTR	1	698	.	+	.	ID=id-MT789748.1:1..698;gbkey=5'UTR
+MT789748.1	Genbank	CDS	699	7265	.	+	0	ID=cds-QNO39018.1;Dbxref=NCBI_GP:QNO39018.1;Name=QNO39018.1;gbkey=CDS;product=polyprotein;protein_id=QNO39018.1
+MT789748.1	Genbank	mature_protein_region_of_CDS	699	905	.	+	.	ID=id-QNO39018.1:1..69;Parent=cds-QNO39018.1;gbkey=Prot;product=capsid protein VP4
+MT789748.1	Genbank	mature_protein_region_of_CDS	906	1649	.	+	.	ID=id-QNO39018.1:70..317;Parent=cds-QNO39018.1;gbkey=Prot;product=capsid protein VP2
+MT789748.1	Genbank	mature_protein_region_of_CDS	1650	2393	.	+	.	ID=id-QNO39018.1:318..565;Parent=cds-QNO39018.1;gbkey=Prot;product=capsid protein VP3
+MT789748.1	Genbank	mature_protein_region_of_CDS	2394	3281	.	+	.	ID=id-QNO39018.1:566..861;Parent=cds-QNO39018.1;gbkey=Prot;product=capsid protein VP1
+MT789748.1	Genbank	mature_protein_region_of_CDS	3282	3722	.	+	.	ID=id-QNO39018.1:862..1008;Parent=cds-QNO39018.1;gbkey=Prot;product=2A Protease
+MT789748.1	Genbank	mature_protein_region_of_CDS	3723	4019	.	+	.	ID=id-QNO39018.1:1009..1107;Parent=cds-QNO39018.1;gbkey=Prot;product=2B Porin
+MT789748.1	Genbank	mature_protein_region_of_CDS	4020	5009	.	+	.	ID=id-QNO39018.1:1108..1437;Parent=cds-QNO39018.1;gbkey=Prot;product=2C ATPase
+MT789748.1	Genbank	mature_protein_region_of_CDS	5010	5276	.	+	.	ID=id-QNO39018.1:1438..1526;Parent=cds-QNO39018.1;gbkey=Prot;product=3A Protein
+MT789748.1	Genbank	mature_protein_region_of_CDS	5277	5342	.	+	.	ID=id-QNO39018.1:1527..1548;Parent=cds-QNO39018.1;gbkey=Prot;product=VPg (Viral Protein Genome-linked)
+MT789748.1	Genbank	mature_protein_region_of_CDS	5343	5891	.	+	.	ID=id-QNO39018.1:1549..1731;Parent=cds-QNO39018.1;gbkey=Prot;product=3C Protease
+MT789748.1	Genbank	mature_protein_region_of_CDS	5892	7241	.	+	.	ID=id-QNO39018.1:1732..2181;Parent=cds-QNO39018.1;gbkey=Prot;product=3D Polymerase
+MT789748.1	Genbank	three_prime_UTR	7266	7333	.	+	.	ID=id-MT789748.1:7266..7333;gbkey=3'UTR
+MT789735.1	Genbank	match	1	7332	.	+	.	ID=aln0;Target=MT789734.1 1 7333 +;Gap=M680 I1 M6652
+

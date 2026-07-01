@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MH010205.1 1 7366
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31704
+MH010205.1	Genbank	region	1	7366	.	+	.	ID=MH010205.1:1..7366;Dbxref=taxon:31704;collected-by=Long Chen;collection-date=May-2017;country=China;gb-acronym=CV-A16;gbkey=Src;genome=genomic;isolate=CVA16/Shenzhen189/CHN/2017;isolation-source=stool specimen from a child with mild HFMD;mol_type=genomic RNA;nat-host=Homo sapiens;serogroup=A16
+MH010205.1	Genbank	five_prime_UTR	1	702	.	+	.	ID=id-MH010205.1:1..702;gbkey=5'UTR
+MH010205.1	Genbank	CDS	703	7284	.	+	0	ID=cds-AVX33601.1;Dbxref=NCBI_GP:AVX33601.1;Name=AVX33601.1;gbkey=CDS;product=polyprotein;protein_id=AVX33601.1
+MH010205.1	Genbank	mature_protein_region_of_CDS	703	909	.	+	.	ID=id-AVX33601.1:1..69;Note=1A;Parent=cds-AVX33601.1;gbkey=Prot;product=VP4 protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	910	1671	.	+	.	ID=id-AVX33601.1:70..323;Note=1B;Parent=cds-AVX33601.1;gbkey=Prot;product=VP2 protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	1672	2397	.	+	.	ID=id-AVX33601.1:324..565;Note=1C;Parent=cds-AVX33601.1;gbkey=Prot;product=VP3 protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	2398	3288	.	+	.	ID=id-AVX33601.1:566..862;Note=1D;Parent=cds-AVX33601.1;gbkey=Prot;product=VP1 protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	3289	3738	.	+	.	ID=id-AVX33601.1:863..1012;Parent=cds-AVX33601.1;gbkey=Prot;product=2A protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	3739	4035	.	+	.	ID=id-AVX33601.1:1013..1111;Parent=cds-AVX33601.1;gbkey=Prot;product=2B protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	4036	5022	.	+	.	ID=id-AVX33601.1:1112..1440;Parent=cds-AVX33601.1;gbkey=Prot;product=2C protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	5023	5280	.	+	.	ID=id-AVX33601.1:1441..1526;Parent=cds-AVX33601.1;gbkey=Prot;product=3A protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	5281	5346	.	+	.	ID=id-AVX33601.1:1527..1548;Note=VPg;Parent=cds-AVX33601.1;gbkey=Prot;product=3B protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	5347	5895	.	+	.	ID=id-AVX33601.1:1549..1731;Parent=cds-AVX33601.1;gbkey=Prot;product=3C protein
+MH010205.1	Genbank	mature_protein_region_of_CDS	5896	7281	.	+	.	ID=id-AVX33601.1:1732..2193;Parent=cds-AVX33601.1;gbkey=Prot;product=3D protein
+MH010205.1	Genbank	three_prime_UTR	7285	7366	.	+	.	ID=id-MH010205.1:7285..7366;gbkey=3'UTR
+

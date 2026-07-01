@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MN246019.1 1 7324
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+MN246019.1	Genbank	region	1	7324	.	+	.	ID=MN246019.1:1..7324;Dbxref=taxon:42789;collection-date=2018;country=USA: OH;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolation-source=NP;mol_type=genomic RNA;nat-host=Homo sapiens;strain=USA/OH/2018-23256
+MN246019.1	Genbank	CDS	690	7256	.	+	0	ID=cds-QEG13987.1;Dbxref=NCBI_GP:QEG13987.1;Name=QEG13987.1;gbkey=CDS;product=polyprotein;protein_id=QEG13987.1
+MN246019.1	Genbank	mature_protein_region_of_CDS	690	896	.	+	.	ID=id-QEG13987.1:1..69;Parent=cds-QEG13987.1;gbkey=Prot;product=VP4
+MN246019.1	Genbank	mature_protein_region_of_CDS	897	1640	.	+	.	ID=id-QEG13987.1:70..317;Parent=cds-QEG13987.1;gbkey=Prot;product=VP2
+MN246019.1	Genbank	mature_protein_region_of_CDS	1641	2345	.	+	.	ID=id-QEG13987.1:318..552;Parent=cds-QEG13987.1;gbkey=Prot;product=VP3
+MN246019.1	Genbank	mature_protein_region_of_CDS	2346	3272	.	+	.	ID=id-QEG13987.1:553..861;Parent=cds-QEG13987.1;gbkey=Prot;product=VP1
+MN246019.1	Genbank	mature_protein_region_of_CDS	3273	3713	.	+	.	ID=id-QEG13987.1:862..1008;Parent=cds-QEG13987.1;gbkey=Prot;product=2A
+MN246019.1	Genbank	mature_protein_region_of_CDS	3714	4010	.	+	.	ID=id-QEG13987.1:1009..1107;Parent=cds-QEG13987.1;gbkey=Prot;product=2B
+MN246019.1	Genbank	mature_protein_region_of_CDS	4011	5000	.	+	.	ID=id-QEG13987.1:1108..1437;Parent=cds-QEG13987.1;gbkey=Prot;product=2C
+MN246019.1	Genbank	mature_protein_region_of_CDS	5001	5267	.	+	.	ID=id-QEG13987.1:1438..1526;Parent=cds-QEG13987.1;gbkey=Prot;product=3A
+MN246019.1	Genbank	mature_protein_region_of_CDS	5268	5333	.	+	.	ID=id-QEG13987.1:1527..1548;Parent=cds-QEG13987.1;gbkey=Prot;product=3B
+MN246019.1	Genbank	mature_protein_region_of_CDS	5334	5882	.	+	.	ID=id-QEG13987.1:1549..1731;Parent=cds-QEG13987.1;gbkey=Prot;product=3C
+MN246019.1	Genbank	mature_protein_region_of_CDS	5883	7253	.	+	.	ID=id-QEG13987.1:1732..2188;Parent=cds-QEG13987.1;gbkey=Prot;product=3D
+

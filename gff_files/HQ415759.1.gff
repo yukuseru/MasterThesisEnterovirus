@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region HQ415759.1 1 7469
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=325445
+HQ415759.1	Genbank	region	1	7469	.	+	.	ID=HQ415759.1:1..7469;Dbxref=taxon:325445;collection-date=2009;country=China;gb-acronym=EV-C96;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus 96;serotype=EV96;strain=09228C1
+HQ415759.1	Genbank	five_prime_UTR	1	747	.	+	.	ID=id-HQ415759.1:1..747;gbkey=5'UTR
+HQ415759.1	Genbank	CDS	748	7401	.	+	0	ID=cds-AEE25815.1;Dbxref=NCBI_GP:AEE25815.1;Name=AEE25815.1;gbkey=CDS;product=polyprotein;protein_id=AEE25815.1
+HQ415759.1	Genbank	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-AEE25815.1:1..69;Parent=cds-AEE25815.1;gbkey=Prot;product=VP4
+HQ415759.1	Genbank	mature_protein_region_of_CDS	955	1767	.	+	.	ID=id-AEE25815.1:70..340;Parent=cds-AEE25815.1;gbkey=Prot;product=VP2
+HQ415759.1	Genbank	mature_protein_region_of_CDS	1768	2487	.	+	.	ID=id-AEE25815.1:341..580;Parent=cds-AEE25815.1;gbkey=Prot;product=VP3
+HQ415759.1	Genbank	mature_protein_region_of_CDS	2488	3414	.	+	.	ID=id-AEE25815.1:581..889;Parent=cds-AEE25815.1;gbkey=Prot;product=VP1
+HQ415759.1	Genbank	mature_protein_region_of_CDS	3415	3861	.	+	.	ID=id-AEE25815.1:890..1038;Parent=cds-AEE25815.1;gbkey=Prot;product=2A
+HQ415759.1	Genbank	mature_protein_region_of_CDS	3862	4152	.	+	.	ID=id-AEE25815.1:1039..1135;Parent=cds-AEE25815.1;gbkey=Prot;product=2B
+HQ415759.1	Genbank	mature_protein_region_of_CDS	4153	5139	.	+	.	ID=id-AEE25815.1:1136..1464;Parent=cds-AEE25815.1;gbkey=Prot;product=2C
+HQ415759.1	Genbank	mature_protein_region_of_CDS	5140	5400	.	+	.	ID=id-AEE25815.1:1465..1551;Parent=cds-AEE25815.1;gbkey=Prot;product=3A
+HQ415759.1	Genbank	mature_protein_region_of_CDS	5401	5466	.	+	.	ID=id-AEE25815.1:1552..1573;Parent=cds-AEE25815.1;gbkey=Prot;product=3B
+HQ415759.1	Genbank	mature_protein_region_of_CDS	5467	6015	.	+	.	ID=id-AEE25815.1:1574..1756;Parent=cds-AEE25815.1;gbkey=Prot;product=3C
+HQ415759.1	Genbank	mature_protein_region_of_CDS	6016	7398	.	+	.	ID=id-AEE25815.1:1757..2217;Parent=cds-AEE25815.1;gbkey=Prot;product=3D
+HQ415759.1	Genbank	three_prime_UTR	7402	7469	.	+	.	ID=id-HQ415759.1:7402..7469;gbkey=3'UTR
+

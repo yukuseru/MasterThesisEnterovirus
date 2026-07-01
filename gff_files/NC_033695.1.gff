@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_033695.1 1 7414
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1929150
+NC_033695.1	RefSeq	region	1	7414	.	+	.	ID=NC_033695.1:1..7414;Dbxref=taxon:1929150;collection-date=2014-10-21;country=Japan;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Bos taurus;strain=AN12
+NC_033695.1	RefSeq	five_prime_UTR	1	821	.	+	.	ID=id-NC_033695.1:1..821;Note=5'UTR;gbkey=5'UTR
+NC_033695.1	RefSeq	gene	822	7343	.	+	.	ID=gene-B1U08_gp1;Dbxref=GeneID:30999491;Name=B1U08_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B1U08_gp1
+NC_033695.1	RefSeq	CDS	822	7343	.	+	0	ID=cds-YP_009344963.1;Parent=gene-B1U08_gp1;Dbxref=GenBank:YP_009344963.1,GeneID:30999491;Name=YP_009344963.1;gbkey=CDS;locus_tag=B1U08_gp1;product=polyprotein;protein_id=YP_009344963.1
+NC_033695.1	RefSeq	three_prime_UTR	7344	7414	.	+	.	ID=id-NC_033695.1:7344..7414;Note=3'UTR;gbkey=3'UTR
+

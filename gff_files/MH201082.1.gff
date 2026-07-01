@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MH201082.1 1 7388
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12074
+MH201082.1	Genbank	region	1	7388	.	+	.	ID=MH201082.1:1..7388;Dbxref=taxon:12074;collection-date=Aug-2015;country=China;gbkey=Src;genome=genomic;isolate=CVB5-JZ-P10;mol_type=genomic RNA;nat-host=Homo sapiens;serotype=B5
+MH201082.1	Genbank	five_prime_UTR	1	746	.	+	.	ID=id-MH201082.1:1..746;gbkey=5'UTR
+MH201082.1	Genbank	CDS	747	7304	.	+	0	ID=cds-QAT18819.1;Dbxref=NCBI_GP:QAT18819.1;Name=QAT18819.1;gbkey=CDS;product=polyprotein;protein_id=QAT18819.1
+MH201082.1	Genbank	mature_protein_region_of_CDS	747	953	.	+	.	ID=id-QAT18819.1:1..69;Parent=cds-QAT18819.1;gbkey=Prot;product=VP4
+MH201082.1	Genbank	mature_protein_region_of_CDS	954	1736	.	+	.	ID=id-QAT18819.1:70..330;Parent=cds-QAT18819.1;gbkey=Prot;product=VP2
+MH201082.1	Genbank	mature_protein_region_of_CDS	1737	2450	.	+	.	ID=id-QAT18819.1:331..568;Parent=cds-QAT18819.1;gbkey=Prot;product=VP3
+MH201082.1	Genbank	mature_protein_region_of_CDS	2451	3299	.	+	.	ID=id-QAT18819.1:569..851;Parent=cds-QAT18819.1;gbkey=Prot;product=VP1
+MH201082.1	Genbank	mature_protein_region_of_CDS	3300	3749	.	+	.	ID=id-QAT18819.1:852..1001;Parent=cds-QAT18819.1;gbkey=Prot;product=2A
+MH201082.1	Genbank	mature_protein_region_of_CDS	3750	4046	.	+	.	ID=id-QAT18819.1:1002..1100;Parent=cds-QAT18819.1;gbkey=Prot;product=2B
+MH201082.1	Genbank	mature_protein_region_of_CDS	4047	5033	.	+	.	ID=id-QAT18819.1:1101..1429;Parent=cds-QAT18819.1;gbkey=Prot;product=2C
+MH201082.1	Genbank	mature_protein_region_of_CDS	5034	5300	.	+	.	ID=id-QAT18819.1:1430..1518;Parent=cds-QAT18819.1;gbkey=Prot;product=3A
+MH201082.1	Genbank	mature_protein_region_of_CDS	5301	5366	.	+	.	ID=id-QAT18819.1:1519..1540;Parent=cds-QAT18819.1;gbkey=Prot;product=3B
+MH201082.1	Genbank	mature_protein_region_of_CDS	5367	5915	.	+	.	ID=id-QAT18819.1:1541..1723;Parent=cds-QAT18819.1;gbkey=Prot;product=3C
+MH201082.1	Genbank	mature_protein_region_of_CDS	5916	7301	.	+	.	ID=id-QAT18819.1:1724..2185;Parent=cds-QAT18819.1;gbkey=Prot;product=3D
+MH201082.1	Genbank	three_prime_UTR	7305	7388	.	+	.	ID=id-MH201082.1:7305..7388;gbkey=3'UTR
+

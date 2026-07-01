@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR129531.1 1 7254
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12086
+OR129531.1	Genbank	region	1	7254	.	+	.	ID=OR129531.1:1..7254;Dbxref=taxon:12086;collection-date=1945/1955;country=USA;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Glenn cold variant
+OR129531.1	Genbank	CDS	582	7202	.	+	0	ID=cds-XBA21241.1;Dbxref=NCBI_GP:XBA21241.1;Name=XBA21241.1;gbkey=CDS;product=polyprotein;protein_id=XBA21241.1
+

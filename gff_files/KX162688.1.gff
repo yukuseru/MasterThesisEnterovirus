@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KX162688.1 1 7381
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+KX162688.1	Genbank	region	1	7381	.	+	.	ID=KX162688.1:1..7381;Dbxref=taxon:12083;collection-date=28-Aug-2012;country=Chad;gbkey=Src;genome=genomic;genotype=VDPV;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human poliovirus 2;serotype=PV2;strain=CHA1219345
+KX162688.1	Genbank	CDS	728	7351	.	+	0	ID=cds-ANV28241.1;Dbxref=NCBI_GP:ANV28241.1;Name=ANV28241.1;gbkey=CDS;product=polyprotein;protein_id=ANV28241.1
+

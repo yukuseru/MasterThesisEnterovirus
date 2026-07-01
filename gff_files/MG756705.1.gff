@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MG756705.1 1 7391
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+MG756705.1	Genbank	region	1	7391	.	+	.	ID=MG756705.1:1..7391;Dbxref=taxon:39054;collection-date=2007;country=Taiwan;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;nat-host=Homo sapiens;strain=TW-72043-2007
+MG756705.1	Genbank	CDS	745	7326	.	+	0	ID=cds-AYP73827.1;Dbxref=NCBI_GP:AYP73827.1;Name=AYP73827.1;gbkey=CDS;product=polyprotein;protein_id=AYP73827.1
+

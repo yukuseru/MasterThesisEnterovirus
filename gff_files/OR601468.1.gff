@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR601468.1 1 7379
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12071
+OR601468.1	Genbank	region	1	7379	.	+	.	ID=OR601468.1:1..7379;Dbxref=taxon:12071;collection-date=07-Dec-2019;country=China;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;note=clinical sample: passaged in Vero cells;strain=KM7-X19-P10/YN/CHN/2019
+OR601468.1	Genbank	CDS	739	7287	.	+	0	ID=cds-XRH74147.1;Dbxref=NCBI_GP:XRH74147.1;Name=XRH74147.1;gbkey=CDS;product=polyprotein;protein_id=XRH74147.1
+

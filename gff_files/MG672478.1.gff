@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MG672478.1 1 7412
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+MG672478.1	Genbank	region	1	7412	.	+	.	ID=MG672478.1:1..7412;Dbxref=taxon:39054;country=Niger;gb-acronym=EV-A71;gbkey=Src;genome=genomic;genotype=A71;isolate=NER-13-194;mol_type=genomic RNA
+MG672478.1	Genbank	CDS	747	7328	.	+	0	ID=cds-AVQ54963.1;Dbxref=NCBI_GP:AVQ54963.1;Name=AVQ54963.1;gbkey=CDS;product=polyprotein;protein_id=AVQ54963.1
+

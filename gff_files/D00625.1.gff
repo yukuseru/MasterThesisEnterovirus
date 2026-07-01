@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region D00625.1 1 7434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+D00625.1	DDBJ	region	1	7434	.	+	.	ID=D00625.1:1..7434;Dbxref=taxon:12083;clone=p1308%2C p1345;gbkey=Src;mol_type=genomic RNA;note=Poliovirus type 2;old-name=Human poliovirus 2;strain=W-2
+D00625.1	DDBJ	CDS	748	7365	.	+	0	ID=cds-BAA00516.1;Dbxref=NCBI_GP:BAA00516.1;Name=BAA00516.1;Note=polyprotein precursor;gbkey=CDS;product=BAA00516.1;protein_id=BAA00516.1
+D00625.1	DDBJ	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-BAA00516.1:1..69;Parent=cds-BAA00516.1;gbkey=Prot;product=P1-A
+D00625.1	DDBJ	mature_protein_region_of_CDS	955	1767	.	+	.	ID=id-BAA00516.1:70..340;Parent=cds-BAA00516.1;gbkey=Prot;product=P1-B
+D00625.1	DDBJ	mature_protein_region_of_CDS	1768	2481	.	+	.	ID=id-BAA00516.1:341..578;Parent=cds-BAA00516.1;gbkey=Prot;product=P1-C
+D00625.1	DDBJ	mature_protein_region_of_CDS	2482	3384	.	+	.	ID=id-BAA00516.1:579..879;Note=VP1%2C major surface capsid protein;Parent=cds-BAA00516.1;gbkey=Prot;product=P1-D
+D00625.1	DDBJ	mature_protein_region_of_CDS	3385	3831	.	+	.	ID=id-BAA00516.1:880..1028;Parent=cds-BAA00516.1;gbkey=Prot;product=P2-A
+D00625.1	DDBJ	mature_protein_region_of_CDS	3832	4122	.	+	.	ID=id-BAA00516.1:1029..1125;Parent=cds-BAA00516.1;gbkey=Prot;product=P2-B
+D00625.1	DDBJ	mature_protein_region_of_CDS	4123	5109	.	+	.	ID=id-BAA00516.1:1126..1454;Note=nonstructural protein;Parent=cds-BAA00516.1;gbkey=Prot;product=P2-C
+D00625.1	DDBJ	mature_protein_region_of_CDS	5110	5370	.	+	.	ID=id-BAA00516.1:1455..1541;Note=nonstructural protein;Parent=cds-BAA00516.1;gbkey=Prot;product=P3-A
+D00625.1	DDBJ	mature_protein_region_of_CDS	5371	5436	.	+	.	ID=id-BAA00516.1:1542..1563;Parent=cds-BAA00516.1;gbkey=Prot;product=P3-B
+D00625.1	DDBJ	mature_protein_region_of_CDS	5437	5985	.	+	.	ID=id-BAA00516.1:1564..1746;Note=protease;Parent=cds-BAA00516.1;gbkey=Prot;product=P3-C
+D00625.1	DDBJ	mature_protein_region_of_CDS	5986	7362	.	+	.	ID=id-BAA00516.1:1747..2205;Note=polymerase;Parent=cds-BAA00516.1;gbkey=Prot;product=P3-D
+

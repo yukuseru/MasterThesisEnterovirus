@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_034267.1 1 7461
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1849328
+NC_034267.1	RefSeq	region	1	7461	.	+	.	ID=NC_034267.1:1..7461;Dbxref=taxon:1849328;collected-by=Xinping Wang%2C Changming Guo;collection-date=20-Apr-2014;country=China;gbkey=Src;genome=genomic;isolate=JL14;isolation-source=feces from goats with severe watery diarrhea;mol_type=genomic RNA;nat-host=Capra hircus
+NC_034267.1	RefSeq	five_prime_UTR	1	821	.	+	.	ID=id-NC_034267.1:1..821;gbkey=5'UTR
+NC_034267.1	RefSeq	gene	822	7340	.	+	.	ID=gene-B7746_gp1;Dbxref=GeneID:32014328;Name=B7746_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B7746_gp1
+NC_034267.1	RefSeq	CDS	822	7340	.	+	0	ID=cds-YP_009353025.1;Parent=gene-B7746_gp1;Dbxref=GenBank:YP_009353025.1,GeneID:32014328;Name=YP_009353025.1;gbkey=CDS;locus_tag=B7746_gp1;product=polyprotein;protein_id=YP_009353025.1
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	822	1028	.	+	.	ID=id-YP_009353025.1:1..69;Parent=cds-YP_009353025.1;gbkey=Prot;product=VP4 protein
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	1029	1772	.	+	.	ID=id-YP_009353025.1:70..317;Parent=cds-YP_009353025.1;gbkey=Prot;product=VP2
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	1773	2486	.	+	.	ID=id-YP_009353025.1:318..555;Parent=cds-YP_009353025.1;gbkey=Prot;product=VP3
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	2487	3302	.	+	.	ID=id-YP_009353025.1:556..827;Parent=cds-YP_009353025.1;gbkey=Prot;product=VP1
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	3303	3773	.	+	.	ID=id-YP_009353025.1:828..984;Parent=cds-YP_009353025.1;gbkey=Prot;product=2A
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	3774	4088	.	+	.	ID=id-YP_009353025.1:985..1089;Parent=cds-YP_009353025.1;gbkey=Prot;product=2B
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	4089	5081	.	+	.	ID=id-YP_009353025.1:1090..1420;Parent=cds-YP_009353025.1;gbkey=Prot;product=2C
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	5082	5255	.	+	.	ID=id-YP_009353025.1:1421..1478;Parent=cds-YP_009353025.1;gbkey=Prot;product=3A
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	5256	5405	.	+	.	ID=id-YP_009353025.1:1479..1528;Parent=cds-YP_009353025.1;gbkey=Prot;product=3B
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	5406	5903	.	+	.	ID=id-YP_009353025.1:1529..1694;Parent=cds-YP_009353025.1;gbkey=Prot;product=3C
+NC_034267.1	RefSeq	mature_protein_region_of_CDS	5904	7337	.	+	.	ID=id-YP_009353025.1:1695..2172;Parent=cds-YP_009353025.1;gbkey=Prot;product=3D
+NC_034267.1	RefSeq	three_prime_UTR	7341	7461	.	+	.	ID=id-NC_034267.1:7341..7461;gbkey=3'UTR
+

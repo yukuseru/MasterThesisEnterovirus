@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PQ059263.1 1 7442
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+PQ059263.1	Genbank	region	1	7442	.	+	.	ID=PQ059263.1:1..7442;Dbxref=taxon:12083;collection-date=2023;country=Nigeria: Kano;gbkey=Src;genome=genomic;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;note=double recombinant cVDPV2-n;strain=NIE/KNS/2023-23638;type=nOPV2
+PQ059263.1	Genbank	CDS	751	7374	.	+	0	ID=cds-XDD41172.1;Dbxref=NCBI_GP:XDD41172.1;Name=XDD41172.1;gbkey=CDS;product=polyprotein;protein_id=XDD41172.1
+PQ059263.1	Genbank	mature_protein_region_of_CDS	751	957	.	+	.	ID=id-XDD41172.1:1..69;Parent=cds-XDD41172.1;gbkey=Prot;product=VP4
+PQ059263.1	Genbank	mature_protein_region_of_CDS	958	1770	.	+	.	ID=id-XDD41172.1:70..340;Parent=cds-XDD41172.1;gbkey=Prot;product=VP2
+PQ059263.1	Genbank	mature_protein_region_of_CDS	1771	2484	.	+	.	ID=id-XDD41172.1:341..578;Parent=cds-XDD41172.1;gbkey=Prot;product=VP3
+PQ059263.1	Genbank	mature_protein_region_of_CDS	2485	3387	.	+	.	ID=id-XDD41172.1:579..879;Parent=cds-XDD41172.1;gbkey=Prot;product=VP1
+PQ059263.1	Genbank	mature_protein_region_of_CDS	3388	3834	.	+	.	ID=id-XDD41172.1:880..1028;Parent=cds-XDD41172.1;gbkey=Prot;product=2A
+PQ059263.1	Genbank	mature_protein_region_of_CDS	3835	4125	.	+	.	ID=id-XDD41172.1:1029..1125;Parent=cds-XDD41172.1;gbkey=Prot;product=2B
+PQ059263.1	Genbank	mature_protein_region_of_CDS	4126	5112	.	+	.	ID=id-XDD41172.1:1126..1454;Parent=cds-XDD41172.1;gbkey=Prot;product=2C
+PQ059263.1	Genbank	mature_protein_region_of_CDS	5113	5373	.	+	.	ID=id-XDD41172.1:1455..1541;Parent=cds-XDD41172.1;gbkey=Prot;product=3A
+PQ059263.1	Genbank	mature_protein_region_of_CDS	5374	5439	.	+	.	ID=id-XDD41172.1:1542..1563;Parent=cds-XDD41172.1;gbkey=Prot;product=3B
+PQ059263.1	Genbank	mature_protein_region_of_CDS	5440	5988	.	+	.	ID=id-XDD41172.1:1564..1746;Parent=cds-XDD41172.1;gbkey=Prot;product=3C
+PQ059263.1	Genbank	mature_protein_region_of_CDS	5989	7371	.	+	.	ID=id-XDD41172.1:1747..2207;Parent=cds-XDD41172.1;gbkey=Prot;product=3D
+PQ059263.1	Genbank	sequence_feature	751	3387	.	+	.	ID=id-PQ059263.1:751..3387;Note=P1%3B capsid protein precursor;gbkey=misc_feature
+PQ059263.1	Genbank	sequence_feature	3388	5112	.	+	.	ID=id-PQ059263.1:3388..5112;Note=P2;gbkey=misc_feature
+PQ059263.1	Genbank	sequence_feature	5113	7371	.	+	.	ID=id-PQ059263.1:5113..7371;Note=P3;gbkey=misc_feature
+

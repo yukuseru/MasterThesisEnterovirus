@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF499636.1 1 7453
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42770
+AF499636.1	Genbank	region	1	7453	.	+	.	ID=AF499636.1:1..7453;Dbxref=taxon:42770;gb-acronym=CV-A11;gbkey=Src;mol_type=genomic RNA;old-name=Human coxsackievirus A11;strain=Belgium-1
+AF499636.1	Genbank	CDS	747	7385	.	+	0	ID=cds-AAQ02676.1;Dbxref=NCBI_GP:AAQ02676.1;Name=AAQ02676.1;gbkey=CDS;product=polyprotein;protein_id=AAQ02676.1
+AF499636.1	Genbank	mature_protein_region_of_CDS	747	953	.	+	.	ID=id-AAQ02676.1:1..69;Parent=cds-AAQ02676.1;gbkey=Prot;product=vp4
+AF499636.1	Genbank	mature_protein_region_of_CDS	954	1766	.	+	.	ID=id-AAQ02676.1:70..340;Parent=cds-AAQ02676.1;gbkey=Prot;product=vp2
+AF499636.1	Genbank	mature_protein_region_of_CDS	1767	2486	.	+	.	ID=id-AAQ02676.1:341..580;Parent=cds-AAQ02676.1;gbkey=Prot;product=vp3
+AF499636.1	Genbank	mature_protein_region_of_CDS	2487	3398	.	+	.	ID=id-AAQ02676.1:581..884;Parent=cds-AAQ02676.1;gbkey=Prot;product=vp1
+AF499636.1	Genbank	mature_protein_region_of_CDS	3399	3848	.	+	.	ID=id-AAQ02676.1:885..1034;Parent=cds-AAQ02676.1;gbkey=Prot;product=2A
+AF499636.1	Genbank	mature_protein_region_of_CDS	3846	4136	.	+	.	ID=id-AAQ02676.1:1034..1130;Parent=cds-AAQ02676.1;gbkey=Prot;product=2B
+AF499636.1	Genbank	mature_protein_region_of_CDS	4137	5123	.	+	.	ID=id-AAQ02676.1:1131..1459;Parent=cds-AAQ02676.1;gbkey=Prot;product=2C
+AF499636.1	Genbank	mature_protein_region_of_CDS	5124	5384	.	+	.	ID=id-AAQ02676.1:1460..1546;Parent=cds-AAQ02676.1;gbkey=Prot;product=3A
+AF499636.1	Genbank	mature_protein_region_of_CDS	5385	5450	.	+	.	ID=id-AAQ02676.1:1547..1568;Parent=cds-AAQ02676.1;gbkey=Prot;product=3B
+AF499636.1	Genbank	mature_protein_region_of_CDS	5451	5999	.	+	.	ID=id-AAQ02676.1:1569..1751;Parent=cds-AAQ02676.1;gbkey=Prot;product=3C
+AF499636.1	Genbank	mature_protein_region_of_CDS	6000	7382	.	+	.	ID=id-AAQ02676.1:1752..2212;Parent=cds-AAQ02676.1;gbkey=Prot;product=3D
+

@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT081378.1 1 7391
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12090
+MT081378.1	Genbank	region	1	7391	.	+	.	ID=MT081378.1:1..7391;Dbxref=taxon:12090;collection-date=1971;country=Japan;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;strain=JPN/1971-23330
+MT081378.1	Genbank	CDS	728	7312	.	+	0	ID=cds-QJA10589.1;Dbxref=NCBI_GP:QJA10589.1;Name=QJA10589.1;gbkey=CDS;product=polyprotein;protein_id=QJA10589.1
+MT081378.1	Genbank	mature_protein_region_of_CDS	728	934	.	+	.	ID=id-QJA10589.1:1..69;Parent=cds-QJA10589.1;gbkey=Prot;product=VP4
+MT081378.1	Genbank	mature_protein_region_of_CDS	935	1684	.	+	.	ID=id-QJA10589.1:70..319;Parent=cds-QJA10589.1;gbkey=Prot;product=VP2
+MT081378.1	Genbank	mature_protein_region_of_CDS	1685	2389	.	+	.	ID=id-QJA10589.1:320..554;Parent=cds-QJA10589.1;gbkey=Prot;product=VP3
+MT081378.1	Genbank	mature_protein_region_of_CDS	2390	3328	.	+	.	ID=id-QJA10589.1:555..867;Parent=cds-QJA10589.1;gbkey=Prot;product=VP1
+MT081378.1	Genbank	mature_protein_region_of_CDS	3329	3769	.	+	.	ID=id-QJA10589.1:868..1014;Parent=cds-QJA10589.1;gbkey=Prot;product=2A
+MT081378.1	Genbank	mature_protein_region_of_CDS	3770	4066	.	+	.	ID=id-QJA10589.1:1015..1113;Parent=cds-QJA10589.1;gbkey=Prot;product=2B
+MT081378.1	Genbank	mature_protein_region_of_CDS	4067	5056	.	+	.	ID=id-QJA10589.1:1114..1443;Parent=cds-QJA10589.1;gbkey=Prot;product=2C
+MT081378.1	Genbank	mature_protein_region_of_CDS	5057	5323	.	+	.	ID=id-QJA10589.1:1444..1532;Parent=cds-QJA10589.1;gbkey=Prot;product=3A
+MT081378.1	Genbank	mature_protein_region_of_CDS	5324	5389	.	+	.	ID=id-QJA10589.1:1533..1554;Parent=cds-QJA10589.1;gbkey=Prot;product=3B
+MT081378.1	Genbank	mature_protein_region_of_CDS	5390	5938	.	+	.	ID=id-QJA10589.1:1555..1737;Parent=cds-QJA10589.1;gbkey=Prot;product=3C
+MT081378.1	Genbank	mature_protein_region_of_CDS	5939	7309	.	+	.	ID=id-QJA10589.1:1738..2194;Parent=cds-QJA10589.1;gbkey=Prot;product=3D
+

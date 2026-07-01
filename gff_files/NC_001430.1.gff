@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_001430.1 1 7390
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138951
+NC_001430.1	RefSeq	region	1	7390	.	+	.	ID=NC_001430.1:1..7390;Dbxref=taxon:138951;gbkey=Src;genome=genomic;lab-host=HEp-2c cells;mol_type=genomic RNA;old-name=Human enterovirus D;strain=Enterovirus 70
+NC_001430.1	RefSeq	gene	727	7311	.	+	.	ID=gene-HEVDgp1;Dbxref=GeneID:1461118;Name=HEVDgp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HEVDgp1
+NC_001430.1	RefSeq	CDS	727	7311	.	+	0	ID=cds-NP_040760.1;Parent=gene-HEVDgp1;Dbxref=GenBank:NP_040760.1,GeneID:1461118;Name=NP_040760.1;gbkey=CDS;locus_tag=HEVDgp1;product=genome polyprotein;protein_id=NP_040760.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	727	1683	.	+	.	ID=id-NP_040760.1:1..319;Parent=cds-NP_040760.1;gbkey=Prot;product=protein VP0;protein_id=YP_009020592.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	727	933	.	+	.	ID=id-NP_040760.1:1..69;Parent=cds-NP_040760.1;gbkey=Prot;product=capsid protein 1A;protein_id=NP_740412.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	934	1683	.	+	.	ID=id-NP_040760.1:70..319;Parent=cds-NP_040760.1;gbkey=Prot;product=capsid protein 1B;protein_id=NP_740413.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	1684	2409	.	+	.	ID=id-NP_040760.1:320..561;Parent=cds-NP_040760.1;exception=alternative processing;gbkey=Prot;product=capsid protein 1C version 1;protein_id=NP_740739.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	2410	3339	.	+	.	ID=id-NP_040760.1:562..871;Parent=cds-NP_040760.1;exception=alternative processing;gbkey=Prot;product=capsid protein 1D;protein_id=NP_740742.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	3340	3768	.	+	.	ID=id-NP_040760.1:872..1014;Parent=cds-NP_040760.1;gbkey=Prot;product=protease 2A;protein_id=NP_740416.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	3769	4065	.	+	.	ID=id-NP_040760.1:1015..1113;Parent=cds-NP_040760.1;gbkey=Prot;product=protein 2B;protein_id=NP_740417.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	4066	5055	.	+	.	ID=id-NP_040760.1:1114..1443;Parent=cds-NP_040760.1;gbkey=Prot;product=NTPase 2C;protein_id=NP_740744.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	5056	5322	.	+	.	ID=id-NP_040760.1:1444..1532;Parent=cds-NP_040760.1;gbkey=Prot;product=protein 3A;protein_id=NP_740419.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	5323	5388	.	+	.	ID=id-NP_040760.1:1533..1554;Parent=cds-NP_040760.1;gbkey=Prot;product=VPg 3B;protein_id=NP_740745.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	5389	5937	.	+	.	ID=id-NP_040760.1:1555..1737;Parent=cds-NP_040760.1;gbkey=Prot;product=protease 3C;protein_id=NP_740421.1
+NC_001430.1	RefSeq	mature_protein_region_of_CDS	5938	7308	.	+	.	ID=id-NP_040760.1:1738..2194;Parent=cds-NP_040760.1;gbkey=Prot;product=3D-POL;protein_id=NP_740422.1
+

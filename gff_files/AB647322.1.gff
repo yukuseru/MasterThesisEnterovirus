@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AB647322.1 1 7428
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47516
+AB647322.1	DDBJ	region	1	7428	.	+	.	ID=AB647322.1:1..7428;Dbxref=taxon:47516;collection-date=2010-08;country=Japan: Osaka%2C Osaka city;gbkey=Src;isolation-source=Clinical sample;mol_type=genomic RNA;note=synonym: Human echovirus 3;strain=OC10-540
+AB647322.1	DDBJ	five_prime_UTR	1	743	.	+	.	ID=id-AB647322.1:1..743;gbkey=5'UTR
+AB647322.1	DDBJ	CDS	744	7328	.	+	0	ID=cds-BAK57452.1;Dbxref=NCBI_GP:BAK57452.1;Name=BAK57452.1;gbkey=CDS;product=polyprotein;protein_id=BAK57452.1
+AB647322.1	DDBJ	three_prime_UTR	7329	7428	.	+	.	ID=id-AB647322.1:7329..7428;gbkey=3'UTR
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PV624832.1 1 7300
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+PV624832.1	Genbank	region	1	7300	.	+	.	ID=PV624832.1:1..7300;Dbxref=taxon:42789;collected-by=Johns Hopkins University School of Medicine;collection-date=2024;country=USA: MD;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=JH-EV-46/2024;isolation-source=nasopharyngeal swab;mol_type=genomic RNA;nat-host=Homo sapiens
+PV624832.1	Genbank	CDS	666	7235	.	+	0	ID=cds-XTK69547.1;Dbxref=NCBI_GP:XTK69547.1;Name=XTK69547.1;gbkey=CDS;product=polyprotein;protein_id=XTK69547.1
+

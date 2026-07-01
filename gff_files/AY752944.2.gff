@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY752944.2 1 7400
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12072
+AY752944.2	Genbank	region	1	7400	.	+	.	ID=AY752944.2:1..7400;Dbxref=taxon:12072;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human coxsackievirus B3;strain=28
+AY752944.2	Genbank	CDS	743	7300	.	+	0	ID=cds-AAV34211.2;Dbxref=NCBI_GP:AAV34211.2;Name=AAV34211.2;gbkey=CDS;product=polyprotein;protein_id=AAV34211.2

@@ -1,0 +1,48 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY518703.1 1 7443
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+AY518703.1	Genbank	region	1	7443	.	+	.	ID=AY518703.1:1..7443;Dbxref=taxon:12080;country=China;gbkey=Src;genome=genomic;genotype=CHN-JX89;isolate=CHN-Shandong/88-1%3B CHN-Sd12SD88;mol_type=genomic RNA;old-name=Human poliovirus 1
+AY518703.1	Genbank	five_prime_UTR	1	745	.	+	.	ID=id-AY518703.1:1..745;gbkey=5'UTR
+AY518703.1	Genbank	CDS	746	7375	.	+	0	ID=cds-AAS88844.1;Dbxref=NCBI_GP:AAS88844.1;Name=AAS88844.1;gbkey=CDS;product=polyprotein;protein_id=AAS88844.1
+AY518703.1	Genbank	mature_protein_region_of_CDS	746	952	.	+	.	ID=id-AAS88844.1:1..69;Parent=cds-AAS88844.1;gbkey=Prot;product=capsid protein VP4
+AY518703.1	Genbank	mature_protein_region_of_CDS	953	1768	.	+	.	ID=id-AAS88844.1:70..341;Parent=cds-AAS88844.1;gbkey=Prot;product=capsid protein VP2
+AY518703.1	Genbank	mature_protein_region_of_CDS	1769	2482	.	+	.	ID=id-AAS88844.1:342..579;Parent=cds-AAS88844.1;gbkey=Prot;product=capsid protein VP3
+AY518703.1	Genbank	mature_protein_region_of_CDS	2483	3388	.	+	.	ID=id-AAS88844.1:580..881;Parent=cds-AAS88844.1;gbkey=Prot;product=capsid protein VP1
+AY518703.1	Genbank	mature_protein_region_of_CDS	3389	3835	.	+	.	ID=id-AAS88844.1:882..1030;Parent=cds-AAS88844.1;gbkey=Prot;product=protease 2A
+AY518703.1	Genbank	mature_protein_region_of_CDS	3836	4126	.	+	.	ID=id-AAS88844.1:1031..1127;Parent=cds-AAS88844.1;gbkey=Prot;product=nonstructural protein 2B
+AY518703.1	Genbank	mature_protein_region_of_CDS	4127	5113	.	+	.	ID=id-AAS88844.1:1128..1456;Parent=cds-AAS88844.1;gbkey=Prot;product=nonstructural protein 2C
+AY518703.1	Genbank	mature_protein_region_of_CDS	5114	5374	.	+	.	ID=id-AAS88844.1:1457..1543;Parent=cds-AAS88844.1;gbkey=Prot;product=nonstructural protein 3A
+AY518703.1	Genbank	mature_protein_region_of_CDS	5375	5440	.	+	.	ID=id-AAS88844.1:1544..1565;Parent=cds-AAS88844.1;gbkey=Prot;product=nonstructural protein 3B
+AY518703.1	Genbank	mature_protein_region_of_CDS	5441	5989	.	+	.	ID=id-AAS88844.1:1566..1748;Parent=cds-AAS88844.1;gbkey=Prot;product=protease 3C
+AY518703.1	Genbank	mature_protein_region_of_CDS	5990	7372	.	+	.	ID=id-AAS88844.1:1749..2209;Parent=cds-AAS88844.1;gbkey=Prot;product=RNA-dependent RNA polymerase 3Dpol
+AY518703.1	Genbank	three_prime_UTR	7376	7443	.	+	.	ID=id-AY518703.1:7376..7443;gbkey=3'UTR
+AY518704.1	Genbank	match	1	7443	14646	+	.	ID=aln0;Target=AY518703.1 1 7443 +;bit_score=13391.8;e_value=0;p_value=0;small_gap=1
+AY518705.1	Genbank	match	1	7442	14177	+	.	ID=aln1;Target=AY518703.1 1 7443 +;bit_score=12963;e_value=0;p_value=0;small_gap=1;Gap=M570 I1 M6872
+AY518706.1	Genbank	match	1	7442	14122	+	.	ID=aln2;Target=AY518703.1 1 7443 +;bit_score=12912.7;e_value=0;p_value=0;small_gap=1;Gap=M570 I1 M6872
+AY518707.1	Genbank	match	1	7442	14117	+	.	ID=aln3;Target=AY518703.1 1 7443 +;bit_score=12908.2;e_value=0;p_value=0;small_gap=1;Gap=M570 I1 M6872
+AY518708.1	Genbank	match	1	7443	13791	+	.	ID=aln4;Target=AY518703.1 1 7443 +;bit_score=12610.1;e_value=0;p_value=0;small_gap=1
+AY518709.1	Genbank	match	1	7443	13741	+	.	ID=aln5;Target=AY518703.1 1 7443 +;bit_score=12564.4;e_value=0;p_value=0;small_gap=1
+AY518710.1	Genbank	match	1	7426	11403	+	.	ID=aln6;Target=AY518703.1 1 7443 +;bit_score=10426.8;e_value=0;p_value=0;small_gap=1;Gap=M721 I17 M6705
+AY518711.1	Genbank	match	1	7426	11433	+	.	ID=aln7;Target=AY518703.1 1 7443 +;bit_score=10454.2;e_value=0;p_value=0;small_gap=1;Gap=M721 I17 M6705
+AY518712.1	Genbank	match	1	7426	11378	+	.	ID=aln8;Target=AY518703.1 1 7443 +;bit_score=10404;e_value=0;p_value=0;small_gap=1;Gap=M721 I17 M6705
+AY518713.1	Genbank	match	1	7426	11438	+	.	ID=aln9;Target=AY518703.1 1 7443 +;bit_score=10458.8;e_value=0;p_value=0;small_gap=1;Gap=M721 I17 M6705
+AY518714.1	Genbank	match	1	7443	11211	+	.	ID=aln10;Target=AY518703.1 1 7443 +;bit_score=10251.3;e_value=0;p_value=0;small_gap=1
+AY518715.1	Genbank	match	1	7443	11236	+	.	ID=aln11;Target=AY518703.1 1 7443 +;bit_score=10274.1;e_value=0;p_value=0;small_gap=1
+AY518716.1	Genbank	match	1	7444	11174	+	.	ID=aln12;Target=AY518703.1 1 7443 +;bit_score=10217.4;e_value=0;p_value=0;small_gap=1;Gap=M727 D1 M6716
+AY518717.1	Genbank	match	1	7444	10984	+	.	ID=aln13;Target=AY518703.1 1 7443 +;bit_score=10043.7;e_value=0;p_value=0;small_gap=1;Gap=M727 D1 M6716
+AY518718.1	Genbank	match	1	7444	11194	+	.	ID=aln14;Target=AY518703.1 1 7443 +;bit_score=10235.7;e_value=0;p_value=0;small_gap=1;Gap=M725 D1 M6718
+AY518719.1	Genbank	match	1	7443	11116	+	.	ID=aln15;Target=AY518703.1 1 7443 +;bit_score=10164.4;e_value=0;p_value=0;small_gap=1
+AY518720.1	Genbank	match	1	7445	11017	+	.	ID=aln16;Target=AY518703.1 1 7443 +;bit_score=10073.9;e_value=0;p_value=0;small_gap=1;Gap=M570 D1 M167 D1 M6706
+AY518721.1	Genbank	match	1	7443	11121	+	.	ID=aln17;Target=AY518703.1 1 7443 +;bit_score=10169;e_value=0;p_value=0;small_gap=1
+AY518722.1	Genbank	match	1	7443	11091	+	.	ID=aln18;Target=AY518703.1 1 7443 +;bit_score=10141.6;e_value=0;p_value=0;small_gap=1
+AY518723.1	Genbank	match	1	7443	11176	+	.	ID=aln19;Target=AY518703.1 1 7443 +;bit_score=10219.3;e_value=0;p_value=0;small_gap=1
+AY518724.1	Genbank	match	1	7442	11012	+	.	ID=aln20;Target=AY518703.1 1 7443 +;bit_score=10069.3;e_value=0;p_value=0;small_gap=1;Gap=M570 I1 M6872
+AY518725.1	Genbank	match	1	7444	10925	+	.	ID=aln21;Target=AY518703.1 1 7443 +;bit_score=9989.78;e_value=0;p_value=0;small_gap=1;Gap=M101 D1 M7342
+AY518726.1	Genbank	match	1	7444	10739	+	.	ID=aln22;Target=AY518703.1 1 7443 +;bit_score=9819.73;e_value=0;p_value=0;small_gap=1;Gap=M101 D1 M7342
+AY518727.1	Genbank	match	1	7443	10971	+	.	ID=aln23;Target=AY518703.1 1 7443 +;bit_score=10031.8;e_value=0;p_value=0;small_gap=1
+AY518728.1	Genbank	match	1	7443	10886	+	.	ID=aln24;Target=AY518703.1 1 7443 +;bit_score=9954.12;e_value=0;p_value=0;small_gap=1
+AY518729.1	Genbank	match	1	7442	11107	+	.	ID=aln25;Target=AY518703.1 1 7443 +;bit_score=10156.2;e_value=0;p_value=0;small_gap=1;Gap=M570 I1 M6872
+AY518730.1	Genbank	match	1	7443	11106	+	.	ID=aln26;Target=AY518703.1 1 7443 +;bit_score=10155.3;e_value=0;p_value=0;small_gap=1
+

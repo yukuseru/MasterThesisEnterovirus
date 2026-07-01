@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OP255992.1 1 7437
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42785
+OP255992.1	Genbank	region	1	7437	.	+	.	ID=OP255992.1:1..7437;Dbxref=taxon:42785;collection-date=2018-12-21;country=Netherlands;gb-acronym=CV-A4;gbkey=Src;genome=genomic;isolation-source=feces;mol_type=genomic RNA;nat-host=Homo sapiens;strain=A4_R04-14/Hu/NL/2018
+OP255992.1	Genbank	CDS	747	7352	.	+	0	ID=cds-WJK44428.1;Dbxref=NCBI_GP:WJK44428.1;Name=WJK44428.1;gbkey=CDS;product=polyprotein;protein_id=WJK44428.1
+

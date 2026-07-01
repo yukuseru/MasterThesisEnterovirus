@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_004441.1 1 7388
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=64141
+NC_004441.1	RefSeq	region	1	7388	.	+	.	ID=NC_004441.1:1..7388;Dbxref=taxon:64141;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=UKG/410/73
+NC_004441.1	RefSeq	gene	810	7316	.	+	.	ID=gene-PEVBgp1;Dbxref=GeneID:956019;Name=polyprotein gene;gbkey=Gene;gene=polyprotein gene;gene_biotype=protein_coding;locus_tag=PEVBgp1
+NC_004441.1	RefSeq	CDS	810	7316	.	+	0	ID=cds-NP_758520.1;Parent=gene-PEVBgp1;Dbxref=GenBank:NP_758520.1,GeneID:956019;Name=NP_758520.1;gbkey=CDS;gene=polyprotein gene;locus_tag=PEVBgp1;product=polyprotein;protein_id=NP_758520.1
+

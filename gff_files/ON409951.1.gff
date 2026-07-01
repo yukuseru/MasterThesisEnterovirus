@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON409951.1 1 7422
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33757
+ON409951.1	Genbank	region	1	7422	.	+	.	ID=ON409951.1:1..7422;Dbxref=taxon:33757;collection-date=2019;country=China: Hunan;gb-acronym=CV-A2;gbkey=Src;genome=genomic;isolate=CVA2/Changsha-S281/CHN/2019;mol_type=genomic RNA;nat-host=Homo sapiens
+ON409951.1	Genbank	five_prime_UTR	1	758	.	+	.	ID=id-ON409951.1:1..758;gbkey=5'UTR
+ON409951.1	Genbank	CDS	759	7331	.	+	0	ID=cds-WCO08233.1;Dbxref=NCBI_GP:WCO08233.1;Name=WCO08233.1;gbkey=CDS;product=polyprotein;protein_id=WCO08233.1
+ON409951.1	Genbank	three_prime_UTR	7332	7422	.	+	.	ID=id-ON409951.1:7332..7422;gbkey=3'UTR
+

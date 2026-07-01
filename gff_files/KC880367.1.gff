@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KC880367.1 1 7442
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+KC880367.1	Genbank	region	1	7442	.	+	.	ID=KC880367.1:1..7442;Dbxref=taxon:12080;clone=6;collection-date=10-Apr-2010;country=Tajikistan: Bokhtar;gbkey=Src;genome=genomic;isolate=TJK35363;isolation-source=AFP case;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human poliovirus 1;serotype=PV1
+KC880367.1	Genbank	CDS	746	7375	.	+	0	ID=cds-AGS09856.1;Dbxref=NCBI_GP:AGS09856.1;Name=AGS09856.1;gbkey=CDS;product=polyprotein;protein_id=AGS09856.1
+

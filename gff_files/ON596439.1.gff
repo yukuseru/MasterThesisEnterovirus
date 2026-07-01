@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON596439.1 1 7421
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+ON596439.1	Genbank	region	1	7421	.	+	.	ID=ON596439.1:1..7421;Dbxref=taxon:12083;collection-date=2017;country=Nigeria: Adamawa State;gbkey=Src;genome=genomic;isolate=NIE/ADA/17-3;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;note=SABIN;old-name=Human poliovirus 2;serotype=PV2
+ON596439.1	Genbank	CDS	730	7353	.	+	0	ID=cds-UTY87824.1;Dbxref=NCBI_GP:UTY87824.1;Name=UTY87824.1;gbkey=CDS;product=polyprotein;protein_id=UTY87824.1
+ON596439.1	Genbank	mature_protein_region_of_CDS	730	936	.	+	.	ID=id-UTY87824.1:1..69;Parent=cds-UTY87824.1;gbkey=Prot;product=VP4
+ON596439.1	Genbank	mature_protein_region_of_CDS	937	1749	.	+	.	ID=id-UTY87824.1:70..340;Parent=cds-UTY87824.1;gbkey=Prot;product=VP2
+ON596439.1	Genbank	mature_protein_region_of_CDS	1750	2463	.	+	.	ID=id-UTY87824.1:341..578;Parent=cds-UTY87824.1;gbkey=Prot;product=VP3
+ON596439.1	Genbank	mature_protein_region_of_CDS	2464	3366	.	+	.	ID=id-UTY87824.1:579..879;Parent=cds-UTY87824.1;gbkey=Prot;product=VP1
+ON596439.1	Genbank	mature_protein_region_of_CDS	3367	3813	.	+	.	ID=id-UTY87824.1:880..1028;Parent=cds-UTY87824.1;gbkey=Prot;product=2A
+ON596439.1	Genbank	mature_protein_region_of_CDS	3814	4104	.	+	.	ID=id-UTY87824.1:1029..1125;Parent=cds-UTY87824.1;gbkey=Prot;product=2B
+ON596439.1	Genbank	mature_protein_region_of_CDS	4105	5091	.	+	.	ID=id-UTY87824.1:1126..1454;Parent=cds-UTY87824.1;gbkey=Prot;product=2C
+ON596439.1	Genbank	mature_protein_region_of_CDS	5092	5352	.	+	.	ID=id-UTY87824.1:1455..1541;Parent=cds-UTY87824.1;gbkey=Prot;product=3A
+ON596439.1	Genbank	mature_protein_region_of_CDS	5353	5418	.	+	.	ID=id-UTY87824.1:1542..1563;Parent=cds-UTY87824.1;gbkey=Prot;product=3B
+ON596439.1	Genbank	mature_protein_region_of_CDS	5419	5967	.	+	.	ID=id-UTY87824.1:1564..1746;Parent=cds-UTY87824.1;gbkey=Prot;product=3C
+ON596439.1	Genbank	mature_protein_region_of_CDS	5968	7350	.	+	.	ID=id-UTY87824.1:1747..2207;Parent=cds-UTY87824.1;gbkey=Prot;product=3D
+ON596439.1	Genbank	biological_region	730	3366	.	+	.	ID=id-ON596439.1:730..3366;Name=P1;gbkey=Region
+ON596439.1	Genbank	biological_region	3367	5091	.	+	.	ID=id-ON596439.1:3367..5091;Name=P2;gbkey=Region
+ON596439.1	Genbank	biological_region	5092	7350	.	+	.	ID=id-ON596439.1:5092..7350;Name=P3;gbkey=Region
+

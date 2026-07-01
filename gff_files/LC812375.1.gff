@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region LC812375.1 1 7404
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42771
+LC812375.1	DDBJ	region	1	7404	.	+	.	ID=LC812375.1:1..7404;Dbxref=taxon:42771;collection-date=2022;country=China;gb-acronym=CV-A12;gbkey=Src;isolation-source=stool from hand%2C foot and mouth disease patient;mol_type=genomic RNA;nat-host=Homo sapiens;strain=A205
+LC812375.1	DDBJ	five_prime_UTR	1	746	.	+	.	ID=id-LC812375.1:1..746;gbkey=5'UTR
+LC812375.1	DDBJ	CDS	746	7321	.	+	0	ID=cds-BFJ97438.1;Dbxref=NCBI_GP:BFJ97438.1;Name=BFJ97438.1;gbkey=CDS;product=polyprotein;protein_id=BFJ97438.1
+LC812375.1	DDBJ	three_prime_UTR	7322	7404	.	+	.	ID=id-LC812375.1:7322..7404;gbkey=3'UTR
+

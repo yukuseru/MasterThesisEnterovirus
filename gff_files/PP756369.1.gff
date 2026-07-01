@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP756369.1 1 7362
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2760819
+PP756369.1	Genbank	region	1	7362	.	+	.	ID=PP756369.1:1..7362;Dbxref=taxon:2760819;collected-by=Hospital Clermont-Ferrand Dr Mirand Audrey;collection-date=29-May-2018;country=France: ARA%2C Clermont-Ferrand;gbkey=Src;genome=genomic;isolation-source=nasopharyngeal aspirate;mol_type=genomic RNA;nat-host=Homo sapiens;strain=EV-C117_1800256966_FRA18
+PP756369.1	Genbank	five_prime_UTR	1	671	.	+	.	ID=id-PP756369.1:1..671;gbkey=5'UTR
+PP756369.1	Genbank	CDS	672	7292	.	+	0	ID=cds-XAM24020.1;Dbxref=NCBI_GP:XAM24020.1;Name=XAM24020.1;gbkey=CDS;product=polyprotein;protein_id=XAM24020.1
+PP756369.1	Genbank	three_prime_UTR	7293	7362	.	+	.	ID=id-PP756369.1:7293..7362;gbkey=3'UTR
+

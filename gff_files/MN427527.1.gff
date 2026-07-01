@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MN427527.1 1 7333
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1330521
+MN427527.1	Genbank	region	1	7333	.	+	.	ID=MN427527.1:1..7333;Dbxref=taxon:1330521;collection-date=Nov-2018;country=China;gbkey=Src;genome=genomic;isolation-source=fecal;mol_type=genomic RNA;nat-host=African green monkey;strain=CHN/BJ/2018-8J
+MN427527.1	Genbank	five_prime_UTR	1	726	.	+	.	ID=id-MN427527.1:1..726;gbkey=5'UTR
+MN427527.1	Genbank	CDS	727	7230	.	+	0	ID=cds-QKE11197.1;Dbxref=NCBI_GP:QKE11197.1;Name=QKE11197.1;gbkey=CDS;product=polyprotein;protein_id=QKE11197.1
+MN427527.1	Genbank	mature_protein_region_of_CDS	727	930	.	+	.	ID=id-QKE11197.1:1..68;Parent=cds-QKE11197.1;gbkey=Prot;product=1A (VP4)
+MN427527.1	Genbank	mature_protein_region_of_CDS	931	1659	.	+	.	ID=id-QKE11197.1:69..311;Parent=cds-QKE11197.1;gbkey=Prot;product=1B (VP2)
+MN427527.1	Genbank	mature_protein_region_of_CDS	1660	2370	.	+	.	ID=id-QKE11197.1:312..548;Parent=cds-QKE11197.1;gbkey=Prot;product=1C (VP3)
+MN427527.1	Genbank	mature_protein_region_of_CDS	2371	3231	.	+	.	ID=id-QKE11197.1:549..835;Parent=cds-QKE11197.1;gbkey=Prot;product=1D (VP1)
+MN427527.1	Genbank	mature_protein_region_of_CDS	3232	3681	.	+	.	ID=id-QKE11197.1:836..985;Parent=cds-QKE11197.1;gbkey=Prot;product=2A
+MN427527.1	Genbank	mature_protein_region_of_CDS	3682	3978	.	+	.	ID=id-QKE11197.1:986..1084;Parent=cds-QKE11197.1;gbkey=Prot;product=2B
+MN427527.1	Genbank	mature_protein_region_of_CDS	3979	4962	.	+	.	ID=id-QKE11197.1:1085..1412;Parent=cds-QKE11197.1;gbkey=Prot;product=2C
+MN427527.1	Genbank	mature_protein_region_of_CDS	4963	5223	.	+	.	ID=id-QKE11197.1:1413..1499;Parent=cds-QKE11197.1;gbkey=Prot;product=3A
+MN427527.1	Genbank	mature_protein_region_of_CDS	5224	5292	.	+	.	ID=id-QKE11197.1:1500..1522;Parent=cds-QKE11197.1;gbkey=Prot;product=3B
+MN427527.1	Genbank	mature_protein_region_of_CDS	5293	5841	.	+	.	ID=id-QKE11197.1:1523..1705;Parent=cds-QKE11197.1;gbkey=Prot;product=3C
+MN427527.1	Genbank	mature_protein_region_of_CDS	5842	7227	.	+	.	ID=id-QKE11197.1:1706..2167;Parent=cds-QKE11197.1;gbkey=Prot;product=3D
+MN427527.1	Genbank	three_prime_UTR	7231	7333	.	+	.	ID=id-MN427527.1:7231..7333;gbkey=3'UTR
+

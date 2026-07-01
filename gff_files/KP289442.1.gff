@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KP289442.1 1 7449
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42785
+KP289442.1	Genbank	region	1	7449	.	+	.	ID=KP289442.1:1..7449;Dbxref=taxon:42785;collection-date=2013;country=China;gb-acronym=CV-A4;gbkey=Src;genome=genomic;isolate=CV-A4/P1033/2013/China;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Homo sapiens
+KP289442.1	Genbank	CDS	747	7352	.	+	0	ID=cds-ALB73009.1;Dbxref=NCBI_GP:ALB73009.1;Name=ALB73009.1;gbkey=CDS;product=polyprotein;protein_id=ALB73009.1
+

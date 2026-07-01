@@ -1,0 +1,24 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_003988.1 1 7374
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=310907
+NC_003988.1	RefSeq	region	1	7374	.	+	.	ID=NC_003988.1:1..7374;Dbxref=taxon:310907;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human enterovirus E;sub-species=A-2 plaque virus
+NC_003988.1	RefSeq	gene	654	7247	.	+	.	ID=gene-HeEVgp1;Dbxref=GeneID:944584;Name=HeEVgp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HeEVgp1
+NC_003988.1	RefSeq	CDS	654	7247	.	+	0	ID=cds-NP_653149.1;Parent=gene-HeEVgp1;Dbxref=GenBank:NP_653149.1,GeneID:944584;Name=NP_653149.1;gbkey=CDS;locus_tag=HeEVgp1;product=genome polyprotein;protein_id=NP_653149.1
+NC_003988.1	RefSeq	propeptide_region_of_CDS	654	3266	.	+	.	ID=id-NP_653149.1:1..871;Parent=cds-NP_653149.1;gbkey=Prot;product=precursor polypeptide P1
+NC_003988.1	RefSeq	propeptide_region_of_CDS	654	1610	.	+	.	ID=id-NP_653149.1:1..319;Parent=cds-NP_653149.1;gbkey=Prot;product=capsid protein VP0
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	654	860	.	+	.	ID=id-NP_653149.1:1..69;Parent=cds-NP_653149.1;gbkey=Prot;product=capsid protein VP4;protein_id=NP_714929.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	861	1610	.	+	.	ID=id-NP_653149.1:70..319;Parent=cds-NP_653149.1;gbkey=Prot;product=capsid protein VP2;protein_id=NP_714930.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	1611	2327	.	+	.	ID=id-NP_653149.1:320..558;Parent=cds-NP_653149.1;gbkey=Prot;product=capsid protein VP3;protein_id=NP_714931.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	2328	3266	.	+	.	ID=id-NP_653149.1:559..871;Parent=cds-NP_653149.1;gbkey=Prot;product=capsid protein VP1;protein_id=NP_714932.1
+NC_003988.1	RefSeq	propeptide_region_of_CDS	3267	4991	.	+	.	ID=id-NP_653149.1:872..1446;Parent=cds-NP_653149.1;gbkey=Prot;product=precursor polypeptide P2
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	3267	3707	.	+	.	ID=id-NP_653149.1:872..1018;Parent=cds-NP_653149.1;gbkey=Prot;product=chymotrypsin-like cysteine proteinase;protein_id=NP_714933.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	3708	4004	.	+	.	ID=id-NP_653149.1:1019..1117;Parent=cds-NP_653149.1;gbkey=Prot;product=membrane-associated protein;protein_id=NP_714934.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	4005	4991	.	+	.	ID=id-NP_653149.1:1118..1446;Parent=cds-NP_653149.1;gbkey=Prot;product=ATPase;protein_id=NP_714935.1
+NC_003988.1	RefSeq	propeptide_region_of_CDS	4992	7244	.	+	.	ID=id-NP_653149.1:1447..2197;Parent=cds-NP_653149.1;gbkey=Prot;product=precursor polypeptide P3
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	4992	5252	.	+	.	ID=id-NP_653149.1:1447..1533;Parent=cds-NP_653149.1;gbkey=Prot;product=membrane-associated protein;protein_id=NP_714936.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	5253	5318	.	+	.	ID=id-NP_653149.1:1534..1555;Parent=cds-NP_653149.1;gbkey=Prot;product=VPg;protein_id=NP_714937.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	5319	5867	.	+	.	ID=id-NP_653149.1:1556..1738;Parent=cds-NP_653149.1;gbkey=Prot;product=Picornain 3C;protein_id=NP_714938.1
+NC_003988.1	RefSeq	mature_protein_region_of_CDS	5868	7244	.	+	.	ID=id-NP_653149.1:1739..2197;Parent=cds-NP_653149.1;gbkey=Prot;product=3D;protein_id=NP_714939.1
+

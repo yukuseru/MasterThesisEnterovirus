@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_021220.1 1 7397
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1330520
+NC_021220.1	RefSeq	region	1	7397	.	+	.	ID=NC_021220.1:1..7397;Dbxref=taxon:1330520;gbkey=Src;genome=genomic;mol_type=genomic RNA;serotype=2;strain=BEV-261%3B M2%3B RM2
+NC_021220.1	RefSeq	five_prime_UTR	1	822	.	+	.	ID=id-NC_021220.1:1..822;gbkey=5'UTR
+NC_021220.1	RefSeq	gene	823	7326	.	+	.	ID=gene-L749_gp1;Dbxref=GeneID:15525196;Name=L749_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=L749_gp1
+NC_021220.1	RefSeq	CDS	823	7326	.	+	0	ID=cds-YP_007985635.1;Parent=gene-L749_gp1;Dbxref=GenBank:YP_007985635.1,GeneID:15525196;Name=YP_007985635.1;Note=contains capsid proteins 1A%2C 1B%2C 1C%2C 1D%2C nonstructural proteins 2A%2C 2B%2C 2C%2C 3A%2C 3B%2C 3C%2C and 3D;gbkey=CDS;locus_tag=L749_gp1;product=genome polyprotein;protein_id=YP_007985635.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	823	1029	.	+	.	ID=id-YP_007985635.1:1..69;Parent=cds-YP_007985635.1;gbkey=Prot;product=capsid protein VP4;protein_id=YP_009020962.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	1030	1767	.	+	.	ID=id-YP_007985635.1:70..315;Parent=cds-YP_007985635.1;gbkey=Prot;product=capsid protein VP2;protein_id=YP_009020963.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	1768	2496	.	+	.	ID=id-YP_007985635.1:316..558;Parent=cds-YP_007985635.1;gbkey=Prot;product=capsid protein VP3;protein_id=YP_009020964.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	2497	3321	.	+	.	ID=id-YP_007985635.1:559..833;Parent=cds-YP_007985635.1;gbkey=Prot;product=capsid protein VP1;protein_id=YP_009020965.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	3322	3771	.	+	.	ID=id-YP_007985635.1:834..983;Parent=cds-YP_007985635.1;gbkey=Prot;product=protease 2A;protein_id=YP_009020966.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	3772	4068	.	+	.	ID=id-YP_007985635.1:984..1082;Parent=cds-YP_007985635.1;gbkey=Prot;product=protein 2B;protein_id=YP_009020967.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	4069	5055	.	+	.	ID=id-YP_007985635.1:1083..1411;Parent=cds-YP_007985635.1;gbkey=Prot;product=protein 2C;protein_id=YP_009020968.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	5056	5322	.	+	.	ID=id-YP_007985635.1:1412..1500;Parent=cds-YP_007985635.1;gbkey=Prot;product=protein 3A;protein_id=YP_009020969.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	5323	5391	.	+	.	ID=id-YP_007985635.1:1501..1523;Parent=cds-YP_007985635.1;gbkey=Prot;product=viral protein genome-linked;protein_id=YP_009020970.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	5392	5940	.	+	.	ID=id-YP_007985635.1:1524..1706;Parent=cds-YP_007985635.1;gbkey=Prot;product=protease 3C;protein_id=YP_009020971.1
+NC_021220.1	RefSeq	mature_protein_region_of_CDS	5941	7323	.	+	.	ID=id-YP_007985635.1:1707..2167;Parent=cds-YP_007985635.1;gbkey=Prot;product=RNA-directed RNA-polymerase;protein_id=YP_009020972.1
+NC_021220.1	RefSeq	three_prime_UTR	7327	7397	.	+	.	ID=id-NC_021220.1:7327..7397;gbkey=3'UTR
+

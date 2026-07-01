@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT814406.1 1 7436
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=86107
+MT814406.1	Genbank	region	1	7436	.	+	.	ID=MT814406.1:1..7436;Dbxref=taxon:86107;collected-by=Cecile Henquell;collection-date=17-Jun-2014;country=France: Dieppe;gb-acronym=CV-A6;gbkey=Src;genome=genomic;isolation-source=mouth swab;lat-lon=49.924618 N 1.079144 E;mol_type=genomic RNA;nat-host=Homo sapiens%3B M%3B 0 year%2C 8 month et 20 days%3B atypical hand foot and mouth disease;strain=CVA6 -3141760671-FRA-2014
+MT814406.1	Genbank	five_prime_UTR	1	747	.	+	.	ID=id-MT814406.1:1..747;gbkey=5'UTR
+MT814406.1	Genbank	CDS	748	7353	.	+	0	ID=cds-QOD39753.1;Dbxref=NCBI_GP:QOD39753.1;Name=QOD39753.1;gbkey=CDS;product=polyprotein;protein_id=QOD39753.1
+MT814406.1	Genbank	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-QOD39753.1:1..69;Parent=cds-QOD39753.1;gbkey=Prot;product=capsid protein VP4
+MT814406.1	Genbank	mature_protein_region_of_CDS	955	1722	.	+	.	ID=id-QOD39753.1:70..325;Parent=cds-QOD39753.1;gbkey=Prot;product=capsid protein VP2
+MT814406.1	Genbank	mature_protein_region_of_CDS	1723	2442	.	+	.	ID=id-QOD39753.1:326..565;Parent=cds-QOD39753.1;gbkey=Prot;product=capsid protein VP3
+MT814406.1	Genbank	mature_protein_region_of_CDS	2443	3357	.	+	.	ID=id-QOD39753.1:566..870;Parent=cds-QOD39753.1;gbkey=Prot;product=capsid protein VP1
+MT814406.1	Genbank	mature_protein_region_of_CDS	3358	3807	.	+	.	ID=id-QOD39753.1:871..1020;Parent=cds-QOD39753.1;gbkey=Prot;product=2A protease
+MT814406.1	Genbank	mature_protein_region_of_CDS	3808	4104	.	+	.	ID=id-QOD39753.1:1021..1119;Parent=cds-QOD39753.1;gbkey=Prot;product=2B porin
+MT814406.1	Genbank	mature_protein_region_of_CDS	4105	5091	.	+	.	ID=id-QOD39753.1:1120..1448;Parent=cds-QOD39753.1;gbkey=Prot;product=2C ATPase
+MT814406.1	Genbank	mature_protein_region_of_CDS	5092	5349	.	+	.	ID=id-QOD39753.1:1449..1534;Parent=cds-QOD39753.1;gbkey=Prot;product=3A protein
+MT814406.1	Genbank	mature_protein_region_of_CDS	5350	5415	.	+	.	ID=id-QOD39753.1:1535..1556;Parent=cds-QOD39753.1;gbkey=Prot;product=VPg (viral protein genome-linked)
+MT814406.1	Genbank	mature_protein_region_of_CDS	5416	5964	.	+	.	ID=id-QOD39753.1:1557..1739;Parent=cds-QOD39753.1;gbkey=Prot;product=3C protease
+MT814406.1	Genbank	mature_protein_region_of_CDS	5965	7350	.	+	.	ID=id-QOD39753.1:1740..2201;Parent=cds-QOD39753.1;gbkey=Prot;product=3D polymerase
+MT814406.1	Genbank	three_prime_UTR	7354	7436	.	+	.	ID=id-MT814406.1:7354..7436;gbkey=3'UTR
+

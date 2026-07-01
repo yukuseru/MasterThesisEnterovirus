@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MG431822.1 1 7434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42785
+MG431822.1	Genbank	region	1	7434	.	+	.	ID=MG431822.1:1..7434;Dbxref=taxon:42785;collection-date=2011;country=China;gb-acronym=CV-A4;gbkey=Src;genome=genomic;isolation-source=rhabdomyosarcoma (RD) cell lines;mol_type=genomic RNA;nat-host=Homo sapiens;strain=R11-20/YN/CHN/2011
+MG431822.1	Genbank	five_prime_UTR	1	747	.	+	.	ID=id-MG431822.1:1..747;gbkey=5'UTR
+MG431822.1	Genbank	CDS	748	7353	.	+	0	ID=cds-AVG71056.1;Dbxref=NCBI_GP:AVG71056.1;Name=AVG71056.1;gbkey=CDS;product=polyprotein;protein_id=AVG71056.1
+MG431822.1	Genbank	three_prime_UTR	7354	7434	.	+	.	ID=id-MG431822.1:7354..7434;gbkey=3'UTR
+

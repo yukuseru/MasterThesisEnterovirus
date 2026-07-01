@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KR815992.1 1 7621
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=86107
+KR815992.1	Genbank	region	1	7621	.	+	.	ID=KR815992.1:1..7621;Dbxref=taxon:86107;collection-date=06-Jan-2013;country=China;gb-acronym=CV-A6;gbkey=Src;genome=genomic;isolate=12743/GZ/CHN/2013;mol_type=genomic RNA;nat-host=Homo sapiens
+KR815992.1	Genbank	five_prime_UTR	1	734	.	+	.	ID=id-KR815992.1:1..734;gbkey=5'UTR
+KR815992.1	Genbank	CDS	735	7340	.	+	0	ID=cds-AKN22173.1;Dbxref=NCBI_GP:AKN22173.1;Name=AKN22173.1;gbkey=CDS;product=polyprotein;protein_id=AKN22173.1
+KR815992.1	Genbank	mature_protein_region_of_CDS	735	941	.	+	.	ID=id-AKN22173.1:1..69;Parent=cds-AKN22173.1;gbkey=Prot;product=VP4 protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	942	1709	.	+	.	ID=id-AKN22173.1:70..325;Parent=cds-AKN22173.1;gbkey=Prot;product=VP2 protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	1710	2429	.	+	.	ID=id-AKN22173.1:326..565;Parent=cds-AKN22173.1;gbkey=Prot;product=VP5 protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	2430	3344	.	+	.	ID=id-AKN22173.1:566..870;Parent=cds-AKN22173.1;gbkey=Prot;product=VP1 protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	3345	3794	.	+	.	ID=id-AKN22173.1:871..1020;Parent=cds-AKN22173.1;gbkey=Prot;product=2A protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	3795	4091	.	+	.	ID=id-AKN22173.1:1021..1119;Parent=cds-AKN22173.1;gbkey=Prot;product=2B protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	4092	5078	.	+	.	ID=id-AKN22173.1:1120..1448;Parent=cds-AKN22173.1;gbkey=Prot;product=2C protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	5109	5336	.	+	.	ID=id-AKN22173.1:1459..1534;Parent=cds-AKN22173.1;gbkey=Prot;product=3A protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	5337	5402	.	+	.	ID=id-AKN22173.1:1535..1556;Parent=cds-AKN22173.1;gbkey=Prot;product=3B protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	5403	5951	.	+	.	ID=id-AKN22173.1:1557..1739;Parent=cds-AKN22173.1;gbkey=Prot;product=3C protein
+KR815992.1	Genbank	mature_protein_region_of_CDS	5952	7337	.	+	.	ID=id-AKN22173.1:1740..2201;Parent=cds-AKN22173.1;gbkey=Prot;product=3D protein
+KR815992.1	Genbank	three_prime_UTR	7341	7621	.	+	.	ID=id-KR815992.1:7341..7621;gbkey=3'UTR
+

@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AB204852.1 1 7408
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+AB204852.1	DDBJ	region	1	7408	.	+	.	ID=AB204852.1:1..7408;Dbxref=taxon:39054;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;note=A temperature resistant variant BrCr-TR;old-name=Human enterovirus 71;serotype=71;strain=BrCr;substrain=BrCr-TR
+AB204852.1	DDBJ	five_prime_UTR	1	743	.	+	.	ID=id-AB204852.1:1..743;gbkey=5'UTR
+AB204852.1	DDBJ	CDS	744	7325	.	+	0	ID=cds-BAD89964.1;Dbxref=NCBI_GP:BAD89964.1;Name=BAD89964.1;gbkey=CDS;product=polyprotein;protein_id=BAD89964.1
+AB204852.1	DDBJ	mature_protein_region_of_CDS	744	950	.	+	.	ID=id-BAD89964.1:1..69;Parent=cds-BAD89964.1;gbkey=Prot;product=VP4 protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	951	1712	.	+	.	ID=id-BAD89964.1:70..323;Parent=cds-BAD89964.1;gbkey=Prot;product=VP2 protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	1713	2438	.	+	.	ID=id-BAD89964.1:324..565;Parent=cds-BAD89964.1;gbkey=Prot;product=VP3 protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	2439	3329	.	+	.	ID=id-BAD89964.1:566..862;Parent=cds-BAD89964.1;gbkey=Prot;product=VP1 protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	3330	3779	.	+	.	ID=id-BAD89964.1:863..1012;Parent=cds-BAD89964.1;gbkey=Prot;product=2A protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	3780	4076	.	+	.	ID=id-BAD89964.1:1013..1111;Parent=cds-BAD89964.1;gbkey=Prot;product=2B protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	4077	5063	.	+	.	ID=id-BAD89964.1:1112..1440;Parent=cds-BAD89964.1;gbkey=Prot;product=2C protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	5064	5321	.	+	.	ID=id-BAD89964.1:1441..1526;Parent=cds-BAD89964.1;gbkey=Prot;product=3A protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	5322	5387	.	+	.	ID=id-BAD89964.1:1527..1548;Parent=cds-BAD89964.1;gbkey=Prot;product=3B protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	5388	5936	.	+	.	ID=id-BAD89964.1:1549..1731;Parent=cds-BAD89964.1;gbkey=Prot;product=3C protein
+AB204852.1	DDBJ	mature_protein_region_of_CDS	5937	7322	.	+	.	ID=id-BAD89964.1:1732..2193;Parent=cds-BAD89964.1;gbkey=Prot;product=3D protein
+AB204852.1	DDBJ	three_prime_UTR	7326	7408	.	+	.	ID=id-AB204852.1:7326..7408;gbkey=3'UTR
+

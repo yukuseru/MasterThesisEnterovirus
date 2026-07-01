@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MZ171083.1 1 7457
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12089
+MZ171083.1	Genbank	region	1	7457	.	+	.	ID=MZ171083.1:1..7457;Dbxref=taxon:12089;collection-date=1994;country=China: BJ;gb-acronym=CV-A24;gbkey=Src;genome=genomic;isolate=94-10;mol_type=genomic RNA;nat-host=Homo sapiens
+MZ171083.1	Genbank	CDS	747	7391	.	+	0	ID=cds-UPY72218.1;Dbxref=NCBI_GP:UPY72218.1;Name=UPY72218.1;gbkey=CDS;product=polyprotein;protein_id=UPY72218.1
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP621606.1 1 7432
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138948
+PP621606.1	Genbank	region	1	7432	.	+	.	ID=PP621606.1:1..7432;Dbxref=taxon:138948;collection-date=2023;country=Nepal;gbkey=Src;genome=genomic;isolate=CV-A4/human/Nepal/ENV013/2023;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;strain=CV-A4
+PP621606.1	Genbank	CDS	746	7351	.	+	0	ID=cds-WZH62253.1;Dbxref=NCBI_GP:WZH62253.1;Name=WZH62253.1;gbkey=CDS;product=polyprotein;protein_id=WZH62253.1
+

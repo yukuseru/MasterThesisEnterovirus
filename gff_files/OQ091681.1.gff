@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OQ091681.1 1 7408
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31704
+OQ091681.1	Genbank	region	1	7408	.	+	.	ID=OQ091681.1:1..7408;Dbxref=taxon:31704;collected-by=Centre national de reference des Enterovirus et Parechovirus;collection-date=11-Jun-2018;country=France;gb-acronym=CV-A16;gbkey=Src;genome=genomic;isolation-source=oropharyngeal swab;mol_type=genomic RNA;nat-host=Homo sapiens%3B F%3B 1.7 years%3B Hand foot and mouth disease;strain=CVA16_180029928502_FRA18
+OQ091681.1	Genbank	five_prime_UTR	1	748	.	+	.	ID=id-OQ091681.1:1..748;gbkey=5'UTR
+OQ091681.1	Genbank	CDS	749	7330	.	+	0	ID=cds-WIL60466.1;Dbxref=NCBI_GP:WIL60466.1;Name=WIL60466.1;gbkey=CDS;product=polyprotein;protein_id=WIL60466.1
+OQ091681.1	Genbank	mature_protein_region_of_CDS	749	955	.	+	.	ID=id-WIL60466.1:1..69;Parent=cds-WIL60466.1;gbkey=Prot;product=VP4
+OQ091681.1	Genbank	mature_protein_region_of_CDS	956	1717	.	+	.	ID=id-WIL60466.1:70..323;Parent=cds-WIL60466.1;gbkey=Prot;product=VP2
+OQ091681.1	Genbank	mature_protein_region_of_CDS	1718	2443	.	+	.	ID=id-WIL60466.1:324..565;Parent=cds-WIL60466.1;gbkey=Prot;product=VP3
+OQ091681.1	Genbank	mature_protein_region_of_CDS	2444	3334	.	+	.	ID=id-WIL60466.1:566..862;Parent=cds-WIL60466.1;gbkey=Prot;product=VP1
+OQ091681.1	Genbank	mature_protein_region_of_CDS	3335	3784	.	+	.	ID=id-WIL60466.1:863..1012;Parent=cds-WIL60466.1;gbkey=Prot;product=2A
+OQ091681.1	Genbank	mature_protein_region_of_CDS	3785	4081	.	+	.	ID=id-WIL60466.1:1013..1111;Parent=cds-WIL60466.1;gbkey=Prot;product=2B
+OQ091681.1	Genbank	mature_protein_region_of_CDS	4082	5068	.	+	.	ID=id-WIL60466.1:1112..1440;Parent=cds-WIL60466.1;gbkey=Prot;product=2C
+OQ091681.1	Genbank	mature_protein_region_of_CDS	5069	5326	.	+	.	ID=id-WIL60466.1:1441..1526;Parent=cds-WIL60466.1;gbkey=Prot;product=3A
+OQ091681.1	Genbank	mature_protein_region_of_CDS	5327	5392	.	+	.	ID=id-WIL60466.1:1527..1548;Parent=cds-WIL60466.1;gbkey=Prot;product=3B
+OQ091681.1	Genbank	mature_protein_region_of_CDS	5393	5941	.	+	.	ID=id-WIL60466.1:1549..1731;Parent=cds-WIL60466.1;gbkey=Prot;product=3C
+OQ091681.1	Genbank	mature_protein_region_of_CDS	5942	7327	.	+	.	ID=id-WIL60466.1:1732..2193;Parent=cds-WIL60466.1;gbkey=Prot;product=3D
+OQ091681.1	Genbank	three_prime_UTR	7331	7408	.	+	.	ID=id-OQ091681.1:7331..7408;gbkey=3'UTR
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KC880376.1 1 7442
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+KC880376.1	Genbank	region	1	7442	.	+	.	ID=KC880376.1:1..7442;Dbxref=taxon:12080;clone=9;collection-date=01-Feb-2010;country=Tajikistan: Rudaki;gbkey=Src;genome=genomic;isolate=TJK35389;isolation-source=AFP case;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human poliovirus 1;serotype=PV1
+KC880376.1	Genbank	CDS	746	7375	.	+	0	ID=cds-AGS09865.1;Dbxref=NCBI_GP:AGS09865.1;Name=AGS09865.1;gbkey=CDS;product=polyprotein;protein_id=AGS09865.1
+

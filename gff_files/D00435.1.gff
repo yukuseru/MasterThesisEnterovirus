@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region D00435.1 1 7401
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12076
+D00435.1	DDBJ	region	1	7401	.	+	.	ID=D00435.1:1..7401;Dbxref=taxon:12076;clone=MPS671%2C MPS453%2C PBRS14%2C PBRS19;gbkey=Src;mol_type=genomic RNA
+D00435.1	DDBJ	CDS	744	7301	.	+	0	ID=cds-BAA00337.1;Dbxref=NCBI_GP:BAA00337.1;Name=BAA00337.1;Note=putative;gbkey=CDS;product=polyprotein;protein_id=BAA00337.1
+D00435.1	DDBJ	mature_protein_region_of_CDS	744	950	.	+	.	ID=id-BAA00337.1:1..69;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=1A(VP4) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	951	1733	.	+	.	ID=id-BAA00337.1:70..330;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=1B(VP2) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	1734	2447	.	+	.	ID=id-BAA00337.1:331..568;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=1C(VP3) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	2448	3296	.	+	.	ID=id-BAA00337.1:569..851;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=1D(VP1) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	3297	3746	.	+	.	ID=id-BAA00337.1:852..1001;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=2A protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	3747	4043	.	+	.	ID=id-BAA00337.1:1002..1100;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=2B protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	4044	5030	.	+	.	ID=id-BAA00337.1:1101..1429;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=2C protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	5031	5297	.	+	.	ID=id-BAA00337.1:1430..1518;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=3A protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	5298	5363	.	+	.	ID=id-BAA00337.1:1519..1540;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=3B(VPg) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	5364	5912	.	+	.	ID=id-BAA00337.1:1541..1723;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=3C(proteinase) protein
+D00435.1	DDBJ	mature_protein_region_of_CDS	5913	7298	.	+	.	ID=id-BAA00337.1:1724..2185;Note=putative;Parent=cds-BAA00337.1;gbkey=Prot;product=3D(polymerase) protein
+

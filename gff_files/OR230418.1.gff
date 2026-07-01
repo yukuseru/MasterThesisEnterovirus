@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR230418.1 1 7348
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+OR230418.1	Genbank	region	1	7348	.	+	.	ID=OR230418.1:1..7348;Dbxref=taxon:42789;collection-date=2020;country=USA;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=USA/2020-23456;isolation-source=nasopharyngeal swab;mol_type=genomic RNA;nat-host=Homo sapiens;note=clinical specimen
+OR230418.1	Genbank	CDS	711	7280	.	+	0	ID=cds-WKN12594.1;Dbxref=NCBI_GP:WKN12594.1;Name=WKN12594.1;gbkey=CDS;product=polyprotein;protein_id=WKN12594.1
+OR230418.1	Genbank	mature_protein_region_of_CDS	711	917	.	+	.	ID=id-WKN12594.1:1..69;Parent=cds-WKN12594.1;gbkey=Prot;product=VP4
+OR230418.1	Genbank	mature_protein_region_of_CDS	918	1661	.	+	.	ID=id-WKN12594.1:70..317;Parent=cds-WKN12594.1;gbkey=Prot;product=VP2
+OR230418.1	Genbank	mature_protein_region_of_CDS	1662	2366	.	+	.	ID=id-WKN12594.1:318..552;Parent=cds-WKN12594.1;gbkey=Prot;product=VP3
+OR230418.1	Genbank	mature_protein_region_of_CDS	2367	3296	.	+	.	ID=id-WKN12594.1:553..862;Parent=cds-WKN12594.1;gbkey=Prot;product=VP1
+OR230418.1	Genbank	mature_protein_region_of_CDS	3297	3737	.	+	.	ID=id-WKN12594.1:863..1009;Parent=cds-WKN12594.1;gbkey=Prot;product=2A
+OR230418.1	Genbank	mature_protein_region_of_CDS	3738	4034	.	+	.	ID=id-WKN12594.1:1010..1108;Parent=cds-WKN12594.1;gbkey=Prot;product=2B
+OR230418.1	Genbank	mature_protein_region_of_CDS	4035	5024	.	+	.	ID=id-WKN12594.1:1109..1438;Parent=cds-WKN12594.1;gbkey=Prot;product=2C
+OR230418.1	Genbank	mature_protein_region_of_CDS	5025	5291	.	+	.	ID=id-WKN12594.1:1439..1527;Parent=cds-WKN12594.1;gbkey=Prot;product=3A
+OR230418.1	Genbank	mature_protein_region_of_CDS	5292	5357	.	+	.	ID=id-WKN12594.1:1528..1549;Parent=cds-WKN12594.1;gbkey=Prot;product=3B
+OR230418.1	Genbank	mature_protein_region_of_CDS	5358	5906	.	+	.	ID=id-WKN12594.1:1550..1732;Parent=cds-WKN12594.1;gbkey=Prot;product=3C
+OR230418.1	Genbank	mature_protein_region_of_CDS	5907	7277	.	+	.	ID=id-WKN12594.1:1733..2189;Parent=cds-WKN12594.1;gbkey=Prot;product=3D
+

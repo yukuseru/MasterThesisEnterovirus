@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AM884184.1 1 7439
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+AM884184.1	EMBL	region	1	7439	.	+	.	ID=AM884184.1:1..7439;Dbxref=taxon:12083;collection-date=2002;country=Madagascar:Tolagnaro;gbkey=Src;isolate=VDPV MAD005;mol_type=genomic RNA;old-name=Human poliovirus 2;serotype=2
+AM884184.1	EMBL	five_prime_UTR	1	747	.	+	.	ID=id-AM884184.1:1..747;gbkey=5'UTR
+AM884184.1	EMBL	CDS	748	7371	.	+	0	ID=cds-CAP04369.1;Dbxref=GOA:Q08I37,InterPro:IPR000081,InterPro:IPR000199,InterPro:IPR000605,InterPro:IPR001205,InterPro:IPR001676,InterPro:IPR002527,InterPro:IPR003138,InterPro:IPR003593,InterPro:IPR004004,InterPro:IPR007094,InterPro:IPR009003,InterPro:IPR014759,InterPro:IPR014838,UniProtKB/TrEMBL:Q08I37,NCBI_GP:CAP04369.1;Name=CAP04369.1;gbkey=CDS;product=polyprotein;protein_id=CAP04369.1
+AM884184.1	EMBL	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-CAP04369.1:1..69;Parent=cds-CAP04369.1;gbkey=Prot;product=capsid protein VP4
+AM884184.1	EMBL	mature_protein_region_of_CDS	955	1767	.	+	.	ID=id-CAP04369.1:70..340;Parent=cds-CAP04369.1;gbkey=Prot;product=capsid protein VP2
+AM884184.1	EMBL	mature_protein_region_of_CDS	1768	2481	.	+	.	ID=id-CAP04369.1:341..578;Parent=cds-CAP04369.1;gbkey=Prot;product=capsid protein VP3
+AM884184.1	EMBL	mature_protein_region_of_CDS	2482	3384	.	+	.	ID=id-CAP04369.1:579..879;Parent=cds-CAP04369.1;gbkey=Prot;product=capsid protein VP1
+AM884184.1	EMBL	mature_protein_region_of_CDS	3385	3831	.	+	.	ID=id-CAP04369.1:880..1028;Parent=cds-CAP04369.1;gbkey=Prot;product=protease 2A
+AM884184.1	EMBL	mature_protein_region_of_CDS	3832	4122	.	+	.	ID=id-CAP04369.1:1029..1125;Parent=cds-CAP04369.1;gbkey=Prot;product=nonstructural protein 2B
+AM884184.1	EMBL	mature_protein_region_of_CDS	4123	5109	.	+	.	ID=id-CAP04369.1:1126..1454;Parent=cds-CAP04369.1;gbkey=Prot;product=nonstructural protein 2C
+AM884184.1	EMBL	mature_protein_region_of_CDS	5110	5370	.	+	.	ID=id-CAP04369.1:1455..1541;Parent=cds-CAP04369.1;gbkey=Prot;product=nonstructural protein 3A
+AM884184.1	EMBL	mature_protein_region_of_CDS	5371	5436	.	+	.	ID=id-CAP04369.1:1542..1563;Parent=cds-CAP04369.1;gbkey=Prot;product=genome-linked protein VPg
+AM884184.1	EMBL	mature_protein_region_of_CDS	5437	5985	.	+	.	ID=id-CAP04369.1:1564..1746;Parent=cds-CAP04369.1;gbkey=Prot;product=protease 3C
+AM884184.1	EMBL	mature_protein_region_of_CDS	5986	7368	.	+	.	ID=id-CAP04369.1:1747..2207;Parent=cds-CAP04369.1;gbkey=Prot;product=RNA polymerase 3D
+AM884184.1	EMBL	three_prime_UTR	7372	7439	.	+	.	ID=id-AM884184.1:7372..7439;gbkey=3'UTR
+

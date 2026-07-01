@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KP266576.1 1 7400
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12074
+KP266576.1	Genbank	region	1	7400	.	+	.	ID=KP266576.1:1..7400;Dbxref=taxon:12074;collection-date=25-Apr-2010;country=China;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=human coxsackievirus B5;strain=2001-01-101
+KP266576.1	Genbank	CDS	743	7300	.	+	0	ID=cds-AKE33317.1;Dbxref=NCBI_GP:AKE33317.1;Name=AKE33317.1;gbkey=CDS;product=polyprotein;protein_id=AKE33317.1
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KT354866.1 1 7462
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+KT354866.1	Genbank	region	1	7462	.	+	.	ID=KT354866.1:1..7462;Dbxref=taxon:39054;collection-date=01-Jul-2011;country=Taiwan;gb-acronym=EV-A71;gbkey=Src;genome=genomic;isolate=N1745-TW08/VP1-D164E;mol_type=genomic RNA;nat-host=Homo sapiens
+KT354866.1	Genbank	CDS	748	7329	.	+	0	ID=cds-ALC04471.1;Dbxref=NCBI_GP:ALC04471.1;Name=ALC04471.1;gbkey=CDS;product=polyprotein;protein_id=ALC04471.1
+

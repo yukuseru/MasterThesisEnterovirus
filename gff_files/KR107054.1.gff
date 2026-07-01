@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KR107054.1 1 7400
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12072
+KR107054.1	Genbank	region	1	7400	.	+	.	ID=KR107054.1:1..7400;Dbxref=taxon:12072;collection-date=2009;country=India;gbkey=Src;genome=genomic;isolate=NIV099351LV53P4;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Homo sapiens
+KR107054.1	Genbank	CDS	744	7301	.	+	0	ID=cds-ALX38425.1;Dbxref=NCBI_GP:ALX38425.1;Name=ALX38425.1;gbkey=CDS;product=polyprotein;protein_id=ALX38425.1
+

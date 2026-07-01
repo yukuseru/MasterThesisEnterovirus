@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR361388.1 1 7453
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12089
+OR361388.1	Genbank	region	1	7453	.	+	.	ID=OR361388.1:1..7453;Dbxref=taxon:12089;collection-date=02-Jun-2023;country=China;gb-acronym=CV-A24;gbkey=Src;genome=genomic;isolate=CA24v/China.Zhongshan/02/2023;isolation-source=conjunctival swab;mol_type=genomic RNA;nat-host=Homo sapiens
+OR361388.1	Genbank	CDS	746	7390	.	+	0	ID=cds-WNH28470.1;Dbxref=NCBI_GP:WNH28470.1;Name=WNH28470.1;gbkey=CDS;product=polyprotein;protein_id=WNH28470.1
+

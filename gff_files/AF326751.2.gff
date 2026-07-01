@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF326751.2 1 7378
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=172038
+AF326751.2	Genbank	region	1	7378	.	+	.	ID=AF326751.2:1..7378;Dbxref=taxon:172038;gbkey=Src;mol_type=genomic RNA;old-name=Simian picornavirus 17;strain=B165;synonym=simian virus SA5
+AF326751.2	Genbank	five_prime_UTR	1	722	.	+	.	ID=id-AF326751.2:1..722;gbkey=5'UTR
+AF326751.2	Genbank	CDS	723	7274	.	+	0	ID=cds-AAL69623.2;Dbxref=NCBI_GP:AAL69623.2;Name=AAL69623.2;gbkey=CDS;product=polyprotein;protein_id=AAL69623.2
+AF326751.2	Genbank	mature_protein_region_of_CDS	723	929	.	+	.	ID=id-AAL69623.2:1..69;Parent=cds-AAL69623.2;gbkey=Prot;product=1A (VP4)
+AF326751.2	Genbank	mature_protein_region_of_CDS	930	1712	.	+	.	ID=id-AAL69623.2:70..330;Parent=cds-AAL69623.2;gbkey=Prot;product=1B (VP2)
+AF326751.2	Genbank	mature_protein_region_of_CDS	1713	2426	.	+	.	ID=id-AAL69623.2:331..568;Parent=cds-AAL69623.2;gbkey=Prot;product=1C (VP3)
+AF326751.2	Genbank	mature_protein_region_of_CDS	2427	3269	.	+	.	ID=id-AAL69623.2:569..849;Parent=cds-AAL69623.2;gbkey=Prot;product=1D (VP1)
+AF326751.2	Genbank	mature_protein_region_of_CDS	3270	3719	.	+	.	ID=id-AAL69623.2:850..999;Parent=cds-AAL69623.2;gbkey=Prot;product=2A
+AF326751.2	Genbank	mature_protein_region_of_CDS	3720	4016	.	+	.	ID=id-AAL69623.2:1000..1098;Parent=cds-AAL69623.2;gbkey=Prot;product=2B
+AF326751.2	Genbank	mature_protein_region_of_CDS	4017	5003	.	+	.	ID=id-AAL69623.2:1099..1427;Parent=cds-AAL69623.2;gbkey=Prot;product=2C
+AF326751.2	Genbank	mature_protein_region_of_CDS	5004	5270	.	+	.	ID=id-AAL69623.2:1428..1516;Parent=cds-AAL69623.2;gbkey=Prot;product=3A
+AF326751.2	Genbank	mature_protein_region_of_CDS	5271	5336	.	+	.	ID=id-AAL69623.2:1517..1538;Parent=cds-AAL69623.2;gbkey=Prot;product=3B (VPg)
+AF326751.2	Genbank	mature_protein_region_of_CDS	5337	5885	.	+	.	ID=id-AAL69623.2:1539..1721;Parent=cds-AAL69623.2;gbkey=Prot;product=3C
+AF326751.2	Genbank	mature_protein_region_of_CDS	5886	7271	.	+	.	ID=id-AAL69623.2:1722..2183;Parent=cds-AAL69623.2;gbkey=Prot;product=3D
+AF326751.2	Genbank	three_prime_UTR	7275	7378	.	+	.	ID=id-AF326751.2:7275..7378;gbkey=3'UTR
+

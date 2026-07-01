@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region DQ060149.1 1 7464
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+DQ060149.1	Genbank	region	1	7464	.	+	.	ID=DQ060149.1:1..7464;Dbxref=taxon:39054;country=Taiwan;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;old-name=Enterovirus 71;strain=pinf7-54A
+DQ060149.1	Genbank	five_prime_UTR	1	745	.	+	.	ID=id-DQ060149.1:1..745;gbkey=5'UTR
+DQ060149.1	Genbank	CDS	746	7327	.	+	0	ID=cds-AAY59418.1;Dbxref=NCBI_GP:AAY59418.1;Name=AAY59418.1;gbkey=CDS;product=polyprotein;protein_id=AAY59418.1
+DQ060149.1	Genbank	mature_protein_region_of_CDS	746	952	.	+	.	ID=id-AAY59418.1:1..69;Parent=cds-AAY59418.1;gbkey=Prot;product=capsid protein VP4
+DQ060149.1	Genbank	mature_protein_region_of_CDS	953	1714	.	+	.	ID=id-AAY59418.1:70..323;Parent=cds-AAY59418.1;gbkey=Prot;product=capsid protein VP2
+DQ060149.1	Genbank	mature_protein_region_of_CDS	1715	2440	.	+	.	ID=id-AAY59418.1:324..565;Parent=cds-AAY59418.1;gbkey=Prot;product=capsid protein VP3
+DQ060149.1	Genbank	mature_protein_region_of_CDS	2441	3331	.	+	.	ID=id-AAY59418.1:566..862;Parent=cds-AAY59418.1;gbkey=Prot;product=capsid protein VP1
+DQ060149.1	Genbank	mature_protein_region_of_CDS	3332	3781	.	+	.	ID=id-AAY59418.1:863..1012;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 2A
+DQ060149.1	Genbank	mature_protein_region_of_CDS	3782	4078	.	+	.	ID=id-AAY59418.1:1013..1111;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 2B
+DQ060149.1	Genbank	mature_protein_region_of_CDS	4079	5065	.	+	.	ID=id-AAY59418.1:1112..1440;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 2C
+DQ060149.1	Genbank	mature_protein_region_of_CDS	5066	5323	.	+	.	ID=id-AAY59418.1:1441..1526;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 3A
+DQ060149.1	Genbank	mature_protein_region_of_CDS	5324	5389	.	+	.	ID=id-AAY59418.1:1527..1548;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 3B
+DQ060149.1	Genbank	mature_protein_region_of_CDS	5390	5938	.	+	.	ID=id-AAY59418.1:1549..1731;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 3C
+DQ060149.1	Genbank	mature_protein_region_of_CDS	5939	7324	.	+	.	ID=id-AAY59418.1:1732..2193;Parent=cds-AAY59418.1;gbkey=Prot;product=protein 3D
+DQ060149.1	Genbank	three_prime_UTR	7328	7410	.	+	.	ID=id-DQ060149.1:7328..7410;gbkey=3'UTR
+

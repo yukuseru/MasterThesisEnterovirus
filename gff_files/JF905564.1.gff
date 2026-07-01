@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JF905564.1 1 7441
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=306588
+JF905564.1	Genbank	region	1	7441	.	+	.	ID=JF905564.1:1..7441;Dbxref=taxon:306588;collection-date=15-Aug-2004;country=China;gb-acronym=EV-A76;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus 76;strain=04360/SD/CHN/2004/EV76
+JF905564.1	Genbank	five_prime_UTR	1	751	.	+	.	ID=id-JF905564.1:1..751;gbkey=5'UTR
+JF905564.1	Genbank	CDS	752	7348	.	+	0	ID=cds-AEK80016.1;Dbxref=NCBI_GP:AEK80016.1;Name=AEK80016.1;gbkey=CDS;product=polyprotein;protein_id=AEK80016.1
+JF905564.1	Genbank	three_prime_UTR	7349	7441	.	+	.	ID=id-JF905564.1:7349..7441;gbkey=3'UTR
+

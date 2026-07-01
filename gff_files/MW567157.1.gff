@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MW567157.1 1 7347
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+MW567157.1	Genbank	region	1	7347	.	+	.	ID=MW567157.1:1..7347;Dbxref=taxon:42789;collection-date=May-2016/Dec-2017;country=China;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=S0003LXT;isolation-source=bronchoalveolar lavage fluid;mol_type=genomic RNA;nat-host=Homo sapiens
+MW567157.1	Genbank	five_prime_UTR	1	709	.	+	.	ID=id-MW567157.1:1..709;gbkey=5'UTR
+MW567157.1	Genbank	CDS	710	7279	.	+	0	ID=cds-QVT76598.1;Dbxref=NCBI_GP:QVT76598.1;Name=QVT76598.1;gbkey=CDS;product=polyprotein;protein_id=QVT76598.1
+MW567157.1	Genbank	three_prime_UTR	7280	7347	.	+	.	ID=id-MW567157.1:7280..7347;gbkey=3'UTR
+

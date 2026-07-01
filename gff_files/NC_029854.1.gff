@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_029854.1 1 7382
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1604871
+NC_029854.1	RefSeq	region	1	7382	.	+	.	ID=NC_029854.1:1..7382;Dbxref=taxon:1604871;collection-date=15-Aug-2014;country=China;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=yaks;strain=SWUN-AB001
+NC_029854.1	RefSeq	five_prime_UTR	1	816	.	+	.	ID=id-NC_029854.1:1..816;gbkey=5'UTR
+NC_029854.1	RefSeq	gene	817	7317	.	+	.	ID=gene-A5N51_gp1;Dbxref=GeneID:27214992;Name=A5N51_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=A5N51_gp1
+NC_029854.1	RefSeq	CDS	817	7317	.	+	0	ID=cds-YP_009243645.1;Parent=gene-A5N51_gp1;Dbxref=GenBank:YP_009243645.1,GeneID:27214992;Name=YP_009243645.1;gbkey=CDS;locus_tag=A5N51_gp1;product=polyprotein;protein_id=YP_009243645.1
+NC_029854.1	RefSeq	three_prime_UTR	7318	7382	.	+	.	ID=id-NC_029854.1:7318..7382;gbkey=3'UTR
+

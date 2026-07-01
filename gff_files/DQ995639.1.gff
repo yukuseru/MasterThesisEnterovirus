@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region DQ995639.1 1 7457
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42772
+DQ995639.1	Genbank	region	1	7457	.	+	.	ID=DQ995639.1:1..7457;Dbxref=taxon:42772;country=Bangladesh;gb-acronym=CV-A13;gbkey=Src;mol_type=genomic RNA;old-name=Human coxsackievirus A13;strain=BAN00-10494
+DQ995639.1	Genbank	CDS	747	7388	.	+	0	ID=cds-ABM21509.1;Dbxref=NCBI_GP:ABM21509.1;Name=ABM21509.1;gbkey=CDS;product=polyprotein;protein_id=ABM21509.1
+DQ995639.1	Genbank	mature_protein_region_of_CDS	747	953	.	+	.	ID=id-ABM21509.1:1..69;Parent=cds-ABM21509.1;gbkey=Prot;product=vp4
+DQ995639.1	Genbank	mature_protein_region_of_CDS	954	1766	.	+	.	ID=id-ABM21509.1:70..340;Parent=cds-ABM21509.1;gbkey=Prot;product=vp2
+DQ995639.1	Genbank	mature_protein_region_of_CDS	1767	2480	.	+	.	ID=id-ABM21509.1:341..578;Parent=cds-ABM21509.1;gbkey=Prot;product=vp3
+DQ995639.1	Genbank	mature_protein_region_of_CDS	2481	3404	.	+	.	ID=id-ABM21509.1:579..886;Parent=cds-ABM21509.1;gbkey=Prot;product=vp1
+DQ995639.1	Genbank	mature_protein_region_of_CDS	3405	3848	.	+	.	ID=id-ABM21509.1:887..1034;Parent=cds-ABM21509.1;gbkey=Prot;product=2a
+DQ995639.1	Genbank	mature_protein_region_of_CDS	3849	4139	.	+	.	ID=id-ABM21509.1:1035..1131;Parent=cds-ABM21509.1;gbkey=Prot;product=2b
+DQ995639.1	Genbank	mature_protein_region_of_CDS	4140	5126	.	+	.	ID=id-ABM21509.1:1132..1460;Parent=cds-ABM21509.1;gbkey=Prot;product=2c
+DQ995639.1	Genbank	mature_protein_region_of_CDS	5127	5387	.	+	.	ID=id-ABM21509.1:1461..1547;Parent=cds-ABM21509.1;gbkey=Prot;product=3a
+DQ995639.1	Genbank	mature_protein_region_of_CDS	5388	5453	.	+	.	ID=id-ABM21509.1:1548..1569;Parent=cds-ABM21509.1;gbkey=Prot;product=3b
+DQ995639.1	Genbank	mature_protein_region_of_CDS	5454	6002	.	+	.	ID=id-ABM21509.1:1570..1752;Parent=cds-ABM21509.1;gbkey=Prot;product=3c
+DQ995639.1	Genbank	mature_protein_region_of_CDS	6003	7385	.	+	.	ID=id-ABM21509.1:1753..2213;Parent=cds-ABM21509.1;gbkey=Prot;product=3d
+

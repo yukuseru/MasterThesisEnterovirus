@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region HQ998851.1 1 7401
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12074
+HQ998851.1	Genbank	region	1	7401	.	+	.	ID=HQ998851.1:1..7401;Dbxref=taxon:12074;collection-date=2010;country=China;gbkey=Src;genome=genomic;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human coxsackievirus B5;strain=COXB5/Henan/2010
+HQ998851.1	Genbank	five_prime_UTR	1	742	.	+	.	ID=id-HQ998851.1:1..742;gbkey=5'UTR
+HQ998851.1	Genbank	CDS	743	7300	.	+	0	ID=cds-AEK98148.1;Dbxref=NCBI_GP:AEK98148.1;Name=AEK98148.1;gbkey=CDS;product=polyprotein;protein_id=AEK98148.1
+HQ998851.1	Genbank	mature_protein_region_of_CDS	743	949	.	+	.	ID=id-AEK98148.1:1..69;Parent=cds-AEK98148.1;gbkey=Prot;product=VP4
+HQ998851.1	Genbank	mature_protein_region_of_CDS	950	1732	.	+	.	ID=id-AEK98148.1:70..330;Parent=cds-AEK98148.1;gbkey=Prot;product=VP2
+HQ998851.1	Genbank	mature_protein_region_of_CDS	1733	2446	.	+	.	ID=id-AEK98148.1:331..568;Parent=cds-AEK98148.1;gbkey=Prot;product=VP3
+HQ998851.1	Genbank	mature_protein_region_of_CDS	2447	3295	.	+	.	ID=id-AEK98148.1:569..851;Parent=cds-AEK98148.1;gbkey=Prot;product=VP1
+HQ998851.1	Genbank	mature_protein_region_of_CDS	3296	3745	.	+	.	ID=id-AEK98148.1:852..1001;Parent=cds-AEK98148.1;gbkey=Prot;product=2A
+HQ998851.1	Genbank	mature_protein_region_of_CDS	3746	4042	.	+	.	ID=id-AEK98148.1:1002..1100;Parent=cds-AEK98148.1;gbkey=Prot;product=2B
+HQ998851.1	Genbank	mature_protein_region_of_CDS	4043	5029	.	+	.	ID=id-AEK98148.1:1101..1429;Parent=cds-AEK98148.1;gbkey=Prot;product=2C
+HQ998851.1	Genbank	mature_protein_region_of_CDS	5030	5296	.	+	.	ID=id-AEK98148.1:1430..1518;Parent=cds-AEK98148.1;gbkey=Prot;product=3A
+HQ998851.1	Genbank	mature_protein_region_of_CDS	5297	5362	.	+	.	ID=id-AEK98148.1:1519..1540;Parent=cds-AEK98148.1;gbkey=Prot;product=3B
+HQ998851.1	Genbank	mature_protein_region_of_CDS	5363	5914	.	+	.	ID=id-AEK98148.1:1541..1724;Parent=cds-AEK98148.1;gbkey=Prot;product=3C
+HQ998851.1	Genbank	mature_protein_region_of_CDS	5915	7297	.	+	.	ID=id-AEK98148.1:1725..2185;Parent=cds-AEK98148.1;gbkey=Prot;product=3D
+HQ998851.1	Genbank	three_prime_UTR	7301	7401	.	+	.	ID=id-HQ998851.1:7301..7401;gbkey=3'UTR
+

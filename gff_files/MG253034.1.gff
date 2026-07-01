@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MG253034.1 1 7425
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=297248
+MG253034.1	Genbank	region	1	7425	.	+	.	ID=MG253034.1:1..7425;Dbxref=taxon:297248;collection-date=2011;country=China;gb-acronym=EV-A90;gbkey=Src;genome=genomic;isolate=PSH40F/XJ/CHN/2011;isolation-source=RD cell;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=C2
+MG253034.1	Genbank	five_prime_UTR	1	749	.	+	.	ID=id-MG253034.1:1..749;gbkey=5'UTR
+MG253034.1	Genbank	CDS	750	7331	.	+	0	ID=cds-AXB87373.1;Dbxref=NCBI_GP:AXB87373.1;Name=AXB87373.1;gbkey=CDS;product=polyprotein;protein_id=AXB87373.1
+MG253034.1	Genbank	mature_protein_region_of_CDS	750	956	.	+	.	ID=id-AXB87373.1:1..69;Parent=cds-AXB87373.1;gbkey=Prot;product=VP4
+MG253034.1	Genbank	mature_protein_region_of_CDS	957	1721	.	+	.	ID=id-AXB87373.1:70..324;Parent=cds-AXB87373.1;gbkey=Prot;product=VP2
+MG253034.1	Genbank	mature_protein_region_of_CDS	1722	2453	.	+	.	ID=id-AXB87373.1:325..568;Parent=cds-AXB87373.1;gbkey=Prot;product=VP3
+MG253034.1	Genbank	mature_protein_region_of_CDS	2454	3338	.	+	.	ID=id-AXB87373.1:569..863;Parent=cds-AXB87373.1;gbkey=Prot;product=VP1
+MG253034.1	Genbank	mature_protein_region_of_CDS	3339	3758	.	+	.	ID=id-AXB87373.1:864..1003;Parent=cds-AXB87373.1;gbkey=Prot;product=2A
+MG253034.1	Genbank	mature_protein_region_of_CDS	3759	4085	.	+	.	ID=id-AXB87373.1:1004..1112;Parent=cds-AXB87373.1;gbkey=Prot;product=2B
+MG253034.1	Genbank	mature_protein_region_of_CDS	4086	5072	.	+	.	ID=id-AXB87373.1:1113..1441;Parent=cds-AXB87373.1;gbkey=Prot;product=2C
+MG253034.1	Genbank	mature_protein_region_of_CDS	5073	5327	.	+	.	ID=id-AXB87373.1:1442..1526;Parent=cds-AXB87373.1;gbkey=Prot;product=3A
+MG253034.1	Genbank	mature_protein_region_of_CDS	5328	5393	.	+	.	ID=id-AXB87373.1:1527..1548;Parent=cds-AXB87373.1;gbkey=Prot;product=3B
+MG253034.1	Genbank	mature_protein_region_of_CDS	5394	5942	.	+	.	ID=id-AXB87373.1:1549..1731;Parent=cds-AXB87373.1;gbkey=Prot;product=3C
+MG253034.1	Genbank	mature_protein_region_of_CDS	5943	7328	.	+	.	ID=id-AXB87373.1:1732..2193;Parent=cds-AXB87373.1;gbkey=Prot;product=3D
+MG253034.1	Genbank	three_prime_UTR	7332	7425	.	+	.	ID=id-MG253034.1:7332..7425;gbkey=3'UTR
+

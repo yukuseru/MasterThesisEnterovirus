@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region FJ769382.1 1 7441
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+FJ769382.1	Genbank	region	1	7441	.	+	.	ID=FJ769382.1:1..7441;Dbxref=taxon:12080;collection-date=15-Jun-2004;country=China;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;note=circulating vaccine-derived virus%3B passaged in L20B cell-line;old-name=Human poliovirus type 1;serotype=1;strain=CHN8233c/GZ/CHN/2004
+FJ769382.1	Genbank	five_prime_UTR	1	742	.	+	.	ID=id-FJ769382.1:1..742;gbkey=5'UTR
+FJ769382.1	Genbank	CDS	743	7372	.	+	0	ID=cds-ACS88254.1;Dbxref=NCBI_GP:ACS88254.1;Name=ACS88254.1;gbkey=CDS;product=polyprotein;protein_id=ACS88254.1
+FJ769382.1	Genbank	mature_protein_region_of_CDS	743	949	.	+	.	ID=id-ACS88254.1:1..69;Parent=cds-ACS88254.1;gbkey=Prot;product=VP4
+FJ769382.1	Genbank	mature_protein_region_of_CDS	950	1765	.	+	.	ID=id-ACS88254.1:70..341;Parent=cds-ACS88254.1;gbkey=Prot;product=VP2
+FJ769382.1	Genbank	mature_protein_region_of_CDS	1766	2479	.	+	.	ID=id-ACS88254.1:342..579;Parent=cds-ACS88254.1;gbkey=Prot;product=VP3
+FJ769382.1	Genbank	mature_protein_region_of_CDS	2480	3385	.	+	.	ID=id-ACS88254.1:580..881;Parent=cds-ACS88254.1;gbkey=Prot;product=VP1
+FJ769382.1	Genbank	mature_protein_region_of_CDS	3386	3832	.	+	.	ID=id-ACS88254.1:882..1030;Parent=cds-ACS88254.1;gbkey=Prot;product=2A
+FJ769382.1	Genbank	mature_protein_region_of_CDS	3833	4123	.	+	.	ID=id-ACS88254.1:1031..1127;Parent=cds-ACS88254.1;gbkey=Prot;product=2B
+FJ769382.1	Genbank	mature_protein_region_of_CDS	4124	5110	.	+	.	ID=id-ACS88254.1:1128..1456;Parent=cds-ACS88254.1;gbkey=Prot;product=2C
+FJ769382.1	Genbank	mature_protein_region_of_CDS	5111	5371	.	+	.	ID=id-ACS88254.1:1457..1543;Parent=cds-ACS88254.1;gbkey=Prot;product=3A
+FJ769382.1	Genbank	mature_protein_region_of_CDS	5372	5437	.	+	.	ID=id-ACS88254.1:1544..1565;Parent=cds-ACS88254.1;gbkey=Prot;product=3B
+FJ769382.1	Genbank	mature_protein_region_of_CDS	5438	5986	.	+	.	ID=id-ACS88254.1:1566..1748;Parent=cds-ACS88254.1;gbkey=Prot;product=3C
+FJ769382.1	Genbank	mature_protein_region_of_CDS	5987	7369	.	+	.	ID=id-ACS88254.1:1749..2209;Parent=cds-ACS88254.1;gbkey=Prot;product=3D
+FJ769382.1	Genbank	three_prime_UTR	7373	7441	.	+	.	ID=id-FJ769382.1:7373..7441;gbkey=3'UTR
+

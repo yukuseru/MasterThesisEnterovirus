@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_029905.1 1 7367
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1826059
+NC_029905.1	RefSeq	region	1	7367	.	+	.	ID=NC_029905.1:1..7367;Dbxref=taxon:1826059;collection-date=17-May-2014;country=China;gbkey=Src;genome=genomic;isolate=SEV-gx;mol_type=genomic RNA;nat-host=Macaca mulatta
+NC_029905.1	RefSeq	five_prime_UTR	1	660	.	+	.	ID=id-NC_029905.1:1..660;gbkey=5'UTR
+NC_029905.1	RefSeq	gene	661	7290	.	+	.	ID=gene-A6I61_gp1;Dbxref=GeneID:27246432;Name=A6I61_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=A6I61_gp1
+NC_029905.1	RefSeq	CDS	661	7290	.	+	0	ID=cds-YP_009246449.1;Parent=gene-A6I61_gp1;Dbxref=GenBank:YP_009246449.1,GeneID:27246432;Name=YP_009246449.1;gbkey=CDS;locus_tag=A6I61_gp1;product=polyprotein;protein_id=YP_009246449.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	661	867	.	+	.	ID=id-YP_009246449.1:1..69;Parent=cds-YP_009246449.1;gbkey=Prot;product=VP4;protein_id=YP_009249463.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	868	1608	.	+	.	ID=id-YP_009246449.1:70..316;Parent=cds-YP_009246449.1;gbkey=Prot;product=VP2;protein_id=YP_009249464.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	1609	2313	.	+	.	ID=id-YP_009246449.1:317..551;Parent=cds-YP_009246449.1;gbkey=Prot;product=VP3;protein_id=YP_009249465.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	2314	3234	.	+	.	ID=id-YP_009246449.1:552..858;Parent=cds-YP_009246449.1;gbkey=Prot;product=VP1;protein_id=YP_009249466.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	3235	3693	.	+	.	ID=id-YP_009246449.1:859..1011;Parent=cds-YP_009246449.1;gbkey=Prot;product=2A;protein_id=YP_009249467.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	3694	3990	.	+	.	ID=id-YP_009246449.1:1012..1110;Parent=cds-YP_009246449.1;gbkey=Prot;product=2B;protein_id=YP_009249468.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	3991	4974	.	+	.	ID=id-YP_009246449.1:1111..1438;Parent=cds-YP_009246449.1;gbkey=Prot;product=2C;protein_id=YP_009249469.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	4975	5238	.	+	.	ID=id-YP_009246449.1:1439..1526;Parent=cds-YP_009246449.1;gbkey=Prot;product=3A;protein_id=YP_009249470.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	5239	5304	.	+	.	ID=id-YP_009246449.1:1527..1548;Parent=cds-YP_009246449.1;gbkey=Prot;product=3B;protein_id=YP_009249471.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	5305	5856	.	+	.	ID=id-YP_009246449.1:1549..1732;Parent=cds-YP_009246449.1;gbkey=Prot;product=3C;protein_id=YP_009249472.1
+NC_029905.1	RefSeq	mature_protein_region_of_CDS	5857	7287	.	+	.	ID=id-YP_009246449.1:1733..2209;Parent=cds-YP_009246449.1;gbkey=Prot;product=3D;protein_id=YP_009249473.1
+NC_029905.1	RefSeq	three_prime_UTR	7291	7367	.	+	.	ID=id-NC_029905.1:7291..7367;gbkey=3'UTR
+

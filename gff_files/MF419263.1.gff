@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MF419263.1 1 7415
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12089
+MF419263.1	Genbank	region	1	7415	.	+	.	ID=MF419263.1:1..7415;Dbxref=taxon:12089;collection-date=Jun-2017;country=French Guiana;gb-acronym=CV-A24;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=GUF-2017-B0519081
+MF419263.1	Genbank	CDS	728	7372	.	+	0	ID=cds-AWL13545.1;Dbxref=NCBI_GP:AWL13545.1;Name=AWL13545.1;gbkey=CDS;product=polyprotein;protein_id=AWL13545.1
+

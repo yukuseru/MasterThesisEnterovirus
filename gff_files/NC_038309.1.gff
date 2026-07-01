@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_038309.1 1 7295
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=442851
+NC_038309.1	RefSeq	region	1	7295	.	+	.	ID=NC_038309.1:1..7295;Dbxref=taxon:442851;clone=SV4;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=1715 UWB;synonym=simian virus 4
+NC_038309.1	RefSeq	five_prime_UTR	1	666	.	+	.	ID=id-NC_038309.1:1..666;gbkey=5'UTR
+NC_038309.1	RefSeq	gene	667	7230	.	+	.	ID=gene-D1P34_gp1;Dbxref=GeneID:37616480;Name=D1P34_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=D1P34_gp1
+NC_038309.1	RefSeq	CDS	667	7230	.	+	0	ID=cds-YP_009505606.1;Parent=gene-D1P34_gp1;Dbxref=GenBank:YP_009505606.1,GeneID:37616480;Name=YP_009505606.1;gbkey=CDS;locus_tag=D1P34_gp1;product=polyprotein;protein_id=YP_009505606.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	667	873	.	+	.	ID=id-YP_009505606.1:1..69;Parent=cds-YP_009505606.1;gbkey=Prot;product=1A (VP4);protein_id=YP_009508952.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	874	1623	.	+	.	ID=id-YP_009505606.1:70..319;Parent=cds-YP_009505606.1;gbkey=Prot;product=1B (VP2);protein_id=YP_009508953.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	1624	2340	.	+	.	ID=id-YP_009505606.1:320..558;Parent=cds-YP_009505606.1;gbkey=Prot;product=1C (VP3);protein_id=YP_009508954.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	2341	3246	.	+	.	ID=id-YP_009505606.1:559..860;Parent=cds-YP_009505606.1;gbkey=Prot;product=1D (VP1);protein_id=YP_009508955.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	3247	3687	.	+	.	ID=id-YP_009505606.1:861..1007;Parent=cds-YP_009505606.1;gbkey=Prot;product=2A;protein_id=YP_009508956.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	3688	3984	.	+	.	ID=id-YP_009505606.1:1008..1106;Parent=cds-YP_009505606.1;gbkey=Prot;product=2B;protein_id=YP_009508957.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	3985	4971	.	+	.	ID=id-YP_009505606.1:1107..1435;Parent=cds-YP_009505606.1;gbkey=Prot;product=2C;protein_id=YP_009508958.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	4972	5232	.	+	.	ID=id-YP_009505606.1:1436..1522;Parent=cds-YP_009505606.1;gbkey=Prot;product=3A;protein_id=YP_009508959.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	5233	5298	.	+	.	ID=id-YP_009505606.1:1523..1544;Parent=cds-YP_009505606.1;gbkey=Prot;product=3B (VPg);protein_id=YP_009508960.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	5299	5847	.	+	.	ID=id-YP_009505606.1:1545..1727;Parent=cds-YP_009505606.1;gbkey=Prot;product=3C;protein_id=YP_009508961.1
+NC_038309.1	RefSeq	mature_protein_region_of_CDS	5848	7227	.	+	.	ID=id-YP_009505606.1:1728..2187;Parent=cds-YP_009505606.1;gbkey=Prot;product=3D;protein_id=YP_009508962.1
+NC_038309.1	RefSeq	three_prime_UTR	7231	7295	.	+	.	ID=id-NC_038309.1:7231..7295;gbkey=3'UTR
+

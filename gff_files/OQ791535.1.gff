@@ -1,0 +1,18 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OQ791535.1 1 7372
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12074
+OQ791535.1	Genbank	region	1	7372	.	+	.	ID=OQ791535.1:1..7372;Dbxref=taxon:12074;collection-date=2010-09;country=USA;gbkey=Src;isolate=CVB5/USA/6S4/2010;mol_type=genomic RNA;nat-host=Homo sapiens
+OQ791535.1	Genbank	CDS	710	7267	.	+	0	ID=cds-WGU13619.1;Dbxref=NCBI_GP:WGU13619.1;Name=WGU13619.1;gbkey=CDS;product=polyprotein;protein_id=WGU13619.1
+OQ791535.1	Genbank	mature_protein_region_of_CDS	710	916	.	+	.	ID=id-WGU13619.1:1..69;Parent=cds-WGU13619.1;gbkey=Prot;product=VP4 capsid protein
+OQ791535.1	Genbank	mature_protein_region_of_CDS	917	1699	.	+	.	ID=id-WGU13619.1:70..330;Parent=cds-WGU13619.1;gbkey=Prot;product=VP2 capsid protein
+OQ791535.1	Genbank	mature_protein_region_of_CDS	1700	2413	.	+	.	ID=id-WGU13619.1:331..568;Parent=cds-WGU13619.1;gbkey=Prot;product=VP3 capsid protein
+OQ791535.1	Genbank	mature_protein_region_of_CDS	2414	3262	.	+	.	ID=id-WGU13619.1:569..851;Parent=cds-WGU13619.1;gbkey=Prot;product=VP1 capsid protein
+OQ791535.1	Genbank	mature_protein_region_of_CDS	3263	3712	.	+	.	ID=id-WGU13619.1:852..1001;Parent=cds-WGU13619.1;gbkey=Prot;product=proteinase
+OQ791535.1	Genbank	mature_protein_region_of_CDS	4010	4996	.	+	.	ID=id-WGU13619.1:1101..1429;Parent=cds-WGU13619.1;gbkey=Prot;product=helicase
+OQ791535.1	Genbank	mature_protein_region_of_CDS	4997	5263	.	+	.	ID=id-WGU13619.1:1430..1518;Parent=cds-WGU13619.1;gbkey=Prot;product=unnamed
+OQ791535.1	Genbank	mature_protein_region_of_CDS	5264	5329	.	+	.	ID=id-WGU13619.1:1519..1540;Parent=cds-WGU13619.1;gbkey=Prot;product=VPg
+OQ791535.1	Genbank	mature_protein_region_of_CDS	5330	5878	.	+	.	ID=id-WGU13619.1:1541..1723;Parent=cds-WGU13619.1;gbkey=Prot;product=proteinase
+OQ791535.1	Genbank	mature_protein_region_of_CDS	5879	7264	.	+	.	ID=id-WGU13619.1:1724..2185;Parent=cds-WGU13619.1;gbkey=Prot;product=unnamed
+

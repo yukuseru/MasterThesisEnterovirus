@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON730871.1 1 7635
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42785
+ON730871.1	Genbank	region	1	7635	.	+	.	ID=ON730871.1:1..7635;Dbxref=taxon:42785;collection-date=08-Jul-2019;country=China;gb-acronym=CV-A4;gbkey=Src;genome=genomic;isolate=JN19520/Shandong/China/2019;isolation-source=serum;mol_type=genomic RNA;nat-host=Homo sapiens
+ON730871.1	Genbank	CDS	949	7554	.	+	0	ID=cds-WGM83099.1;Dbxref=NCBI_GP:WGM83099.1;Name=WGM83099.1;gbkey=CDS;product=polyprotein;protein_id=WGM83099.1
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MK105983.1 1 7281
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+MK105983.1	Genbank	region	1	7281	.	+	.	ID=MK105983.1:1..7281;Dbxref=taxon:42789;collection-date=18-Aug-2018;country=France: Lyon;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=VRES189236;isolation-source=nasopharyngeal swab;mol_type=genomic RNA;nat-host=Homo sapiens%3B M%3B 1.32Y
+MK105983.1	Genbank	CDS	654	7220	.	+	0	ID=cds-AYW17092.1;Dbxref=NCBI_GP:AYW17092.1;Name=AYW17092.1;gbkey=CDS;product=polyprotein;protein_id=AYW17092.1
+

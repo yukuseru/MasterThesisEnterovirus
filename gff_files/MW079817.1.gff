@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MW079817.1 1 7424
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42786
+MW079817.1	Genbank	region	1	7424	.	+	.	ID=MW079817.1:1..7424;Dbxref=taxon:42786;collection-date=2017;country=China;gb-acronym=CV-A5;gbkey=Src;genome=genomic;isolate=CV-A5-3487-M14-XY-CHN-2017;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Human sapiens
+MW079817.1	Genbank	CDS	746	7321	.	+	0	ID=cds-QPG02360.1;Dbxref=NCBI_GP:QPG02360.1;Name=QPG02360.1;gbkey=CDS;product=polyprotein;protein_id=QPG02360.1
+

@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MW183134.1 1 7425
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=282345
+MW183134.1	Genbank	region	1	7425	.	+	.	ID=MW183134.1:1..7425;Dbxref=taxon:282345;collection-date=2007;country=China;gb-acronym=EV-B75;gbkey=Src;genome=genomic;isolate=Y17/XZ/CHN/2007;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Homo sapiens;serotype=B75
+MW183134.1	Genbank	five_prime_UTR	1	743	.	+	.	ID=id-MW183134.1:1..743;gbkey=5'UTR
+MW183134.1	Genbank	CDS	744	7325	.	+	0	ID=cds-QOW02250.1;Dbxref=NCBI_GP:QOW02250.1;Name=QOW02250.1;gbkey=CDS;product=polyprotein;protein_id=QOW02250.1
+MW183134.1	Genbank	mature_protein_region_of_CDS	744	950	.	+	.	ID=id-QOW02250.1:1..69;Parent=cds-QOW02250.1;gbkey=Prot;product=VP4
+MW183134.1	Genbank	mature_protein_region_of_CDS	951	1733	.	+	.	ID=id-QOW02250.1:70..330;Parent=cds-QOW02250.1;gbkey=Prot;product=VP2
+MW183134.1	Genbank	mature_protein_region_of_CDS	1734	2447	.	+	.	ID=id-QOW02250.1:331..568;Parent=cds-QOW02250.1;gbkey=Prot;product=VP3
+MW183134.1	Genbank	mature_protein_region_of_CDS	2448	3320	.	+	.	ID=id-QOW02250.1:569..859;Parent=cds-QOW02250.1;gbkey=Prot;product=VP1
+MW183134.1	Genbank	mature_protein_region_of_CDS	3321	3770	.	+	.	ID=id-QOW02250.1:860..1009;Parent=cds-QOW02250.1;gbkey=Prot;product=2A
+MW183134.1	Genbank	mature_protein_region_of_CDS	3771	4067	.	+	.	ID=id-QOW02250.1:1010..1108;Parent=cds-QOW02250.1;gbkey=Prot;product=2B
+MW183134.1	Genbank	mature_protein_region_of_CDS	4068	5054	.	+	.	ID=id-QOW02250.1:1109..1437;Parent=cds-QOW02250.1;gbkey=Prot;product=2C
+MW183134.1	Genbank	mature_protein_region_of_CDS	5055	5321	.	+	.	ID=id-QOW02250.1:1438..1526;Parent=cds-QOW02250.1;gbkey=Prot;product=3A
+MW183134.1	Genbank	mature_protein_region_of_CDS	5322	5387	.	+	.	ID=id-QOW02250.1:1527..1548;Parent=cds-QOW02250.1;gbkey=Prot;product=3B
+MW183134.1	Genbank	mature_protein_region_of_CDS	5388	5936	.	+	.	ID=id-QOW02250.1:1549..1731;Parent=cds-QOW02250.1;gbkey=Prot;product=3C
+MW183134.1	Genbank	mature_protein_region_of_CDS	5937	7322	.	+	.	ID=id-QOW02250.1:1732..2193;Parent=cds-QOW02250.1;gbkey=Prot;product=3D
+MW183134.1	Genbank	three_prime_UTR	7326	7425	.	+	.	ID=id-MW183134.1:7326..7425;gbkey=3'UTR
+

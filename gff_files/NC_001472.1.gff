@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_001472.1 1 7389
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138949
+NC_001472.1	RefSeq	region	1	7389	.	+	.	ID=NC_001472.1:1..7389;Dbxref=taxon:138949;clone=pCV(B1)EE[1%2C2%2C3%2C4]%3B pCV(B1)KE1%3B pCV(B1)PP[1%2C2];gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human enterovirus B
+NC_001472.1	RefSeq	gene	1	7389	.	+	.	ID=gene-HEVBgs1;Dbxref=GeneID:1461113;Name=HEVBgs1;gbkey=Gene;gene_biotype=misc_RNA;locus_tag=HEVBgs1
+NC_001472.1	RefSeq	transcript	1	7389	.	+	.	ID=rna-HEVBgs1;Parent=gene-HEVBgs1;Dbxref=GeneID:1461113;Note=coxsackievirus genome%3B origin of viral genome: 68 bp upstream of KpnI site;gbkey=misc_RNA;locus_tag=HEVBgs1
+NC_001472.1	RefSeq	exon	1	7389	.	+	.	ID=exon-HEVBgs1-1;Parent=rna-HEVBgs1;Dbxref=GeneID:1461113;Note=coxsackievirus genome%3B origin of viral genome: 68 bp upstream of KpnI site;gbkey=misc_RNA;locus_tag=HEVBgs1
+NC_001472.1	RefSeq	gene	742	7290	.	+	.	ID=gene-HEVBgp1;Dbxref=GeneID:1461114;Name=HEVBgp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HEVBgp1
+NC_001472.1	RefSeq	CDS	742	7290	.	+	0	ID=cds-NP_040958.1;Parent=gene-HEVBgp1;Dbxref=GenBank:NP_040958.1,GeneID:1461114;Name=NP_040958.1;gbkey=CDS;locus_tag=HEVBgp1;product=genome polyportein;protein_id=NP_040958.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	742	948	.	+	.	ID=id-NP_040958.1:1..69;Note=1A(VP4) mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=1A(VP4);protein_id=NP_740537.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	949	1737	.	+	.	ID=id-NP_040958.1:70..332;Note=1B(VP2) mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=1B(VP2);protein_id=NP_740538.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	1738	2451	.	+	.	ID=id-NP_040958.1:333..570;Note=1C(VP3) mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=1C(VP3);protein_id=NP_740539.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	2452	3285	.	+	.	ID=id-NP_040958.1:571..848;Note=1D(VP1) mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=1D(VP1);protein_id=NP_740540.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	3286	3735	.	+	.	ID=id-NP_040958.1:849..998;Note=2A mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=protease 2A;protein_id=NP_740541.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	3736	4032	.	+	.	ID=id-NP_040958.1:999..1097;Note=2B mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=protein 2B;protein_id=NP_740542.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	4033	5019	.	+	.	ID=id-NP_040958.1:1098..1426;Note=2C mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=protein 2C;protein_id=NP_740543.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	5020	5286	.	+	.	ID=id-NP_040958.1:1427..1515;Note=3A mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=protien 3A;protein_id=NP_740544.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	5287	5352	.	+	.	ID=id-NP_040958.1:1516..1537;Note=3B(VPg) mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=3B(VPg);protein_id=NP_740545.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	5353	5901	.	+	.	ID=id-NP_040958.1:1538..1720;Note=3C mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=protease 3C;protein_id=NP_740546.1
+NC_001472.1	RefSeq	mature_protein_region_of_CDS	5902	7287	.	+	.	ID=id-NP_040958.1:1721..2182;Note=3D mature peptide /pattern;Parent=cds-NP_040958.1;gbkey=Prot;product=3D;protein_id=NP_740547.1
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PV863040.1 1 7384
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12072
+PV863040.1	Genbank	region	1	7384	.	+	.	ID=PV863040.1:1..7384;Dbxref=taxon:12072;collection-date=23-Oct-2019;country=China;gbkey=Src;genome=genomic;isolate=KM50-W07-P10;mol_type=genomic RNA;nat-host=Homo sapiens;note=KM50-W07 passaged in Vero cells for P10
+PV863040.1	Genbank	CDS	733	7290	.	+	0	ID=cds-YBC01545.1;Dbxref=NCBI_GP:YBC01545.1;Name=YBC01545.1;gbkey=CDS;product=polyprotein;protein_id=YBC01545.1
+

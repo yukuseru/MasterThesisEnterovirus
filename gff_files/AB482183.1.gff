@@ -1,0 +1,18 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AB482183.1 1 7412
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
+AB482183.1	DDBJ	region	1	7412	.	+	.	ID=AB482183.1:1..7412;Dbxref=taxon:39054;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;old-name=Human enterovirus 71;strain=Nagoya
+AB482183.1	DDBJ	CDS	748	7329	.	+	0	ID=cds-BAH23269.1;Dbxref=NCBI_GP:BAH23269.1;Name=BAH23269.1;gbkey=CDS;product=polyprotein;protein_id=BAH23269.1
+AB482183.1	DDBJ	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-BAH23269.1:1..69;Parent=cds-BAH23269.1;gbkey=Prot;product=VP4
+AB482183.1	DDBJ	mature_protein_region_of_CDS	955	1716	.	+	.	ID=id-BAH23269.1:70..323;Parent=cds-BAH23269.1;gbkey=Prot;product=VP2
+AB482183.1	DDBJ	mature_protein_region_of_CDS	1717	2442	.	+	.	ID=id-BAH23269.1:324..565;Parent=cds-BAH23269.1;gbkey=Prot;product=VP3
+AB482183.1	DDBJ	mature_protein_region_of_CDS	2443	3333	.	+	.	ID=id-BAH23269.1:566..862;Parent=cds-BAH23269.1;gbkey=Prot;product=VP1
+AB482183.1	DDBJ	mature_protein_region_of_CDS	3334	3783	.	+	.	ID=id-BAH23269.1:863..1012;Parent=cds-BAH23269.1;gbkey=Prot;product=2A
+AB482183.1	DDBJ	mature_protein_region_of_CDS	3784	4080	.	+	.	ID=id-BAH23269.1:1013..1111;Parent=cds-BAH23269.1;gbkey=Prot;product=2B
+AB482183.1	DDBJ	mature_protein_region_of_CDS	4081	5067	.	+	.	ID=id-BAH23269.1:1112..1440;Parent=cds-BAH23269.1;gbkey=Prot;product=3A
+AB482183.1	DDBJ	mature_protein_region_of_CDS	5326	5391	.	+	.	ID=id-BAH23269.1:1527..1548;Parent=cds-BAH23269.1;gbkey=Prot;product=3B
+AB482183.1	DDBJ	mature_protein_region_of_CDS	5392	5940	.	+	.	ID=id-BAH23269.1:1549..1731;Parent=cds-BAH23269.1;gbkey=Prot;product=3C
+AB482183.1	DDBJ	mature_protein_region_of_CDS	5941	7326	.	+	.	ID=id-BAH23269.1:1732..2193;Parent=cds-BAH23269.1;gbkey=Prot;product=3D
+

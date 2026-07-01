@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON964507.1 1 8030
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106966
+ON964507.1	Genbank	region	1	8030	.	+	.	ID=ON964507.1:1..8030;Dbxref=taxon:106966;collection-date=25-Jul-2020;country=China;gbkey=Src;genome=genomic;isolate=CH/HLJ-214/G1PLCP;isolation-source=feces;mol_type=genomic RNA;nat-host=Sus scrofa
+ON964507.1	Genbank	five_prime_UTR	1	813	.	+	.	ID=id-ON964507.1:1..813;gbkey=5'UTR
+ON964507.1	Genbank	CDS	814	7959	.	+	0	ID=cds-WIF29738.1;Dbxref=NCBI_GP:WIF29738.1;Name=WIF29738.1;gbkey=CDS;product=polyprotein;protein_id=WIF29738.1
+ON964507.1	Genbank	three_prime_UTR	7960	8030	.	+	.	ID=id-ON964507.1:7960..8030;gbkey=3'UTR
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MW384881.1 1 7315
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1141754
+MW384881.1	Genbank	region	1	7315	.	+	.	ID=MW384881.1:1..7315;Dbxref=taxon:1141754;collection-date=2017;country=Nigeria;gbkey=Src;genome=genomic;isolate=D111-NGR-KAT-1263;isolation-source=sewage concentrate;mol_type=genomic RNA;serotype=D111
+MW384881.1	Genbank	CDS	710	7294	.	+	0	ID=cds-QRF54820.1;Dbxref=NCBI_GP:QRF54820.1;Name=QRF54820.1;gbkey=CDS;product=polyprotein;protein_id=QRF54820.1
+

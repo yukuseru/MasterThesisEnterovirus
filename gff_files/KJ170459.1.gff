@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KJ170459.1 1 7388
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+KJ170459.1	Genbank	region	1	7388	.	+	.	ID=KJ170459.1:1..7388;Dbxref=taxon:12080;collection-date=2011;country=Nigeria;gbkey=Src;genome=genomic;genotype=Sabin;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human poliovirus 1;serotype=type 1;strain=NIE1118378
+KJ170459.1	Genbank	CDS	714	7343	.	+	0	ID=cds-AIB00415.1;Dbxref=NCBI_GP:AIB00415.1;Name=AIB00415.1;gbkey=CDS;product=polyprotein;protein_id=AIB00415.1
+KJ170472.1	Genbank	match	1	7388	.	+	.	ID=aln0;Target=KJ170436.1 1 7388 +
+

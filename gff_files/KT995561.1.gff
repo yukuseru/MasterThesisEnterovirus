@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KT995561.1 1 7293
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+KT995561.1	Genbank	region	1	7293	.	+	.	ID=KT995561.1:1..7293;Dbxref=taxon:42789;collection-date=18-Aug-2014;country=USA: UT;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolation-source=nasal swabs;mol_type=genomic RNA;nat-host=Homo sapiens;strain=USA/UT/2014-19195
+KT995561.1	Genbank	CDS	677	7243	.	+	0	ID=cds-ALP31112.1;Dbxref=NCBI_GP:ALP31112.1;Name=ALP31112.1;gbkey=CDS;product=polyprotein;protein_id=ALP31112.1
+

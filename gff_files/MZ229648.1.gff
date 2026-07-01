@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MZ229648.1 1 7443
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12078
+MZ229648.1	Genbank	region	1	7443	.	+	.	ID=MZ229648.1:1..7443;Dbxref=taxon:12078;collection-date=17-Jul-2019;country=China;gbkey=Src;genome=genomic;isolate=Swab-9/HB.ES/CHN/2019;isolation-source=throat swab;mol_type=genomic RNA;nat-host=Homo sapiens
+MZ229648.1	Genbank	CDS	756	7343	.	+	0	ID=cds-UWT50248.1;Dbxref=NCBI_GP:UWT50248.1;Name=UWT50248.1;gbkey=CDS;product=polyprotein;protein_id=UWT50248.1
+

@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_013695.1 1 7379
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1330521
+NC_013695.1	RefSeq	region	1	7379	.	+	.	ID=NC_013695.1:1..7379;Dbxref=taxon:1330521;gbkey=Src;genome=genomic;isolate=Simian picornavirus strain N203;mol_type=genomic RNA;strain=N203
+NC_013695.1	RefSeq	five_prime_UTR	1	737	.	+	.	ID=id-NC_013695.1:1..737;gbkey=5'UTR
+NC_013695.1	RefSeq	gene	738	7274	.	+	.	ID=gene-SpVN203_gp1;Dbxref=GeneID:15486940;Name=SpVN203_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=SpVN203_gp1
+NC_013695.1	RefSeq	CDS	738	7274	.	+	0	ID=cds-YP_003358790.1;Parent=gene-SpVN203_gp1;Dbxref=GenBank:YP_003358790.1,GeneID:15486940;Name=YP_003358790.1;gbkey=CDS;locus_tag=SpVN203_gp1;product=genome polyprotein;protein_id=YP_003358790.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	738	944	.	+	.	ID=id-YP_003358790.1:1..69;Parent=cds-YP_003358790.1;gbkey=Prot;product=1A (VP4);protein_id=YP_003359166.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	945	1703	.	+	.	ID=id-YP_003358790.1:70..322;Parent=cds-YP_003358790.1;gbkey=Prot;product=1B (VP2);protein_id=YP_003359167.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	1704	2429	.	+	.	ID=id-YP_003358790.1:323..564;Parent=cds-YP_003358790.1;gbkey=Prot;product=1C (VP3);protein_id=YP_003359168.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	2430	3275	.	+	.	ID=id-YP_003358790.1:565..846;Parent=cds-YP_003358790.1;gbkey=Prot;product=1D (VP1);protein_id=YP_003359169.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	3276	3725	.	+	.	ID=id-YP_003358790.1:847..996;Parent=cds-YP_003358790.1;gbkey=Prot;product=protease 2A;protein_id=YP_003359170.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	3726	4022	.	+	.	ID=id-YP_003358790.1:997..1095;Parent=cds-YP_003358790.1;gbkey=Prot;product=protein 2B;protein_id=YP_003359171.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	4023	5009	.	+	.	ID=id-YP_003358790.1:1096..1424;Parent=cds-YP_003358790.1;gbkey=Prot;product=protein 2C;protein_id=YP_003359172.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	5010	5270	.	+	.	ID=id-YP_003358790.1:1425..1511;Parent=cds-YP_003358790.1;gbkey=Prot;product=protein 3A;protein_id=YP_003359173.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	5271	5336	.	+	.	ID=id-YP_003358790.1:1512..1533;Parent=cds-YP_003358790.1;gbkey=Prot;product=3B (VPg);protein_id=YP_003359174.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	5337	5885	.	+	.	ID=id-YP_003358790.1:1534..1716;Parent=cds-YP_003358790.1;gbkey=Prot;product=protease 3C;protein_id=YP_003359175.1
+NC_013695.1	RefSeq	mature_protein_region_of_CDS	5886	7271	.	+	.	ID=id-YP_003358790.1:1717..2178;Parent=cds-YP_003358790.1;gbkey=Prot;product=3D;protein_id=YP_003359176.1
+NC_013695.1	RefSeq	three_prime_UTR	7275	7379	.	+	.	ID=id-NC_013695.1:7275..7379;gbkey=3'UTR
+

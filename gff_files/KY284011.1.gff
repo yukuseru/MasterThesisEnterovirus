@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KY284011.1 1 7405
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12069
+KY284011.1	Genbank	region	1	7405	.	+	.	ID=KY284011.1:1..7405;Dbxref=taxon:12069;collection-date=03-Mar-2016;country=China;gb-acronym=CV-A21;gbkey=Src;genome=genomic;isolate=16SF042;mol_type=genomic RNA;nat-host=Homo sapiens
+KY284011.1	Genbank	five_prime_UTR	1	713	.	+	.	ID=id-KY284011.1:1..713;gbkey=5'UTR
+KY284011.1	Genbank	CDS	714	7337	.	+	0	ID=cds-AQY04154.1;Dbxref=NCBI_GP:AQY04154.1;Name=AQY04154.1;gbkey=CDS;product=polyprotein;protein_id=AQY04154.1
+

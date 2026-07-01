@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MH836323.1 1 7399
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12072
+MH836323.1	Genbank	region	1	7399	.	+	.	ID=MH836323.1:1..7399;Dbxref=taxon:12072;collection-date=2011;country=China;gbkey=Src;genome=genomic;isolate=XZ2011028;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Homo sapiens;serotype=B3
+MH836323.1	Genbank	five_prime_UTR	1	741	.	+	.	ID=id-MH836323.1:1..741;gbkey=5'UTR
+MH836323.1	Genbank	CDS	742	7299	.	+	0	ID=cds-AZI15685.1;Dbxref=NCBI_GP:AZI15685.1;Name=AZI15685.1;gbkey=CDS;product=polyprotein;protein_id=AZI15685.1
+MH836323.1	Genbank	mature_protein_region_of_CDS	742	948	.	+	.	ID=id-AZI15685.1:1..69;Parent=cds-AZI15685.1;gbkey=Prot;product=VP4
+MH836323.1	Genbank	mature_protein_region_of_CDS	949	1737	.	+	.	ID=id-AZI15685.1:70..332;Parent=cds-AZI15685.1;gbkey=Prot;product=VP2
+MH836323.1	Genbank	mature_protein_region_of_CDS	1738	2451	.	+	.	ID=id-AZI15685.1:333..570;Parent=cds-AZI15685.1;gbkey=Prot;product=VP3
+MH836323.1	Genbank	mature_protein_region_of_CDS	2452	3303	.	+	.	ID=id-AZI15685.1:571..854;Parent=cds-AZI15685.1;gbkey=Prot;product=VP1
+MH836323.1	Genbank	mature_protein_region_of_CDS	3304	3744	.	+	.	ID=id-AZI15685.1:855..1001;Parent=cds-AZI15685.1;gbkey=Prot;product=2A
+MH836323.1	Genbank	mature_protein_region_of_CDS	3745	4041	.	+	.	ID=id-AZI15685.1:1002..1100;Parent=cds-AZI15685.1;gbkey=Prot;product=2B
+MH836323.1	Genbank	mature_protein_region_of_CDS	4042	5028	.	+	.	ID=id-AZI15685.1:1101..1429;Parent=cds-AZI15685.1;gbkey=Prot;product=2C
+MH836323.1	Genbank	mature_protein_region_of_CDS	5029	5295	.	+	.	ID=id-AZI15685.1:1430..1518;Parent=cds-AZI15685.1;gbkey=Prot;product=3A
+MH836323.1	Genbank	mature_protein_region_of_CDS	5296	5361	.	+	.	ID=id-AZI15685.1:1519..1540;Parent=cds-AZI15685.1;gbkey=Prot;product=3B
+MH836323.1	Genbank	mature_protein_region_of_CDS	5362	5910	.	+	.	ID=id-AZI15685.1:1541..1723;Parent=cds-AZI15685.1;gbkey=Prot;product=3C
+MH836323.1	Genbank	mature_protein_region_of_CDS	5911	7296	.	+	.	ID=id-AZI15685.1:1724..2185;Parent=cds-AZI15685.1;gbkey=Prot;product=3D
+MH836323.1	Genbank	three_prime_UTR	7300	7399	.	+	.	ID=id-MH836323.1:7300..7399;gbkey=3'UTR
+

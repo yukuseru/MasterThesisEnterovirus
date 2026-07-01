@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON881124.1 1 7216
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=147677
+ON881124.1	Genbank	region	1	7216	.	+	.	ID=ON881124.1:1..7216;Dbxref=taxon:147677;collected-by=Beijing Pediatric Research Institute;collection-date=15-May-2019;country=China;gbkey=Src;genome=genomic;isolate=GZFE19024;isolation-source=nasopharyngeal swab;lat-lon=23.16 N 113.23 E;mol_type=genomic RNA;nat-host=Homo sapiens
+ON881124.1	Genbank	CDS	625	7176	.	+	0	ID=cds-WES14236.1;Dbxref=NCBI_GP:WES14236.1;Name=WES14236.1;gbkey=CDS;product=polyprotein;protein_id=WES14236.1
+ON881124.1	Genbank	mature_protein_region_of_CDS	625	831	.	+	.	ID=id-WES14236.1:1..69;Note=VP4;Parent=cds-WES14236.1;gbkey=Prot;product=1A
+ON881124.1	Genbank	mature_protein_region_of_CDS	832	1617	.	+	.	ID=id-WES14236.1:70..331;Note=VP2;Parent=cds-WES14236.1;gbkey=Prot;product=1B
+ON881124.1	Genbank	mature_protein_region_of_CDS	1618	2325	.	+	.	ID=id-WES14236.1:332..567;Note=VP3;Parent=cds-WES14236.1;gbkey=Prot;product=1C
+ON881124.1	Genbank	mature_protein_region_of_CDS	2326	3204	.	+	.	ID=id-WES14236.1:568..860;Note=VP1;Parent=cds-WES14236.1;gbkey=Prot;product=1D
+ON881124.1	Genbank	mature_protein_region_of_CDS	3205	3642	.	+	.	ID=id-WES14236.1:861..1006;Note=P2-A;Parent=cds-WES14236.1;gbkey=Prot;product=2A
+ON881124.1	Genbank	mature_protein_region_of_CDS	3643	3933	.	+	.	ID=id-WES14236.1:1007..1103;Note=P2-B;Parent=cds-WES14236.1;gbkey=Prot;product=2B
+ON881124.1	Genbank	mature_protein_region_of_CDS	3934	4923	.	+	.	ID=id-WES14236.1:1104..1433;Note=P-2C;Parent=cds-WES14236.1;gbkey=Prot;product=2C
+ON881124.1	Genbank	mature_protein_region_of_CDS	4924	5178	.	+	.	ID=id-WES14236.1:1434..1518;Note=P3-A;Parent=cds-WES14236.1;gbkey=Prot;product=3A
+ON881124.1	Genbank	mature_protein_region_of_CDS	5179	5247	.	+	.	ID=id-WES14236.1:1519..1541;Note=VPg;Parent=cds-WES14236.1;gbkey=Prot;product=3B
+ON881124.1	Genbank	mature_protein_region_of_CDS	5248	5793	.	+	.	ID=id-WES14236.1:1542..1723;Note=P3-C;Parent=cds-WES14236.1;gbkey=Prot;product=3C
+ON881124.1	Genbank	mature_protein_region_of_CDS	5794	7173	.	+	.	ID=id-WES14236.1:1724..2183;Note=polymerase;Parent=cds-WES14236.1;gbkey=Prot;product=3D
+

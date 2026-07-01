@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MH144606.1 1 7423
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1295563
+MH144606.1	Genbank	region	1	7423	.	+	.	ID=MH144606.1:1..7423;Dbxref=taxon:1295563;collection-date=2012;country=India: Koppal district%2C Karnataka State;gb-acronym=EV-C99;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;strain=12-008-2_C99
+MH144606.1	Genbank	CDS	725	7357	.	+	0	ID=cds-AXG50474.1;Dbxref=NCBI_GP:AXG50474.1;Name=AXG50474.1;gbkey=CDS;product=polyprotein;protein_id=AXG50474.1
+MH144606.1	Genbank	mature_protein_region_of_CDS	725	931	.	+	.	ID=id-AXG50474.1:1..69;Parent=cds-AXG50474.1;gbkey=Prot;product=capsid protein VP4
+MH144606.1	Genbank	mature_protein_region_of_CDS	932	1744	.	+	.	ID=id-AXG50474.1:70..340;Parent=cds-AXG50474.1;gbkey=Prot;product=capsid protein VP2
+MH144606.1	Genbank	mature_protein_region_of_CDS	1745	2464	.	+	.	ID=id-AXG50474.1:341..580;Parent=cds-AXG50474.1;gbkey=Prot;product=capsid protein VP3
+MH144606.1	Genbank	mature_protein_region_of_CDS	2465	3373	.	+	.	ID=id-AXG50474.1:581..883;Parent=cds-AXG50474.1;gbkey=Prot;product=capsid protein VP1
+MH144606.1	Genbank	mature_protein_region_of_CDS	3374	3817	.	+	.	ID=id-AXG50474.1:884..1031;Parent=cds-AXG50474.1;gbkey=Prot;product=2A protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	3818	4108	.	+	.	ID=id-AXG50474.1:1032..1128;Parent=cds-AXG50474.1;gbkey=Prot;product=2B protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	4109	5095	.	+	.	ID=id-AXG50474.1:1129..1457;Parent=cds-AXG50474.1;gbkey=Prot;product=2C protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	5096	5356	.	+	.	ID=id-AXG50474.1:1458..1544;Parent=cds-AXG50474.1;gbkey=Prot;product=3A protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	5357	5422	.	+	.	ID=id-AXG50474.1:1545..1566;Parent=cds-AXG50474.1;gbkey=Prot;product=3B protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	5423	5971	.	+	.	ID=id-AXG50474.1:1567..1749;Parent=cds-AXG50474.1;gbkey=Prot;product=3C protein
+MH144606.1	Genbank	mature_protein_region_of_CDS	5972	7354	.	+	.	ID=id-AXG50474.1:1750..2210;Parent=cds-AXG50474.1;gbkey=Prot;product=3D protein
+

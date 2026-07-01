@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PQ473509.1 1 7395
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12073
+PQ473509.1	Genbank	region	1	7395	.	+	.	ID=PQ473509.1:1..7395;Dbxref=taxon:12073;collection-date=31-May-2018;country=China;gbkey=Src;genome=genomic;isolation-source=clinical sample: feces;mol_type=genomic RNA;nat-host=Homo sapiens;strain=141V4//YN/CHN/2018
+PQ473509.1	Genbank	CDS	731	7282	.	+	0	ID=cds-XSB40316.1;Dbxref=NCBI_GP:XSB40316.1;Name=XSB40316.1;gbkey=CDS;product=polyprotein;protein_id=XSB40316.1
+

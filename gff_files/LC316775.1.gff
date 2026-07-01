@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region LC316775.1 1 7995
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106966
+LC316775.1	DDBJ	region	1	7995	.	+	.	ID=LC316775.1:1..7995;Dbxref=taxon:106966;collection-date=2015-07-15;country=Japan: Tottori;gbkey=Src;mol_type=genomic RNA;nat-host=Sus Scrofa;serotype=G1;strain=EVG/Porcine/JPN/HgOg2-3/2015/G1-PL-CP
+LC316775.1	DDBJ	five_prime_UTR	1	811	.	+	.	ID=id-LC316775.1:1..811;gbkey=5'UTR;partial=true;start_range=.,1
+LC316775.1	DDBJ	CDS	812	7951	.	+	0	ID=cds-BBC70719.1;Dbxref=NCBI_GP:BBC70719.1;Name=BBC70719.1;gbkey=CDS;product=polyprotein;protein_id=BBC70719.1
+LC316775.1	DDBJ	three_prime_UTR	7952	7995	.	+	.	ID=id-LC316775.1:7952..7995;end_range=7995,.;gbkey=3'UTR;partial=true
+

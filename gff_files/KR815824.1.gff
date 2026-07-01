@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KR815824.1 1 7408
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2650411
+KR815824.1	Genbank	region	1	7408	.	+	.	ID=KR815824.1:1..7408;Dbxref=taxon:2650411;collection-date=17-Feb-2014;country=Switzerland;gb-acronym=EV-C104;gbkey=Src;genome=genomic;isolate=kvv585-16-TS;isolation-source=throat swab;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus C104;strain=C104
+KR815824.1	Genbank	five_prime_UTR	1	717	.	+	.	ID=id-KR815824.1:1..717;gbkey=5'UTR
+KR815824.1	Genbank	CDS	718	7338	.	+	0	ID=cds-AKU89613.1;Dbxref=NCBI_GP:AKU89613.1;Name=AKU89613.1;gbkey=CDS;product=polyprotein;protein_id=AKU89613.1
+KR815824.1	Genbank	three_prime_UTR	7339	7408	.	+	.	ID=id-KR815824.1:7339..7408;gbkey=3'UTR
+

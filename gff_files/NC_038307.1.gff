@@ -1,0 +1,81 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_038307.1 1 7399
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12072
+NC_038307.1	RefSeq	region	1	7399	.	+	.	ID=NC_038307.1:1..7399;Dbxref=taxon:12072;gbkey=Src;genome=genomic;lab-host=Homo sapiens;mol_type=genomic RNA
+NC_038307.1	RefSeq	five_prime_UTR	1	742	.	+	.	ID=id-NC_038307.1:1..742;Note=putative;gbkey=5'UTR
+NC_038307.1	RefSeq	sequence_difference	35	35	.	+	.	ID=id-NC_038307.1:35..35;Note='' in misc_difference%3B Nucleotide is not present in citations 2 and 3.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	274	274	.	+	.	ID=id-NC_038307.1:274..274;Note='' in misc_difference%3B Nucleotide is not present in citation 2.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	610	610	.	+	.	ID=id-NC_038307.1:610..610;Note=t in citation 1 and 2%3B c in citation 3.%3B 'c' in misc_difference;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	647	647	.	+	.	ID=id-NC_038307.1:647..647;Note='t' in misc_difference%3B c in citations 1 and 2%3B t in citation 3.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	667	667	.	+	.	ID=id-NC_038307.1:667..667;Note=t in citations 1 and 2%3B c in citation 3.%3B 'c' in misc_difference;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	gene	743	7300	.	+	.	ID=gene-D1P32_gp1;Dbxref=GeneID:37616476;Name=D1P32_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=D1P32_gp1
+NC_038307.1	RefSeq	CDS	743	7300	.	+	0	ID=cds-YP_009505604.1;Parent=gene-D1P32_gp1;Dbxref=GenBank:YP_009505604.1,GeneID:37616476;Name=YP_009505604.1;Note=putative;gbkey=CDS;locus_tag=D1P32_gp1;product=polyprotein;protein_id=YP_009505604.1
+NC_038307.1	RefSeq	sequence_difference	788	788	.	+	.	ID=id-D1P32_gp1;Dbxref=GeneID:37616476;Note=a in citations 1 and 3%3B g in citation 2.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	913	913	.	+	.	ID=id-D1P32_gp1-2;Dbxref=GeneID:37616476;Note=a in citations 1 and 2%3B g in citation 3.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	987	987	.	+	.	ID=id-D1P32_gp1-3;Dbxref=GeneID:37616476;Note=c in citations 2 and 3.%3B 'c' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	1272	1273	.	+	.	ID=id-D1P32_gp1-4;Dbxref=GeneID:37616476;Note='at' in misc_difference%3B ta in citations 1 and 3%3B at in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	1401	1402	.	+	.	ID=id-D1P32_gp1-5;Dbxref=GeneID:37616476;Note=cg in citations 1%2C 2%2C and 3%3B correct CVB3-20 sequence is gc.%3B 'cg' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	1408	1408	.	+	.	ID=id-D1P32_gp1-6;Dbxref=GeneID:37616476;Note=a in citations 1 and 2%3B g in citation 3.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	1963	1963	.	+	.	ID=id-D1P32_gp1-7;Dbxref=GeneID:37616476;Note=t in citations 1 and 2%3B c in citation 3.%3B 'c' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2148	2148	.	+	.	ID=id-D1P32_gp1-8;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B c in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2182	2182	.	+	.	ID=id-D1P32_gp1-9;Dbxref=GeneID:37616476;Note=c in citations 1 and 2%3B t in citation 3.%3B 't' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2201	2201	.	+	.	ID=id-D1P32_gp1-10;Dbxref=GeneID:37616476;Note=g in citations 1 and 2%3B a in citation 3.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2271	2271	.	+	.	ID=id-D1P32_gp1-11;Dbxref=GeneID:37616476;Note=t in citations 1 and 3%3B a in citation 2.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2289	2289	.	+	.	ID=id-D1P32_gp1-12;Dbxref=GeneID:37616476;Note=a in citations 1 and 3%3B g in citation 2.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2438	2438	.	+	.	ID=id-D1P32_gp1-13;Dbxref=GeneID:37616476;Note=c in citations 1 and 3%3B g in citation 2.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2520	2520	.	+	.	ID=id-D1P32_gp1-14;Dbxref=GeneID:37616476;Note=c in citations 1 and 3%3B a in citation 2.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2560	2560	.	+	.	ID=id-D1P32_gp1-15;Dbxref=GeneID:37616476;Note=a in citations 1 and 2%3B g in citation 3.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2593	2593	.	+	.	ID=id-D1P32_gp1-16;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B c in citations 1 and 2%3B t in citation 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2632	2632	.	+	.	ID=id-D1P32_gp1-17;Dbxref=GeneID:37616476;Note=c in citations 2 and 3.%3B 'c' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2690	2690	.	+	.	ID=id-D1P32_gp1-18;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B a in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2851	2851	.	+	.	ID=id-D1P32_gp1-19;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B c in citations 1 and 2%3B t in citation 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	2881	2881	.	+	.	ID=id-D1P32_gp1-20;Dbxref=GeneID:37616476;Note=t in citations 2 and 3.%3B 't' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3243	3243	.	+	.	ID=id-D1P32_gp1-21;Dbxref=GeneID:37616476;Note=a in citations 2 and 3.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3302	3302	.	+	.	ID=id-D1P32_gp1-22;Dbxref=GeneID:37616476;Note=t in citations 1 and 3%3B at in citation 2.%3B 'at' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3336	3336	.	+	.	ID=id-D1P32_gp1-23;Dbxref=GeneID:37616476;Note=Nucleotide not present in citation 2.%3B '' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3346	3346	.	+	.	ID=id-D1P32_gp1-24;Dbxref=GeneID:37616476;Note=a in citations 1 and 2%3B g in citation 3.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3358	3360	.	+	.	ID=id-D1P32_gp1-25;Dbxref=GeneID:37616476;Note=tct in citations 1 and 3%3B ctc in citation 2.%3B 'ctc' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3434	3434	.	+	.	ID=id-D1P32_gp1-26;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B g in citations 2 and 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3782	3782	.	+	.	ID=id-D1P32_gp1-27;Dbxref=GeneID:37616476;Note=t in citations 2 and 3.%3B 't' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	3913	3913	.	+	.	ID=id-D1P32_gp1-28;Dbxref=GeneID:37616476;Note=g in citations 1 and 3%3B a in citation 2.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4031	4031	.	+	.	ID=id-D1P32_gp1-29;Dbxref=GeneID:37616476;Note=g in citations 1 and 3%3B c in citation 2.%3B 'c' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4078	4078	.	+	.	ID=id-D1P32_gp1-30;Dbxref=GeneID:37616476;Note=g in citations 1 and 2%3B a in citation 3.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4165	4165	.	+	.	ID=id-D1P32_gp1-31;Dbxref=GeneID:37616476;Note=g in citations 1 and 2%3B a in citation 3.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4177	4177	.	+	.	ID=id-D1P32_gp1-32;Dbxref=GeneID:37616476;Note=a in citations 1 and 2%3B g in citation 3.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4582	4582	.	+	.	ID=id-D1P32_gp1-33;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B g in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4585	4585	.	+	.	ID=id-D1P32_gp1-34;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B t in citations 2 and 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	4948	4948	.	+	.	ID=id-D1P32_gp1-35;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B t in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5051	5051	.	+	.	ID=id-D1P32_gp1-36;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B a in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5249	5249	.	+	.	ID=id-D1P32_gp1-37;Dbxref=GeneID:37616476;Note='a' in misc_difference%3B g in citations 1 and 3%3B a in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5383	5383	.	+	.	ID=id-D1P32_gp1-38;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B c in citations 2 and 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5412	5412	.	+	.	ID=id-D1P32_gp1-39;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B c in citations 2 and 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5560	5560	.	+	.	ID=id-D1P32_gp1-40;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B c in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5588	5588	.	+	.	ID=id-D1P32_gp1-41;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B a in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5612	5612	.	+	.	ID=id-D1P32_gp1-42;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B a in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5621	5621	.	+	.	ID=id-D1P32_gp1-43;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B a in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5630	5630	.	+	.	ID=id-D1P32_gp1-44;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B t in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5735	5735	.	+	.	ID=id-D1P32_gp1-45;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B c in citations 2 and 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5894	5894	.	+	.	ID=id-D1P32_gp1-46;Dbxref=GeneID:37616476;Note='a' in misc_difference%3B t in citations 1 and 3%3B a in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	5943	5943	.	+	.	ID=id-D1P32_gp1-47;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B a in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6007	6007	.	+	.	ID=id-D1P32_gp1-48;Dbxref=GeneID:37616476;Note='a' in misc_difference%3B g in citations 1 and 3%3B a in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6015	6015	.	+	.	ID=id-D1P32_gp1-49;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B a in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6055	6055	.	+	.	ID=id-D1P32_gp1-50;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B a in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6142	6142	.	+	.	ID=id-D1P32_gp1-51;Dbxref=GeneID:37616476;Note='g' in misc_difference%3B a in citations 1 and 3%3B g in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6212	6213	.	+	.	ID=id-D1P32_gp1-52;Dbxref=GeneID:37616476;Note='ag' in misc_difference%3B gt in citations 1 and 3%3B ag in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6247	6247	.	+	.	ID=id-D1P32_gp1-53;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B a in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6341	6341	.	+	.	ID=id-D1P32_gp1-54;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B t in citations 1 and 3%3B c in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6380	6380	.	+	.	ID=id-D1P32_gp1-55;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B t in citations 1 and 3%3B c in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	6743	6743	.	+	.	ID=id-D1P32_gp1-56;Dbxref=GeneID:37616476;Note='a' in misc_difference%3B g in citations 1 and 3%3B a in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	7026	7026	.	+	.	ID=id-D1P32_gp1-57;Dbxref=GeneID:37616476;Note='c' in misc_difference%3B t in citations 1 and 2%3B c in citation 3.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	7073	7073	.	+	.	ID=id-D1P32_gp1-58;Dbxref=GeneID:37616476;Note='t' in misc_difference%3B c in citations 1 and 3%3B t in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	7086	7087	.	+	.	ID=id-D1P32_gp1-59;Dbxref=GeneID:37616476;Note='cc' in misc_difference%3B tt in citations 1 and 3%3B cc in citation 2.;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	7265	7265	.	+	.	ID=id-D1P32_gp1-60;Dbxref=GeneID:37616476;Note=t in citations 1 and 3%3B a in citation 2.%3B 'a' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	sequence_difference	7274	7274	.	+	.	ID=id-D1P32_gp1-61;Dbxref=GeneID:37616476;Note=c in citations 1 and 3%3B g in citation 2.%3B 'g' in misc_difference;gbkey=misc_difference;locus_tag=D1P32_gp1;replace=
+NC_038307.1	RefSeq	three_prime_UTR	7301	7399	.	+	.	ID=id-NC_038307.1:7301..7399;gbkey=3'UTR
+NC_038307.1	RefSeq	sequence_difference	7314	7314	.	+	.	ID=id-NC_038307.1:7314..7314;Note='' in misc_difference%3B t in citations 1 and 3%3B nucleotide not present in citation2.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	7319	7319	.	+	.	ID=id-NC_038307.1:7319..7319;Note='c' in misc_difference%3B t in citations 1 and 3%3B c in citation 2.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	7333	7334	.	+	.	ID=id-NC_038307.1:7333..7334;Note='ac' in misc_difference%3B tt in citations 1 and 3%3B ac in citation 2.;gbkey=misc_difference;replace=
+NC_038307.1	RefSeq	sequence_difference	7399	7399	.	+	.	ID=id-NC_038307.1:7399..7399;Note='gg' in misc_difference%3B g in citations 1 and 2%3B gg in citation 3.;gbkey=misc_difference;replace=
+

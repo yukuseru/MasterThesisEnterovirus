@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PP461535.1 1 7362
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138949
+PP461535.1	Genbank	region	1	7362	.	+	.	ID=PP461535.1:1..7362;Dbxref=taxon:138949;collection-date=2023-04;country=Thailand;gbkey=Src;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens;strain=CVB5/Thailand/ENV030/2023
+PP461535.1	Genbank	CDS	708	7265	.	+	0	ID=cds-WWX16851.1;Dbxref=NCBI_GP:WWX16851.1;Name=WWX16851.1;gbkey=CDS;product=polyprotein;protein_id=WWX16851.1
+

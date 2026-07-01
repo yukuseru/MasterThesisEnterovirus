@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JX274998.2 1 7434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+JX274998.2	Genbank	region	1	7434	.	+	.	ID=JX274998.2:1..7434;Dbxref=taxon:12083;collection-date=2006;country=Nigeria;gbkey=Src;genome=genomic;genotype=VDPV;isolate=KNS06-06;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human poliovirus 2;serotype=PV2;strain=NIE0611579
+JX274998.2	Genbank	CDS	742	7365	.	+	0	ID=cds-AGA12375.2;Dbxref=NCBI_GP:AGA12375.2;Name=AGA12375.2;gbkey=CDS;product=polyprotein;protein_id=AGA12375.2
+

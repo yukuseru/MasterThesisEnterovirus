@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KY981576.1 1 7422
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12078
+KY981576.1	Genbank	region	1	7422	.	+	.	ID=KY981576.1:1..7422;Dbxref=taxon:12078;collection-date=28-Oct-1996;country=Israel;gbkey=Src;mol_type=genomic RNA;nat-host=Homo sapiens;strain=8108/ISR/1996
+KY981576.1	Genbank	CDS	736	7323	.	+	0	ID=cds-AUD08542.1;Dbxref=NCBI_GP:AUD08542.1;Name=AUD08542.1;gbkey=CDS;product=polyprotein;protein_id=AUD08542.1
+KY981576.1	Genbank	mature_protein_region_of_CDS	736	942	.	+	.	ID=id-AUD08542.1:1..69;Note=capsid polypeptide;Parent=cds-AUD08542.1;gbkey=Prot;product=protein VP4
+KY981576.1	Genbank	mature_protein_region_of_CDS	943	1728	.	+	.	ID=id-AUD08542.1:70..331;Note=capsid polypeptide;Parent=cds-AUD08542.1;gbkey=Prot;product=protein VP2
+KY981576.1	Genbank	mature_protein_region_of_CDS	1729	2442	.	+	.	ID=id-AUD08542.1:332..569;Note=capsid polypeptide;Parent=cds-AUD08542.1;gbkey=Prot;product=protein VP3
+KY981576.1	Genbank	mature_protein_region_of_CDS	2443	3318	.	+	.	ID=id-AUD08542.1:570..861;Note=capsid polypeptide;Parent=cds-AUD08542.1;gbkey=Prot;product=protein VP1
+KY981576.1	Genbank	mature_protein_region_of_CDS	3319	3768	.	+	.	ID=id-AUD08542.1:862..1011;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 2A
+KY981576.1	Genbank	mature_protein_region_of_CDS	3769	4065	.	+	.	ID=id-AUD08542.1:1012..1110;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 2B
+KY981576.1	Genbank	mature_protein_region_of_CDS	4066	5052	.	+	.	ID=id-AUD08542.1:1111..1439;Note=X;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 2C
+KY981576.1	Genbank	mature_protein_region_of_CDS	5053	5319	.	+	.	ID=id-AUD08542.1:1440..1528;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 3A
+KY981576.1	Genbank	mature_protein_region_of_CDS	5320	5385	.	+	.	ID=id-AUD08542.1:1529..1550;Note=VPg;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 3B
+KY981576.1	Genbank	mature_protein_region_of_CDS	5386	5934	.	+	.	ID=id-AUD08542.1:1551..1733;Note=protease;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 3C
+KY981576.1	Genbank	mature_protein_region_of_CDS	5935	7320	.	+	.	ID=id-AUD08542.1:1734..2195;Note=polymerase;Parent=cds-AUD08542.1;gbkey=Prot;product=protein 3D
+KY981576.1	Genbank	sequence_feature	736	3318	.	+	.	ID=id-KY981576.1:736..3318;Note=P1 capsid protein precursor;gbkey=misc_feature
+KY981576.1	Genbank	sequence_feature	3319	5052	.	+	.	ID=id-KY981576.1:3319..5052;Note=P2;gbkey=misc_feature
+KY981576.1	Genbank	sequence_feature	5053	7320	.	+	.	ID=id-KY981576.1:5053..7320;Note=P3;gbkey=misc_feature
+

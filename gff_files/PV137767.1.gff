@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PV137767.1 1 7428
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47516
+PV137767.1	Genbank	region	1	7428	.	+	.	ID=PV137767.1:1..7428;Dbxref=taxon:47516;collection-date=2020/2023;country=China;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo;strain=P17/GZ/CHN
+PV137767.1	Genbank	CDS	743	7327	.	+	0	ID=cds-XPR41192.1;Dbxref=NCBI_GP:XPR41192.1;Name=XPR41192.1;gbkey=CDS;product=polyprotein;protein_id=XPR41192.1
+

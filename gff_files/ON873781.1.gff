@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region ON873781.1 1 7394
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47515
+ON873781.1	Genbank	region	1	7394	.	+	.	ID=ON873781.1:1..7394;Dbxref=taxon:47515;collection-date=15-Apr-2013;country=China;gbkey=Src;genome=genomic;isolation-source=nasopharyngeal swab from female;mol_type=genomic RNA;nat-host=Homo sapiens;strain=15088/JS/CHN/2015
+ON873781.1	Genbank	CDS	742	7293	.	+	0	ID=cds-WBP50112.1;Dbxref=NCBI_GP:WBP50112.1;Name=WBP50112.1;gbkey=CDS;product=polyprotein;protein_id=WBP50112.1
+

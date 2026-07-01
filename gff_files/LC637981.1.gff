@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region LC637981.1 1 8145
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2854795
+LC637981.1	DDBJ	region	1	8145	.	+	.	ID=LC637981.1:1..8145;Dbxref=taxon:2854795;clone=SK-EV006-EGFP;gbkey=Src;mol_type=other DNA;note=EGFP with EV-A71 2A protease recognition sequence is inserted to RNA genome from Enterovirus A71 strain SK-EV006
+LC637981.1	DDBJ	five_prime_UTR	1	745	.	+	.	ID=id-LC637981.1:1..745;gbkey=5'UTR
+LC637981.1	DDBJ	CDS	746	8062	.	+	0	ID=cds-BCZ08090.1;Dbxref=NCBI_GP:BCZ08090.1;Name=BCZ08090.1;Note=EGFP with EV-A71 2A protease recognition sequence is inserted;gbkey=CDS;product=polyprotein;protein_id=BCZ08090.1
+LC637981.1	DDBJ	mature_protein_region_of_CDS	746	1483	.	+	.	ID=id-BCZ08090.1:1..246;Note=EGFP fused to an EV-A71 2A protease recognition sequence%3B The first amino acid of EGFP is replaced with the first three amino acids of VP4;Parent=cds-BCZ08090.1;gbkey=Prot;product=MGS-EGFP-AITTL
+LC637981.1	DDBJ	mature_protein_region_of_CDS	1484	1687	.	+	.	ID=id-BCZ08090.1:247..314;Parent=cds-BCZ08090.1;gbkey=Prot;product=VP4
+LC637981.1	DDBJ	mature_protein_region_of_CDS	1688	2449	.	+	.	ID=id-BCZ08090.1:315..568;Parent=cds-BCZ08090.1;gbkey=Prot;product=VP2
+LC637981.1	DDBJ	mature_protein_region_of_CDS	2450	3175	.	+	.	ID=id-BCZ08090.1:569..810;Parent=cds-BCZ08090.1;gbkey=Prot;product=VP3
+LC637981.1	DDBJ	mature_protein_region_of_CDS	3176	4066	.	+	.	ID=id-BCZ08090.1:811..1107;Parent=cds-BCZ08090.1;gbkey=Prot;product=VP1
+LC637981.1	DDBJ	mature_protein_region_of_CDS	4067	4516	.	+	.	ID=id-BCZ08090.1:1108..1257;Parent=cds-BCZ08090.1;gbkey=Prot;product=2A
+LC637981.1	DDBJ	mature_protein_region_of_CDS	4517	4813	.	+	.	ID=id-BCZ08090.1:1258..1356;Parent=cds-BCZ08090.1;gbkey=Prot;product=2B
+LC637981.1	DDBJ	mature_protein_region_of_CDS	4814	5800	.	+	.	ID=id-BCZ08090.1:1357..1685;Parent=cds-BCZ08090.1;gbkey=Prot;product=2C
+LC637981.1	DDBJ	mature_protein_region_of_CDS	5801	6058	.	+	.	ID=id-BCZ08090.1:1686..1771;Parent=cds-BCZ08090.1;gbkey=Prot;product=3A
+LC637981.1	DDBJ	mature_protein_region_of_CDS	6059	6124	.	+	.	ID=id-BCZ08090.1:1772..1793;Parent=cds-BCZ08090.1;gbkey=Prot;product=3B
+LC637981.1	DDBJ	mature_protein_region_of_CDS	6125	6673	.	+	.	ID=id-BCZ08090.1:1794..1976;Parent=cds-BCZ08090.1;gbkey=Prot;product=3C
+LC637981.1	DDBJ	mature_protein_region_of_CDS	6674	8059	.	+	.	ID=id-BCZ08090.1:1977..2438;Parent=cds-BCZ08090.1;gbkey=Prot;product=3D
+LC637981.1	DDBJ	three_prime_UTR	8063	8145	.	+	.	ID=id-LC637981.1:8063..8145;gbkey=3'UTR
+

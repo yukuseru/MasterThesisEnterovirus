@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MH118085.1 1 7537
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42769
+MH118085.1	Genbank	region	1	7537	.	+	.	ID=MH118085.1:1..7537;Dbxref=taxon:42769;collection-date=2009;country=India: Sant Kabir Nagar district%2C Uttar Pradesh State;gb-acronym=CV-A10;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;strain=09-2093-1
+MH118085.1	Genbank	CDS	733	7314	.	+	0	ID=cds-AXF74051.1;Dbxref=NCBI_GP:AXF74051.1;Name=AXF74051.1;gbkey=CDS;product=polyprotein;protein_id=AXF74051.1
+MH118085.1	Genbank	mature_protein_region_of_CDS	733	939	.	+	.	ID=id-AXF74051.1:1..69;Parent=cds-AXF74051.1;gbkey=Prot;product=capsid protein VP4
+MH118085.1	Genbank	mature_protein_region_of_CDS	940	1704	.	+	.	ID=id-AXF74051.1:70..324;Parent=cds-AXF74051.1;gbkey=Prot;product=capsid protein VP2
+MH118085.1	Genbank	mature_protein_region_of_CDS	1705	2424	.	+	.	ID=id-AXF74051.1:325..564;Parent=cds-AXF74051.1;gbkey=Prot;product=capsid protein VP3
+MH118085.1	Genbank	mature_protein_region_of_CDS	2425	3318	.	+	.	ID=id-AXF74051.1:565..862;Parent=cds-AXF74051.1;gbkey=Prot;product=capsid protein VP1
+MH118085.1	Genbank	mature_protein_region_of_CDS	3319	3768	.	+	.	ID=id-AXF74051.1:863..1012;Parent=cds-AXF74051.1;gbkey=Prot;product=2A protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	3769	4065	.	+	.	ID=id-AXF74051.1:1013..1111;Parent=cds-AXF74051.1;gbkey=Prot;product=2B protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	4066	5052	.	+	.	ID=id-AXF74051.1:1112..1440;Parent=cds-AXF74051.1;gbkey=Prot;product=2C protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	5053	5310	.	+	.	ID=id-AXF74051.1:1441..1526;Parent=cds-AXF74051.1;gbkey=Prot;product=3A protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	5311	5376	.	+	.	ID=id-AXF74051.1:1527..1548;Parent=cds-AXF74051.1;gbkey=Prot;product=3B protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	5377	5925	.	+	.	ID=id-AXF74051.1:1549..1731;Parent=cds-AXF74051.1;gbkey=Prot;product=3C protein
+MH118085.1	Genbank	mature_protein_region_of_CDS	5926	7311	.	+	.	ID=id-AXF74051.1:1732..2193;Parent=cds-AXF74051.1;gbkey=Prot;product=3D protein
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MN815813.1 1 7415
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47506
+MN815813.1	Genbank	region	1	7415	.	+	.	ID=MN815813.1:1..7415;Dbxref=taxon:47506;collection-date=2018;country=China;gbkey=Src;genome=genomic;isolation-source=throat swab;mol_type=genomic RNA;nat-host=Homo sapiens;strain=BJ2018-S5758
+MN815813.1	Genbank	CDS	745	7314	.	+	0	ID=cds-QNT60772.1;Dbxref=NCBI_GP:QNT60772.1;Name=QNT60772.1;gbkey=CDS;product=polyprotein;protein_id=QNT60772.1
+

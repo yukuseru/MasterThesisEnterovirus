@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MN164687.1 1 7396
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=318566
+MN164687.1	Genbank	region	1	7396	.	+	.	ID=MN164687.1:1..7396;Dbxref=taxon:318566;collection-date=06-Sep-1999;country=China;gbkey=Src;genome=genomic;isolate=99269/XZ/CHN/1999;isolation-source=stool specimen;mol_type=genomic RNA;nat-host=Homo sapiens%3B sex: male%3B cell line: rhabdomyosarcoma;serotype=B83
+MN164687.1	Genbank	CDS	745	7296	.	+	0	ID=cds-QIZ63255.1;Dbxref=NCBI_GP:QIZ63255.1;Name=QIZ63255.1;gbkey=CDS;product=polyprotein;protein_id=QIZ63255.1
+MN164687.1	Genbank	mature_protein_region_of_CDS	745	951	.	+	.	ID=id-QIZ63255.1:1..69;Parent=cds-QIZ63255.1;gbkey=Prot;product=VP4 protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	952	1728	.	+	.	ID=id-QIZ63255.1:70..328;Parent=cds-QIZ63255.1;gbkey=Prot;product=VP2 protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	1729	2439	.	+	.	ID=id-QIZ63255.1:329..565;Parent=cds-QIZ63255.1;gbkey=Prot;product=VP3 protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	2440	3291	.	+	.	ID=id-QIZ63255.1:566..849;Parent=cds-QIZ63255.1;gbkey=Prot;product=VP1 protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	3292	3741	.	+	.	ID=id-QIZ63255.1:850..999;Parent=cds-QIZ63255.1;gbkey=Prot;product=2A protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	3742	4038	.	+	.	ID=id-QIZ63255.1:1000..1098;Parent=cds-QIZ63255.1;gbkey=Prot;product=2B protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	4039	5025	.	+	.	ID=id-QIZ63255.1:1099..1427;Parent=cds-QIZ63255.1;gbkey=Prot;product=2C protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	5026	5292	.	+	.	ID=id-QIZ63255.1:1428..1516;Parent=cds-QIZ63255.1;gbkey=Prot;product=3A protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	5293	5358	.	+	.	ID=id-QIZ63255.1:1517..1538;Parent=cds-QIZ63255.1;gbkey=Prot;product=3B protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	5359	5907	.	+	.	ID=id-QIZ63255.1:1539..1721;Parent=cds-QIZ63255.1;gbkey=Prot;product=3C protein
+MN164687.1	Genbank	mature_protein_region_of_CDS	5908	7293	.	+	.	ID=id-QIZ63255.1:1722..2183;Parent=cds-QIZ63255.1;gbkey=Prot;product=3D protein
+

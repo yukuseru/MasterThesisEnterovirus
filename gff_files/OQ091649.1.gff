@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OQ091649.1 1 7388
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42784
+OQ091649.1	Genbank	region	1	7388	.	+	.	ID=OQ091649.1:1..7388;Dbxref=taxon:42784;collected-by=Centre national de reference des Enterovirus et Parechovirus;collection-date=02-Apr-2014;country=France;gb-acronym=CV-A3;gbkey=Src;genome=genomic;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens%3B F%3B 1.6 years;strain=CVA3_314092104_FRA14
+OQ091649.1	Genbank	five_prime_UTR	1	744	.	+	.	ID=id-OQ091649.1:1..744;gbkey=5'UTR
+OQ091649.1	Genbank	CDS	745	7314	.	+	0	ID=cds-WIL60434.1;Dbxref=NCBI_GP:WIL60434.1;Name=WIL60434.1;gbkey=CDS;product=polyprotein;protein_id=WIL60434.1
+OQ091649.1	Genbank	mature_protein_region_of_CDS	745	951	.	+	.	ID=id-WIL60434.1:1..69;Parent=cds-WIL60434.1;gbkey=Prot;product=VP4
+OQ091649.1	Genbank	mature_protein_region_of_CDS	952	1716	.	+	.	ID=id-WIL60434.1:70..324;Parent=cds-WIL60434.1;gbkey=Prot;product=VP2
+OQ091649.1	Genbank	mature_protein_region_of_CDS	1717	2436	.	+	.	ID=id-WIL60434.1:325..564;Parent=cds-WIL60434.1;gbkey=Prot;product=VP3
+OQ091649.1	Genbank	mature_protein_region_of_CDS	2437	3318	.	+	.	ID=id-WIL60434.1:565..858;Parent=cds-WIL60434.1;gbkey=Prot;product=VP1
+OQ091649.1	Genbank	mature_protein_region_of_CDS	3319	3768	.	+	.	ID=id-WIL60434.1:859..1008;Parent=cds-WIL60434.1;gbkey=Prot;product=2A
+OQ091649.1	Genbank	mature_protein_region_of_CDS	3769	4065	.	+	.	ID=id-WIL60434.1:1009..1107;Parent=cds-WIL60434.1;gbkey=Prot;product=2B
+OQ091649.1	Genbank	mature_protein_region_of_CDS	4066	5052	.	+	.	ID=id-WIL60434.1:1108..1436;Parent=cds-WIL60434.1;gbkey=Prot;product=2C
+OQ091649.1	Genbank	mature_protein_region_of_CDS	5053	5310	.	+	.	ID=id-WIL60434.1:1437..1522;Parent=cds-WIL60434.1;gbkey=Prot;product=3A
+OQ091649.1	Genbank	mature_protein_region_of_CDS	5311	5376	.	+	.	ID=id-WIL60434.1:1523..1544;Parent=cds-WIL60434.1;gbkey=Prot;product=3B
+OQ091649.1	Genbank	mature_protein_region_of_CDS	5377	5925	.	+	.	ID=id-WIL60434.1:1545..1727;Parent=cds-WIL60434.1;gbkey=Prot;product=3C
+OQ091649.1	Genbank	mature_protein_region_of_CDS	5926	7311	.	+	.	ID=id-WIL60434.1:1728..2189;Parent=cds-WIL60434.1;gbkey=Prot;product=3D
+OQ091649.1	Genbank	three_prime_UTR	7315	7388	.	+	.	ID=id-OQ091649.1:7315..7388;gbkey=3'UTR
+

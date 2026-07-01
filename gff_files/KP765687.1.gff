@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KP765687.1 1 7396
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42788
+KP765687.1	Genbank	region	1	7396	.	+	.	ID=KP765687.1:1..7396;Dbxref=taxon:42788;collection-date=Jun-2014;country=China;gb-acronym=CV-A8;gbkey=Src;genome=genomic;isolate=CVA8/SZ266/CHN/2014;isolation-source=anal swab;mol_type=genomic RNA;nat-host=Homo sapiens
+KP765687.1	Genbank	five_prime_UTR	1	743	.	+	.	ID=id-KP765687.1:1..743;gbkey=5'UTR
+KP765687.1	Genbank	CDS	744	7313	.	+	0	ID=cds-AKR53677.1;Dbxref=NCBI_GP:AKR53677.1;Name=AKR53677.1;gbkey=CDS;product=polyprotein;protein_id=AKR53677.1
+KP765687.1	Genbank	mature_protein_region_of_CDS	744	950	.	+	.	ID=id-AKR53677.1:1..69;Note=1A;Parent=cds-AKR53677.1;gbkey=Prot;product=VP4 protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	951	1715	.	+	.	ID=id-AKR53677.1:70..324;Note=1B;Parent=cds-AKR53677.1;gbkey=Prot;product=VP2 protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	1716	2435	.	+	.	ID=id-AKR53677.1:325..564;Note=1C;Parent=cds-AKR53677.1;gbkey=Prot;product=VP3 protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	2436	3317	.	+	.	ID=id-AKR53677.1:565..858;Note=1D;Parent=cds-AKR53677.1;gbkey=Prot;product=VP1 protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	3318	3767	.	+	.	ID=id-AKR53677.1:859..1008;Parent=cds-AKR53677.1;gbkey=Prot;product=2A protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	3768	4064	.	+	.	ID=id-AKR53677.1:1009..1107;Parent=cds-AKR53677.1;gbkey=Prot;product=2B protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	4065	5051	.	+	.	ID=id-AKR53677.1:1108..1436;Parent=cds-AKR53677.1;gbkey=Prot;product=2C protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	5052	5309	.	+	.	ID=id-AKR53677.1:1437..1522;Parent=cds-AKR53677.1;gbkey=Prot;product=3A protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	5310	5375	.	+	.	ID=id-AKR53677.1:1523..1544;Note=VPg;Parent=cds-AKR53677.1;gbkey=Prot;product=3B protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	5376	5924	.	+	.	ID=id-AKR53677.1:1545..1727;Parent=cds-AKR53677.1;gbkey=Prot;product=3C protein
+KP765687.1	Genbank	mature_protein_region_of_CDS	5925	7310	.	+	.	ID=id-AKR53677.1:1728..2189;Parent=cds-AKR53677.1;gbkey=Prot;product=3D protein
+KP765687.1	Genbank	three_prime_UTR	7314	7396	.	+	.	ID=id-KP765687.1:7314..7396;gbkey=3'UTR
+

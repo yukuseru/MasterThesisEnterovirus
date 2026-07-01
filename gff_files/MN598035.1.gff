@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MN598035.1 1 7454
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1790067
+MN598035.1	Genbank	region	1	7454	.	+	.	ID=MN598035.1:1..7454;Dbxref=taxon:1790067;collected-by=Junying Hu;collection-date=25-Sep-2017;country=China;gbkey=Src;genome=genomic;isolate=JL-LS165;isolation-source=feces;mol_type=genomic RNA;nat-host=goat
+MN598035.1	Genbank	five_prime_UTR	1	820	.	+	.	ID=id-MN598035.1:1..820;gbkey=5'UTR
+MN598035.1	Genbank	CDS	821	7339	.	+	0	ID=cds-QGH82161.1;Dbxref=NCBI_GP:QGH82161.1;Name=QGH82161.1;gbkey=CDS;product=polyprotein;protein_id=QGH82161.1
+MN598035.1	Genbank	mature_protein_region_of_CDS	821	1027	.	+	.	ID=id-QGH82161.1:1..69;Parent=cds-QGH82161.1;gbkey=Prot;product=VP4
+MN598035.1	Genbank	mature_protein_region_of_CDS	1028	1765	.	+	.	ID=id-QGH82161.1:70..315;Parent=cds-QGH82161.1;gbkey=Prot;product=VP2
+MN598035.1	Genbank	mature_protein_region_of_CDS	1766	2485	.	+	.	ID=id-QGH82161.1:316..555;Parent=cds-QGH82161.1;gbkey=Prot;product=VP3
+MN598035.1	Genbank	mature_protein_region_of_CDS	2486	3337	.	+	.	ID=id-QGH82161.1:556..839;Parent=cds-QGH82161.1;gbkey=Prot;product=VP1
+MN598035.1	Genbank	mature_protein_region_of_CDS	3338	3787	.	+	.	ID=id-QGH82161.1:840..989;Parent=cds-QGH82161.1;gbkey=Prot;product=2A
+MN598035.1	Genbank	mature_protein_region_of_CDS	3788	4084	.	+	.	ID=id-QGH82161.1:990..1088;Parent=cds-QGH82161.1;gbkey=Prot;product=2B
+MN598035.1	Genbank	mature_protein_region_of_CDS	4085	5071	.	+	.	ID=id-QGH82161.1:1089..1417;Parent=cds-QGH82161.1;gbkey=Prot;product=2C
+MN598035.1	Genbank	mature_protein_region_of_CDS	5072	5338	.	+	.	ID=id-QGH82161.1:1418..1506;Parent=cds-QGH82161.1;gbkey=Prot;product=3A
+MN598035.1	Genbank	mature_protein_region_of_CDS	5339	5404	.	+	.	ID=id-QGH82161.1:1507..1528;Parent=cds-QGH82161.1;gbkey=Prot;product=3B
+MN598035.1	Genbank	mature_protein_region_of_CDS	5405	5953	.	+	.	ID=id-QGH82161.1:1529..1711;Parent=cds-QGH82161.1;gbkey=Prot;product=3C
+MN598035.1	Genbank	mature_protein_region_of_CDS	5954	7336	.	+	.	ID=id-QGH82161.1:1712..2172;Parent=cds-QGH82161.1;gbkey=Prot;product=3D
+MN598035.1	Genbank	three_prime_UTR	7340	7454	.	+	.	ID=id-MN598035.1:7340..7454;gbkey=3'UTR
+

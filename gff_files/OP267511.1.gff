@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OP267511.1 1 7366
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+OP267511.1	Genbank	region	1	7366	.	+	.	ID=OP267511.1:1..7366;Dbxref=taxon:42789;collected-by=Centre National de Reference Enterovirus et Parechovirus;collection-date=Oct-2021;country=France: ARA;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=CF_590684_FRA_2021;isolation-source=nasopharyngeal swab;mol_type=genomic RNA;nat-host=Homo sapiens%3B H%3B 11 months
+OP267511.1	Genbank	five_prime_UTR	1	697	.	+	.	ID=id-OP267511.1:1..697;gbkey=5'UTR
+OP267511.1	Genbank	CDS	698	7261	.	+	0	ID=cds-UVW99725.1;Dbxref=NCBI_GP:UVW99725.1;Name=UVW99725.1;gbkey=CDS;product=polyprotein;protein_id=UVW99725.1
+OP267511.1	Genbank	three_prime_UTR	7262	7366	.	+	.	ID=id-OP267511.1:7262..7366;gbkey=3'UTR
+

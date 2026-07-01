@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PX725677.1 1 7439
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12083
+PX725677.1	Genbank	region	1	7439	.	+	.	ID=PX725677.1:1..7439;Dbxref=taxon:12083;collection-date=2022;country=Botswana;gbkey=Src;genome=genomic;isolate=BOT/2022-23659;isolation-source=environmental sample;mol_type=genomic RNA;note=Single recombinant cVDPV2
+PX725677.1	Genbank	CDS	748	7371	.	+	0	ID=cds-YCC02266.1;Dbxref=NCBI_GP:YCC02266.1;Name=YCC02266.1;gbkey=CDS;product=polyprotein;protein_id=YCC02266.1
+PX725677.1	Genbank	mature_protein_region_of_CDS	748	954	.	+	.	ID=id-YCC02266.1:1..69;Parent=cds-YCC02266.1;gbkey=Prot;product=VP4
+PX725677.1	Genbank	mature_protein_region_of_CDS	955	1767	.	+	.	ID=id-YCC02266.1:70..340;Parent=cds-YCC02266.1;gbkey=Prot;product=VP2
+PX725677.1	Genbank	mature_protein_region_of_CDS	1768	2481	.	+	.	ID=id-YCC02266.1:341..578;Parent=cds-YCC02266.1;gbkey=Prot;product=VP3
+PX725677.1	Genbank	mature_protein_region_of_CDS	2482	3384	.	+	.	ID=id-YCC02266.1:579..879;Parent=cds-YCC02266.1;gbkey=Prot;product=VP1
+PX725677.1	Genbank	mature_protein_region_of_CDS	3385	3831	.	+	.	ID=id-YCC02266.1:880..1028;Parent=cds-YCC02266.1;gbkey=Prot;product=2A
+PX725677.1	Genbank	mature_protein_region_of_CDS	3832	4122	.	+	.	ID=id-YCC02266.1:1029..1125;Parent=cds-YCC02266.1;gbkey=Prot;product=2B
+PX725677.1	Genbank	mature_protein_region_of_CDS	4123	5109	.	+	.	ID=id-YCC02266.1:1126..1454;Parent=cds-YCC02266.1;gbkey=Prot;product=2C
+PX725677.1	Genbank	mature_protein_region_of_CDS	5110	5370	.	+	.	ID=id-YCC02266.1:1455..1541;Parent=cds-YCC02266.1;gbkey=Prot;product=3A
+PX725677.1	Genbank	mature_protein_region_of_CDS	5371	5436	.	+	.	ID=id-YCC02266.1:1542..1563;Parent=cds-YCC02266.1;gbkey=Prot;product=3B
+PX725677.1	Genbank	mature_protein_region_of_CDS	5437	5985	.	+	.	ID=id-YCC02266.1:1564..1746;Parent=cds-YCC02266.1;gbkey=Prot;product=3C
+PX725677.1	Genbank	mature_protein_region_of_CDS	5986	7368	.	+	.	ID=id-YCC02266.1:1747..2207;Parent=cds-YCC02266.1;gbkey=Prot;product=3D
+PX725677.1	Genbank	sequence_feature	748	3384	.	+	.	ID=id-PX725677.1:748..3384;gbkey=misc_feature;product=P1%3B capsid protein precursor
+PX725677.1	Genbank	sequence_feature	3385	5109	.	+	.	ID=id-PX725677.1:3385..5109;gbkey=misc_feature;product=P2
+PX725677.1	Genbank	sequence_feature	5110	7368	.	+	.	ID=id-PX725677.1:5110..7368;gbkey=misc_feature;product=P3
+

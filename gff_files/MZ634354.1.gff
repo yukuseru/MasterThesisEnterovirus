@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MZ634354.1 1 7434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12062
+MZ634354.1	Genbank	region	1	7434	.	+	.	ID=MZ634354.1:1..7434;Dbxref=taxon:12062;collection-date=2019;country=China;gbkey=Src;genome=proviral;isolation-source=feces%3B clinical sample;mol_type=genomic RNA;nat-host=Homo sapiens;strain=K220/10K3/YN/CHN/2019
+MZ634354.1	Genbank	CDS	757	7332	.	+	0	ID=cds-WLD03557.1;Dbxref=NCBI_GP:WLD03557.1;Name=WLD03557.1;gbkey=CDS;product=polyprotein;protein_id=WLD03557.1
+

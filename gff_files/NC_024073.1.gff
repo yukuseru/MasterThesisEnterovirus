@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_024073.1 1 7376
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47681
+NC_024073.1	RefSeq	region	1	7376	.	+	.	ID=NC_024073.1:1..7376;Dbxref=taxon:47681;collection-date=04-Feb-2008;country=Cameroon;gbkey=Src;genome=genomic;isolate=CPML_8109/08;isolation-source=feces;mol_type=genomic RNA;nat-host=Mandrillus sphinx
+NC_024073.1	RefSeq	gene	726	7274	.	+	.	ID=gene-EP31_gp1;Dbxref=GeneID:19310240;Name=EP31_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EP31_gp1
+NC_024073.1	RefSeq	CDS	726	7274	.	+	0	ID=cds-YP_009028564.1;Parent=gene-EP31_gp1;Dbxref=GenBank:YP_009028564.1,GeneID:19310240;Name=YP_009028564.1;gbkey=CDS;locus_tag=EP31_gp1;product=polyprotein;protein_id=YP_009028564.1
+

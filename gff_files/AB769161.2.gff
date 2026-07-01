@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AB769161.2 1 7462
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12089
+AB769161.2	DDBJ	region	1	7462	.	+	.	ID=AB769161.2:1..7462;Dbxref=taxon:12089;collection-date=2011-06;country=Japan:Okinawa Island;gb-acronym=CV-A24;gbkey=Src;isolation-source=conjunctival swab;mol_type=genomic RNA;nat-host=Homo sapiens;strain=CA24v/Okinawa/23/2011
+AB769161.2	DDBJ	CDS	752	7396	.	+	0	ID=cds-BAM71652.2;Dbxref=NCBI_GP:BAM71652.2;Name=BAM71652.2;gbkey=CDS;product=polyprotein;protein_id=BAM71652.2
+AB769161.2	DDBJ	mature_protein_region_of_CDS	752	958	.	+	.	ID=id-BAM71652.2:1..69;Parent=cds-BAM71652.2;gbkey=Prot;product=VP4 protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	959	1771	.	+	.	ID=id-BAM71652.2:70..340;Parent=cds-BAM71652.2;gbkey=Prot;product=VP2 protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	1772	2491	.	+	.	ID=id-BAM71652.2:341..580;Parent=cds-BAM71652.2;gbkey=Prot;product=VP3 protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	2492	3406	.	+	.	ID=id-BAM71652.2:581..885;Parent=cds-BAM71652.2;gbkey=Prot;product=VP1 protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	3407	3856	.	+	.	ID=id-BAM71652.2:886..1035;Parent=cds-BAM71652.2;gbkey=Prot;product=2A protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	3857	4147	.	+	.	ID=id-BAM71652.2:1036..1132;Parent=cds-BAM71652.2;gbkey=Prot;product=2B protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	4148	5134	.	+	.	ID=id-BAM71652.2:1133..1461;Parent=cds-BAM71652.2;gbkey=Prot;product=2C protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	5135	5395	.	+	.	ID=id-BAM71652.2:1462..1548;Parent=cds-BAM71652.2;gbkey=Prot;product=3A protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	5396	5461	.	+	.	ID=id-BAM71652.2:1549..1570;Parent=cds-BAM71652.2;gbkey=Prot;product=3B protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	5462	6010	.	+	.	ID=id-BAM71652.2:1571..1753;Parent=cds-BAM71652.2;gbkey=Prot;product=3C protein
+AB769161.2	DDBJ	mature_protein_region_of_CDS	6011	7393	.	+	.	ID=id-BAM71652.2:1754..2214;Parent=cds-BAM71652.2;gbkey=Prot;product=3D protein
+

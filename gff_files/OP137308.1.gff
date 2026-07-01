@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OP137308.1 1 7435
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12086
+OP137308.1	Genbank	region	1	7435	.	+	.	ID=OP137308.1:1..7435;Dbxref=taxon:12086;collection-date=1976;country=Israel;gbkey=Src;genome=genomic;isolate=WPV3_ISR_1976-49;isolation-source=feces;mol_type=genomic RNA;nat-host=Homo sapiens;note=AFP case;old-name=Human poliovirus 3;strain=Wild polio 3
+OP137308.1	Genbank	CDS	747	7367	.	+	0	ID=cds-WBY50051.1;Dbxref=NCBI_GP:WBY50051.1;Name=WBY50051.1;gbkey=CDS;product=polyprotein;protein_id=WBY50051.1
+

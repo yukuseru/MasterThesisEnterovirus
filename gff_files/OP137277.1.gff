@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OP137277.1 1 7430
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12086
+OP137277.1	Genbank	region	1	7430	.	+	.	ID=OP137277.1:1..7430;Dbxref=taxon:12086;collection-date=1983;country=Israel;gbkey=Src;genome=genomic;isolate=SL3_ISR_1983-05;isolation-source=feces;mol_type=genomic RNA;nat-host=Homo sapiens;note=AFP case;old-name=Human poliovirus 3;strain=Sabin-like 3
+OP137277.1	Genbank	CDS	742	7362	.	+	0	ID=cds-WBY50020.1;Dbxref=NCBI_GP:WBY50020.1;Name=WBY50020.1;gbkey=CDS;product=polyprotein;protein_id=WBY50020.1
+

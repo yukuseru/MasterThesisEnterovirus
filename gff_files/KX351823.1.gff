@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KX351823.1 1 7283
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138951
+KX351823.1	Genbank	region	1	7283	.	+	.	ID=KX351823.1:1..7283;Dbxref=taxon:138951;collection-date=17-Sep-2014;country=USA: Massachusetts;gbkey=Src;genome=genomic;genotype=D68;mol_type=genomic RNA;nat-host=Homo sapiens%3B 4 years;serotype=EV-D68;strain=EV-D68/Homo sapiens/USA/SSENT23/2014
+KX351823.1	Genbank	sequence_feature	1	7283	.	+	.	ID=id-KX351823.1:1..7283;Dbxref=ViPR:ENTSP_SSENT_00023.MAIN;gbkey=misc_feature
+KX351823.1	Genbank	gene	675	7241	.	+	.	ID=gene-RR33_61799gpPOL;Name=POL;gbkey=Gene;gene=POL;gene_biotype=protein_coding;locus_tag=RR33_61799gpPOL
+KX351823.1	Genbank	CDS	675	7241	.	+	0	ID=cds-ANN46854.1;Parent=gene-RR33_61799gpPOL;Dbxref=NCBI_GP:ANN46854.1;Name=ANN46854.1;gbkey=CDS;gene=POL;locus_tag=RR33_61799gpPOL;product=polyprotein;protein_id=ANN46854.1
+KX351823.1	Genbank	mature_protein_region_of_CDS	675	881	.	+	.	ID=id-ANN46854.1:1..69;Note=P1A%2C protein 1A%2C virion protein 4;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=capsid protein VP4
+KX351823.1	Genbank	mature_protein_region_of_CDS	882	1625	.	+	.	ID=id-ANN46854.1:70..317;Note=P1B%2C protein 1B%2C virion protein 2;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=capsid protein VP2
+KX351823.1	Genbank	mature_protein_region_of_CDS	1626	2330	.	+	.	ID=id-ANN46854.1:318..552;Note=P1C%2C protein 1C%2C virion protein 3;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=capsid protein VP3
+KX351823.1	Genbank	mature_protein_region_of_CDS	2331	3257	.	+	.	ID=id-ANN46854.1:553..861;Note=P1D%2C protein 1D%2C virion protein 1;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=capsid protein VP1
+KX351823.1	Genbank	mature_protein_region_of_CDS	3258	3698	.	+	.	ID=id-ANN46854.1:862..1008;Note=P2A%2C protein 2A%2C proteinase 2A%2C picornain 2A;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=protease 2A
+KX351823.1	Genbank	mature_protein_region_of_CDS	3699	3995	.	+	.	ID=id-ANN46854.1:1009..1107;Note=P2B;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=protein 2B
+KX351823.1	Genbank	mature_protein_region_of_CDS	3996	4985	.	+	.	ID=id-ANN46854.1:1108..1437;Note=P2C;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=protein 2C
+KX351823.1	Genbank	mature_protein_region_of_CDS	4986	5252	.	+	.	ID=id-ANN46854.1:1438..1526;Note=P3A;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=protein 3A
+KX351823.1	Genbank	mature_protein_region_of_CDS	5253	5318	.	+	.	ID=id-ANN46854.1:1527..1548;Note=P3B%2C VPg%2C protein 3B;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=viral protein genome-linked
+KX351823.1	Genbank	mature_protein_region_of_CDS	5319	5867	.	+	.	ID=id-ANN46854.1:1549..1731;Note=P3C%2C protein 3C%2C protease 3C%2C picornain 3C;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=protease 3C
+KX351823.1	Genbank	mature_protein_region_of_CDS	5868	7238	.	+	.	ID=id-ANN46854.1:1732..2188;Note=P3D-POL%2C protein 3D;Parent=cds-ANN46854.1;gbkey=Prot;gene=POL;locus_tag=RR33_61799gpPOL;product=RNA-directed RNA polymerase
+

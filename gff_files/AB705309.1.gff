@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AB705309.1 1 7419
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12062
+AB705309.1	DDBJ	region	1	7419	.	+	.	ID=AB705309.1:1..7419;Dbxref=taxon:12062;collection-date=02-Sep-2011;country=Japan:Hokkaido%2C Sapporo;gbkey=Src;isolation-source=human cerebrospinal fluid;mol_type=genomic RNA;nat-host=Homo sapiens;note=synonym: Human echovirus 6;strain=Echo6/Hokkaido.JPN/19722/2011
+AB705309.1	DDBJ	CDS	743	7318	.	+	0	ID=cds-BAM44537.1;Dbxref=NCBI_GP:BAM44537.1;Name=BAM44537.1;gbkey=CDS;product=polyprotein;protein_id=BAM44537.1
+

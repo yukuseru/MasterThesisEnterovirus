@@ -1,0 +1,21 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KX255374.1 1 7291
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
+KX255374.1	Genbank	region	1	7291	.	+	.	ID=KX255374.1:1..7291;Dbxref=taxon:42789;collection-date=26-Aug-2009;country=USA: Wisconsin;gb-acronym=EV-D68;gbkey=Src;genome=genomic;genotype=D68;mol_type=genomic RNA;nat-host=Homo sapiens%3B female%3B 3 years;note=passage history: P0;strain=EV-D68/Homo sapiens/USA/U2704/2009
+KX255374.1	Genbank	sequence_feature	1	7291	.	+	.	ID=id-KX255374.1:1..7291;Dbxref=ViPR:RSVSP_JGENT_00042.MAIN;gbkey=misc_feature
+KX255374.1	Genbank	gene	686	7249	.	+	.	ID=gene-RR33_62180gpPOL;Name=POL;gbkey=Gene;gene=POL;gene_biotype=protein_coding;locus_tag=RR33_62180gpPOL
+KX255374.1	Genbank	CDS	686	7249	.	+	0	ID=cds-ANJ61561.1;Parent=gene-RR33_62180gpPOL;Dbxref=NCBI_GP:ANJ61561.1;Name=ANJ61561.1;gbkey=CDS;gene=POL;locus_tag=RR33_62180gpPOL;product=polyprotein;protein_id=ANJ61561.1
+KX255374.1	Genbank	mature_protein_region_of_CDS	686	892	.	+	.	ID=id-ANJ61561.1:1..69;Note=P1A%3B protein 1A%3B virion protein 4;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=capsid protein VP4
+KX255374.1	Genbank	mature_protein_region_of_CDS	893	1636	.	+	.	ID=id-ANJ61561.1:70..317;Note=P1B%3B protein 1B%3B virion protein 2;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=capsid protein VP2
+KX255374.1	Genbank	mature_protein_region_of_CDS	1637	2341	.	+	.	ID=id-ANJ61561.1:318..552;Note=P1C%3B protein 1C%3B virion protein 3;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=capsid protein VP3
+KX255374.1	Genbank	mature_protein_region_of_CDS	2342	3265	.	+	.	ID=id-ANJ61561.1:553..860;Note=P1D%3B protein 1D%3B virion protein 1;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=capsid protein VP1
+KX255374.1	Genbank	mature_protein_region_of_CDS	3266	3706	.	+	.	ID=id-ANJ61561.1:861..1007;Note=P2A%3B protein 2A%3B proteinase 2A%3B picornain 2A;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=protease 2A
+KX255374.1	Genbank	mature_protein_region_of_CDS	3707	4003	.	+	.	ID=id-ANJ61561.1:1008..1106;Note=synonym: P2B;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=protein 2B
+KX255374.1	Genbank	mature_protein_region_of_CDS	4004	4993	.	+	.	ID=id-ANJ61561.1:1107..1436;Note=synonym: P2C;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=protein 2C
+KX255374.1	Genbank	mature_protein_region_of_CDS	4994	5260	.	+	.	ID=id-ANJ61561.1:1437..1525;Note=synonym: P3A;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=protein 3A
+KX255374.1	Genbank	mature_protein_region_of_CDS	5261	5326	.	+	.	ID=id-ANJ61561.1:1526..1547;Note=P3B%3B VPg%3B protein 3B;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=viral protein genome-linked
+KX255374.1	Genbank	mature_protein_region_of_CDS	5327	5875	.	+	.	ID=id-ANJ61561.1:1548..1730;Note=P3C%3B protein 3C%3B protease 3C%3B picornain 3C;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=protease 3C
+KX255374.1	Genbank	mature_protein_region_of_CDS	5876	7246	.	+	.	ID=id-ANJ61561.1:1731..2187;Note=P3D-POL%3B protein 3D;Parent=cds-ANJ61561.1;gbkey=Prot;gene=POL;locus_tag=RR33_62180gpPOL;product=RNA-directed RNA polymerase
+

@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY876912.1 1 7456
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=310755
+AY876912.1	Genbank	region	1	7456	.	+	.	ID=AY876912.1:1..7456;Dbxref=taxon:310755;country=China;gbkey=Src;isolate=Ningbo3-02;mol_type=genomic RNA
+AY876912.1	Genbank	five_prime_UTR	1	745	.	+	.	ID=id-AY876912.1:1..745;gbkey=5'UTR
+AY876912.1	Genbank	CDS	746	7390	.	+	0	ID=cds-AAW72810.1;Dbxref=NCBI_GP:AAW72810.1;Name=AAW72810.1;gbkey=CDS;product=polyprotein;protein_id=AAW72810.1
+AY876912.1	Genbank	three_prime_UTR	7391	7456	.	+	.	ID=id-AY876912.1:7391..7456;gbkey=3'UTR
+

@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AJ132961.1 1 7441
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12080
+AJ132961.1	EMBL	region	1	7441	.	+	.	ID=AJ132961.1:1..7441;Dbxref=taxon:12080;gbkey=Src;mol_type=genomic RNA;note=isolated from faeces of immunodeficient patient%2C 66 months after onset of paresis;old-name=Human poliovirus 1
+AJ132961.1	EMBL	CDS	744	7373	.	+	0	ID=cds-CAB64659.1;Dbxref=GOA:Q9Q280,HSSP:1RDR,InterPro:IPR000081,InterPro:IPR000199,InterPro:IPR000605,InterPro:IPR001205,InterPro:IPR001676,InterPro:IPR002527,InterPro:IPR003138,InterPro:IPR003593,InterPro:IPR004004,InterPro:IPR007094,InterPro:IPR009003,InterPro:IPR014759,InterPro:IPR014838,UniProtKB/TrEMBL:Q9Q280,NCBI_GP:CAB64659.1;Name=CAB64659.1;gbkey=CDS;product=enterovirus precursor polypeptide;protein_id=CAB64659.1
+
