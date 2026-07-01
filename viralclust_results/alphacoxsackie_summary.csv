@@ -1,0 +1,6 @@
+Algorithm,Number_of_Sequences,Number_of_Cluster,smallest_cluster,largest_cluster,average_cluster_size,median_cluster_size,number_of_unclustered_sequences,Average_distance_to_nearest_centroid,cluster_per_species,cluster_per_genus
+HDBSCAN,3014,116,6,197,22.54,14.0,399,0.652,--,--
+cd-hit-est,3014,66,2,794,44.74,7.0,61,0.712,--,--
+sumaclust,3014,68,2,642,40.87,6.0,56,0.662,--,--
+MMseqs2,3014,69,2,747,42.87,7.0,56,0.689,--,--
+vclust,3014,70,2,747,42.24,6.5,57,0.724,--,--
